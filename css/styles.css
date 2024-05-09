@@ -94,7 +94,7 @@ div a p{
 }
 
 
-h1 {
+h1{
 	color: #444444;
 	font-family: "Source Sans 3";
 	font-weight: bold;
@@ -109,6 +109,9 @@ h1 {
 	text-align: center;
     margin: auto;
 	margin-bottom: 20px;
+	font-size: 60px;
+	width: 698px;
+	height: 241px;
 }
 
 .button-4 {
@@ -178,7 +181,7 @@ text-align: center;
 margin-bottom: 270px;
 }
 
-main section h2 {
+.the-crypto-wallet {
 	color: #7A7A7A;
 	font-family: "Source Sans 3";
 	font-weight: 400;
@@ -199,7 +202,7 @@ main section h2 {
 	margin: auto;
 	border-radius: 50px;
 }
-section div h2{
+.an-authentic{
 	color: #444444;
 	font-family: "Source Sans 3";
 	font-weight: bold;
@@ -209,7 +212,7 @@ section div h2{
     width: 698px;
     margin: auto;
 }
-section div p{
+.discover-web3{
 	width: 645px;
 	height: 68px;
 	color: #606060;
@@ -246,7 +249,6 @@ section div p{
 	text-align: center;
 	margin: auto;
 	margin-bottom: 15px;
-
 }
 
 .flexbox{
@@ -259,16 +261,15 @@ section div p{
 	text-align: center;
 	color: #444444;
 	margin-top: 10px;
-
+	flex-wrap: wrap;
+	
 }
 
 .flex-item{
-	margin: 15px 15px 8px 15px;
+	margin: 30px 30px 15px 30px;
 	text-align: center;
 	display: flex;
 }
-
-
 
 .foto{
 	display: block;
@@ -302,7 +303,6 @@ top: 45%;
 	text-align: center;
 	margin: auto;
 	margin-top: 150px;
-	
 }
 .for-inquiries {
 	width: 596px;
@@ -313,6 +313,7 @@ top: 45%;
 	font-size: 14px;
 	line-height: 1.42;
 	text-align: center;
+	margin: auto;
 }
 footer div form input{
 	padding: 6px 8px 6px 8px;
@@ -333,17 +334,11 @@ footer div form input{
 }
 .contenedor{
     display: flex;
+	flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+	text-align: left;
 	}
-.contenedor-input {
-	text-align: center;
-}
-
-.contenedor-input input {
-	display: inline-block;
-	margin-right: 10px;  
-}
 
 a{
 	color: inherit;
@@ -375,12 +370,12 @@ a{
 	text-align: center;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	margin: auto;
 	margin-top: 30px;
 	align-items: center;
 	margin-bottom: 40px;
-	
 }
 .paragraph-2-copy-1 {
 	width: 372px;
@@ -432,8 +427,6 @@ ul li{
 	margin-left: 200px;
 	margin-top: 200px;
 	margin-bottom: 525px
-	
-	
 }
 .download-for-desktop {
 	width: 408px;
@@ -446,7 +439,6 @@ ul li{
 	text-align: center;
 	margin: auto;
 	margin-top: 60px;
-	
 }
 .zefur2{
 	position: absolute;
@@ -533,7 +525,6 @@ ul li{
 	text-align: center;
     margin: auto;
 	margin-bottom: 700px;
-	
 }
 .zefur3{
 	position: absolute;
@@ -903,36 +894,178 @@ ul li{
 	max_height: 0; 
 	margin: auto;
 	overflow: hidden;
-	/* background: linear-gradient(180deg, rgb(137, 109, 242) 0%, rgb(243, 243, 243) 98%); */
 }
 .margen{
 	margin-top: 200px;
 }
 
 /* mobile */
-@media screen and (min-width: 320px), and (max-width: 767px) {
-	.posicion-chrome{
-		position: absolute;
-		top: 683px;
-		left: 80px;
+@media screen and  (max-width: 767px){
+	/* Index */
+.h1-index{
+	margin: auto;
+	font-size: 40px;
+	width: 300px;
+	height: 240px;
+	}
+.posicion-chrome{
+	position: absolute;
+	top: 600px;
+	left: 50px;
+}
+.process-1{
+	width: 315px;
+	height: 1350px;
+}
+.process-3{
+	width: 290px;
+	height: 1100px;
+	
+}
+.flex-item{
+	margin: 30px 30px 15px 30px;
+	text-align: center;
+	display: flex;
+}
+.an-authentic{
+	font-size: 25px;
+	width: 300px;
+	text-align: center;
+}
+.discover-web3{
+	width: 300px;
+	height: 80px;
+	font-size: 16px;
+	}
+.paragraph-1-copy-1{
+	width: 300px;
+	height: 42px;
+	font-size: 21px;
+	margin-left: -10px;
+	}
+.carousel-control-prev {
+	left: -2%; 
+	
+	}		
+.carousel-control-next {
+	right: -2%; 
+	}
+.paragraph-1-copy-2 {
+	margin-left: -300px;
+	margin-bottom: 10px;
+	}
+.for-inquiries {
+	width: 300px;
+	height: 50px;
+	margin-bottom: 15px;
+	}
+	.link-bar-2 {
+		width: 210px;
+		height: 42px;
+	}
+.button-1-copy-1 {
+	margin-top: 10px;
+	}
+.paragraph-2-copy-1 {
+	margin-left: -40px;
+	}
+	.float{
+		margin-left: 100px;
+	}
+/* Download */
+.process-2 {
+display: none;
+}
 
+.download-for-desktop {
+	display: none;
+}
+.chrome2 {
+	display: none;
+}
+.opera {
+	display: none;
+}
+.brave {
+	display: none;
+}
+.edge {
+	display: none;
+}
+
+.download-for-mobile{
+	width: 314px;
+	height: 171px;
+	margin-top: 100px;
+}
+.zefur3{
+	display: none;
+}	
+
+.apple {
+	position: absolute;
+	top: 400px;
+	left: 5px;
+	width: 150px;
+	height: 150px;
+}
+
+.play-store {
+	position: absolute;
+	top: 400px; 
+	left: 165px;
+	width: 150px;
+	height: 150px;
+}
+.mano{
+	position: absolute;
+	top: 580px; 
+	left: -20px;
+	width: 400px;
+	height: 400px;
 }
 }
 /* taablet */
-@media screen and (min-width: 768px), and (max-width: 1023px) {
+@media screen and (min-width: 768px), and (max-width: 1023px){
 	/* Index */
+		.h1-index{
+		margin: auto;
+		font-size: 60px;
+		width: 698px;
+		height: 241px;
+		}
 	.posicion-chrome{
 		position: absolute;
-		top: 590px;
+		top: 570px;
 		left: 270px;
-}
-.process-1{
-	width: 720px;
-	height: 714px;
-}
-.process-3{
-	width: 690px;
-	height: 450px;
+	}
+	.process-1{
+		width: 720px;
+		height: 714px;
+	}
+		.process-3{
+		width: 690px;
+		height: 450px;
+	}
+	.flex-item{
+		margin: 25px 25px 15px 25px;
+		text-align: center;
+		display: flex;
+	}
+	.an-authentic{
+		font-size: 50px;
+		width: 698px;
+	}
+	.discover-web3{
+		width: 645px;
+		height: 68px;
+		font-size: 16px;
+	}
+	.paragraph-1-copy-1{
+		width: 379px;
+		height: 42px;
+		font-size: 30px;
+		margin: auto;
 	}
 	.carousel-control-prev {
 	left: 2%; 
@@ -944,9 +1077,36 @@ ul li{
 	.paragraph-1-copy-2 {
 		margin-left: -80px;
 	}
-	/* Features */
+	.for-inquiries {
+		width: 596px;
+		height: 50px;
+		margin-bottom: 0px;
+		}
+	.link-bar-2 {
+		width: 645px;
+		height: 42px;
+	}
+	.button-1-copy-1 {
+		margin-top: 0px;
+		}
+		.float{
+			margin-left: 550px;
+		}
+	.paragraph-2-copy-1 {
+			margin: auto;
+			}
+	/* Download */
 	.process-2 {
+		width: 666px;
+		height: 330px;
 		margin-left: 50px;
+		display: block;
+	}
+	.download-for-desktop {
+		width: 408px;
+		height: 169px;
+		font-size: 70px;
+		display: block;
 	}
 	.zefur2{
 		position: absolute;
@@ -956,47 +1116,73 @@ ul li{
 		position: absolute;
 		top: 655px;
 		left: 130px;
+		display: block;
 	}
 	.opera {
 		position: absolute;
 		top: 655px;
 		left: 450px;
+		display: block;
 	}
 	.brave {
 		position: absolute;
 		top: 855px; 
 		left: 130px;
+		display: block;
 	}
 	.edge {
 		position: absolute; 
 		top: 855px;
 		left: 450px;
+		display: block;
+	}
+	.download-for-mobile{
+		width: 465px;
+		height: 171px;
+		margin-top: 0px;
 	}
 	.zefur3{
 		position: absolute;
 		left: 540px;
+		display: block;
 	}	
 	
 	.apple {
 		position: absolute;
+		top: 1365px;
 		left: 100px;
+		width: 200px;
+		height: 200px;
 	}
 	
 	.play-store {
 		position: absolute;
+		top: 1625px; 
 		left: 100px;
+		width: 200px;
+		height: 200px;
 	}
 	.mano{
 		position: absolute;
+		top: 1275px; 
 		left: 330px;
 		width: 500px;
 		height: 500px;
+	}
+	.margin-left{
+		
 	}
 }
 
 /* desktop */
 @media screen and (min-width: 1321px), and (max-width: 1919px){
 	/* Index */
+	.h1-index{
+		margin: auto;
+		font-size: 60px;
+		width: 698px;
+		height: 241px;
+		}
 	.posicion-chrome{
 		position: absolute;
 		top: 590px;
@@ -1010,6 +1196,26 @@ ul li{
 		width: 728px;
 		height: 450px;
 		}
+		.flex-item{
+			margin: 30px 30px 15px 30px;
+			text-align: center;
+			display: flex;
+		}
+	.an-authentic{
+		font-size: 50px;
+		width: 698px;
+		}
+	.discover-web3{
+		width: 645px;
+		height: 68px;
+		font-size: 16px;
+		}
+	.paragraph-1-copy-1{
+		width: 379px;
+		height: 42px;
+		font-size: 30px;
+		margin: auto;
+	}
 	.carousel-control-prev {
 		left: 15%; 
 	}
@@ -1020,9 +1226,36 @@ ul li{
 	.paragraph-1-copy-2 {
 		margin: auto;
 	}
+	.for-inquiries {
+		width: 596px;
+		height: 50px;
+		margin-bottom: 0px;
+		}
+		.link-bar-2 {
+			width: 645px;
+			height: 42px;
+		}
+		.button-1-copy-1 {
+			margin-top: 0px;
+			}
+	.float{
+		margin-left: 550px;
+		}
+	.paragraph-2-copy-1 {
+			margin: auto;
+			}
 	/* Download */
 	.process-2 {
+		width: 666px;
+		height: 330px;
 		margin-left: 50px;
+		display: block;
+	}
+	.download-for-desktop {
+		width: 408px;
+		height: 169px;
+		font-size: 70px;
+		display: block;
 	}
 	.zefur2{
 		position: absolute;
@@ -1032,38 +1265,55 @@ ul li{
 		position: absolute;
 		top: 255px;
 		left: 820px;
+		display: block;
 	}
 	.opera {
 		position: absolute;
 		top: 255px;
 		left: 1100px;
+		display: block;
 	}
 	.brave {
 		position: absolute;
 		top: 490px; 
 		left: 820px;
+		display: block;
 	}
 	.edge {
 		position: absolute;
 		top: 490px; 
 		left: 1100px;
-	}
+		display: block;
+		}
+		.download-for-mobile{
+			width: 465px;
+			height: 171px;
+			margin-top: 0px;
+		}
 	.zefur3{
 		position: absolute;
 		left: 830px;
+		display: block;
 	}
 	
 	.apple {
 		position: absolute;
+		top: 1365px;
 		left: 200px;
+		width: 200px;
+		height: 200px;
 	}
 	
 	.play-store {
 		position: absolute;
+		top: 1625px; 
 		left: 200px;
+		width: 200px;
+		height: 200px;
 	}
 	.mano{
 		position: absolute;
+		top: 1275px; 
 		left: 700px;
 		width: 600px;
 		height: 600px;
@@ -1120,11 +1370,16 @@ ul li{
 
 @media screen and (min-width: 1920px){
 	/* Index */
+	.h1-index{
+		margin: auto;
+		font-size: 60px;
+		width: 698px;
+		height: 241px;
+		}
 	.posicion-chrome{
 		position: absolute;
-		top: 590px;
+		top: 570px;
 		left: 840px;
-		
 	}
 	.process-1{
 		width: 1056px;
@@ -1133,6 +1388,26 @@ ul li{
 	.process-3{
 		width: 728px;
 		height: 450px;
+		}
+	.flex-item{
+		margin: 30px 30px 15px 30px;
+		text-align: center;
+		display: flex;
+		}
+		.an-authentic{
+			font-size: 50px;
+			width: 698px;
+			}
+		.discover-web3{
+			width: 645px;
+			height: 68px;
+			font-size: 16px;
+			}
+	.paragraph-1-copy-1{
+		width: 379px;
+		height: 42px;
+		font-size: 30px;
+		margin: auto;
 		}
 	.carousel-control-prev {
 		left: 15%; 
@@ -1145,9 +1420,36 @@ ul li{
 	.paragraph-1-copy-2 {
 		margin: auto;
 	}
+	.for-inquiries {
+		width: 596px;
+		height: 50px;
+		margin-bottom: 0px;
+		}
+		.link-bar-2 {
+			width: 645px;
+			height: 42px;
+		}
+		.button-1-copy-1 {
+			margin-top: 0px;
+			}
+			.float{
+				margin-left: 550px;
+			}
+			.paragraph-2-copy-1 {
+				margin: auto;
+				}
 		/* Download */
 		.process-2 {
+			width: 666px;
+			height: 330px;
 			margin-left: 200px;
+			display: block;
+		}
+		.download-for-desktop {
+			width: 408px;
+			height: 169px;
+			font-size: 70px;
+			display: block;
 		}
 		.zefur2{
 			position: absolute;
@@ -1157,38 +1459,55 @@ ul li{
 			position: absolute;
 			top: 255px; 
 			left: 1100px;
+			display: block;
 		}
 		.opera {
 			position: absolute;
 			top: 255px; 
 			left: 1500px;
+			display: block;
 		}
 		.brave {
 			position: absolute;
 			top: 490px; 
 			left: 1100px;
+			display: block;
 		}
 		.edge {
 			position: absolute; 
 			top: 490px;
 			left: 1500px;
+			display: block;
+		}
+		.download-for-mobile{
+			width: 465px;
+			height: 171px;
+			margin-top: 0px;
 		}
 		.zefur3{
 			position: absolute;
 			left: 1110px;
+			display: block;
 		}	
 		
 		.apple {
 			position: absolute;
+			top: 1365px;
 			left: 380px;
+			width: 200px;
+			height: 200px;
 		}
 		
 		.play-store {
 			position: absolute;
+			top: 1625px; 
 			left: 380px;
+			width: 200px;
+			height: 200px;
 		}
 		.mano{
 			position: absolute;
+			top: 1275px; 
 			left: 1000px;
 			width: 600px;
 			height: 600px;
