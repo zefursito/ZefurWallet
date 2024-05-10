@@ -51,8 +51,8 @@ header nav ul li{
 
 header div  ul li a:hover, footer nav ul li a:hover{
 	transition:all .1s ease ;
-	border-top: 3px solid #A118DC;
-	border-bottom: 3px solid #A118DC;
+	border-top: 3px solid #b37dc8;
+	border-bottom: 3px solid #b37dc8;
 	cursor: pointer;
 }
 
@@ -179,6 +179,7 @@ font-style: normal;
 font-size: 2rem;
 text-align: center;
 margin-bottom: 270px;
+margin-top: 20px;
 }
 
 .the-crypto-wallet {
@@ -289,6 +290,15 @@ top: 45%;
 .carousel-control-next {
     right: 15%; 
 }
+
+
+.borde{
+	border-left: 2px solid;
+	border-color: #abaaaa;
+	padding-left: 10px;
+}
+
+/* Final estilos main */
 
 /* Inicio estilos footer */
 
@@ -960,7 +970,7 @@ ul li{
 	margin-bottom: 15px;
 	}
 	.link-bar-2 {
-		width: 210px;
+		width: 310px;
 		height: 42px;
 	}
 .button-1-copy-1 {
@@ -972,6 +982,22 @@ ul li{
 	.float{
 		margin-left: 100px;
 	}
+	.borde{
+		border-left: 2px solid;
+		border-color: #abaaaa;
+		padding-left: 4px;
+	}
+	.borde2{
+		border-left: 2px solid;
+		border-color: #abaaaa;
+		padding-left: 20px;
+	}
+	
+	.borde-yt{
+	border-left: none;
+	}
+
+	
 /* Download */
 .process-2 {
 display: none;
@@ -1095,6 +1121,22 @@ display: none;
 	.paragraph-2-copy-1 {
 			margin: auto;
 			}
+			.borde{
+				border-left: 2px solid;
+				border-color: #abaaaa;
+				padding-left: 10px;
+			}
+			.borde2{
+				border-left: 2px solid;
+				border-color: #abaaaa;
+				padding-left: 20px;
+			}
+			
+			.borde-yt{
+			border-left: 2px solid;
+			border-color: #abaaaa;
+			padding-left: 10px;
+			}
 	/* Download */
 	.process-2 {
 		width: 666px;
@@ -1169,9 +1211,6 @@ display: none;
 		width: 500px;
 		height: 500px;
 	}
-	.margin-left{
-		
-	}
 }
 
 /* desktop */
@@ -1243,6 +1282,21 @@ display: none;
 		}
 	.paragraph-2-copy-1 {
 			margin: auto;
+			}
+			.borde{
+				border-left: 2px solid;
+				border-color: #abaaaa;
+				padding-left: 10px;
+			}
+			.borde2{
+				border-left: 2px solid;
+				border-color: #abaaaa;
+				padding-left: 20px;
+			}
+			.borde-yt{
+			border-left: 2px solid;
+			border-color: #abaaaa;
+			padding-left: 10px;
 			}
 	/* Download */
 	.process-2 {
@@ -1437,6 +1491,21 @@ display: none;
 			}
 			.paragraph-2-copy-1 {
 				margin: auto;
+				}
+				.borde{
+					border-left: 2px solid;
+					border-color: #abaaaa;
+					padding-left: 10px;
+				}
+				.borde2{
+					border-left: 2px solid;
+					border-color: #abaaaa;
+					padding-left: 20px;
+				}
+				.borde-yt{
+				border-left: 2px solid;
+				border-color: #abaaaa;
+				padding-left: 10px;
 				}
 		/* Download */
 		.process-2 {
