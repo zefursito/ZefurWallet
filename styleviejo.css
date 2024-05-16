@@ -906,6 +906,7 @@ ul li{
 .margen{
 	margin-top: 200px;
 }
+
 /* mobile */
 @media screen and  (max-width: 767px){
 	/* Index */
@@ -915,142 +916,141 @@ ul li{
 	width: 300px;
 	height: 240px;
 	}
-    .posicion-chrome{
-        position: absolute;
-        top: 600px;
-        left: 50px;
-    }
-    .process-1{
-        width: 315px;
-        height: 1350px;
-    }
-    .process-3{
-        width: 290px;
-        height: 1100px;
-        
-    }
-    .flex-item{
-        margin: 30px 30px 15px 30px;
-        text-align: center;
-        display: flex;
-    }
-    .an-authentic{
-        font-size: 25px;
-        width: 300px;
-        text-align: center;
-    }
-    .discover-web3{
-        width: 300px;
-        height: 80px;
-        font-size: 16px;
-        }
-    .paragraph-1-copy-1{
-        width: 300px;
-        height: 42px;
-        font-size: 21px;
-        margin-left: -10px;
-        }
-    .carousel-control-prev {
-        left: -2%; 
-        
-        }		
-    .carousel-control-next {
-        right: -2%; 
-        }
-    .paragraph-1-copy-2 {
-        margin-left: -300px;
-        margin-bottom: 10px;
-        }
-    .for-inquiries {
-        width: 300px;
-        height: 50px;
-        margin-bottom: 15px;
-        }
-        .link-bar-2 {
-            width: 310px;
-            height: 42px;
-        }
-    .button-1-copy-1 {
-        margin-top: 10px;
-        }
-    .paragraph-2-copy-1 {
-        margin-left: -40px;
-        }
-        .float{
-            margin-left: 100px;
-        }
-        .borde{
-            border-left: 2px solid;
-            border-color: #abaaaa;
-            padding-left: 4px;
-        }
-        .borde2{
-            border-left: 2px solid;
-            border-color: #abaaaa;
-            padding-left: 20px;
-        }
-        
-        .borde-yt{
-        border-left: none;
-        }
-    
-        
-    /* Download */
-    .process-2 {
-    display: none;
-    }
-    
-    .download-for-desktop {
-        display: none;
-    }
-    .chrome2 {
-        display: none;
-    }
-    .opera {
-        display: none;
-    }
-    .brave {
-        display: none;
-    }
-    .edge {
-        display: none;
-    }
-    
-    .download-for-mobile{
-        width: 314px;
-        height: 171px;
-        margin-top: 100px;
-    }
-    .zefur3{
-        display: none;
-    }	
-    
-    .apple {
-        position: absolute;
-        top: 400px;
-        left: 5px;
-        width: 150px;
-        height: 150px;
-    }
-    
-    .play-store {
-        position: absolute;
-        top: 400px; 
-        left: 165px;
-        width: 150px;
-        height: 150px;
-    }
-    .mano{
-        position: absolute;
-        top: 580px; 
-        left: -20px;
-        width: 400px;
-        height: 400px;
-    }
-    }
+.posicion-chrome{
+	position: absolute;
+	top: 600px;
+	left: 50px;
+}
+.process-1{
+	width: 315px;
+	height: 1350px;
+}
+.process-3{
+	width: 290px;
+	height: 1100px;
+	
+}
+.flex-item{
+	margin: 30px 30px 15px 30px;
+	text-align: center;
+	display: flex;
+}
+.an-authentic{
+	font-size: 25px;
+	width: 300px;
+	text-align: center;
+}
+.discover-web3{
+	width: 300px;
+	height: 80px;
+	font-size: 16px;
+	}
+.paragraph-1-copy-1{
+	width: 300px;
+	height: 42px;
+	font-size: 21px;
+	margin-left: -10px;
+	}
+.carousel-control-prev {
+	left: -2%; 
+	
+	}		
+.carousel-control-next {
+	right: -2%; 
+	}
+.paragraph-1-copy-2 {
+	margin-left: -300px;
+	margin-bottom: 10px;
+	}
+.for-inquiries {
+	width: 300px;
+	height: 50px;
+	margin-bottom: 15px;
+	}
+	.link-bar-2 {
+		width: 310px;
+		height: 42px;
+	}
+.button-1-copy-1 {
+	margin-top: 10px;
+	}
+.paragraph-2-copy-1 {
+	margin-left: -40px;
+	}
+	.float{
+		margin-left: 100px;
+	}
+	.borde{
+		border-left: 2px solid;
+		border-color: #abaaaa;
+		padding-left: 4px;
+	}
+	.borde2{
+		border-left: 2px solid;
+		border-color: #abaaaa;
+		padding-left: 20px;
+	}
+	
+	.borde-yt{
+	border-left: none;
+	}
 
+	
+/* Download */
+.process-2 {
+display: none;
+}
+
+.download-for-desktop {
+	display: none;
+}
+.chrome2 {
+	display: none;
+}
+.opera {
+	display: none;
+}
+.brave {
+	display: none;
+}
+.edge {
+	display: none;
+}
+
+.download-for-mobile{
+	width: 314px;
+	height: 171px;
+	margin-top: 100px;
+}
+.zefur3{
+	display: none;
+}	
+
+.apple {
+	position: absolute;
+	top: 400px;
+	left: 5px;
+	width: 150px;
+	height: 150px;
+}
+
+.play-store {
+	position: absolute;
+	top: 400px; 
+	left: 165px;
+	width: 150px;
+	height: 150px;
+}
+.mano{
+	position: absolute;
+	top: 580px; 
+	left: -20px;
+	width: 400px;
+	height: 400px;
+}
+}
 /* taablet */
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 768px), and (max-width: 1023px){
 	/* Index */
 		.h1-index{
 		margin: auto;
@@ -1212,7 +1212,7 @@ ul li{
 }
 
 /* desktop */
-@media screen and (min-width: 1321px) and (max-width: 1919px){
+@media screen and (min-width: 1321px), and (max-width: 1919px){
 	/* Index */
 	.h1-index{
 		margin: auto;

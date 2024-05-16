@@ -1,113 +1,107 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-
-*{
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+* {
 	margin: 0;
 	padding: 0;
-}
+	}
 
-body{
+body {
 	background: radial-gradient(circle at 50% 50%, rgb(127, 90, 237) 0%, rgb(241, 247, 252) 100%);
 	border-color: #FFFFFF;
 }
 
-/* Inicio estilos header */
-
-
+	/* Inicio estilos header */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .logo {
-    margin-right: auto;
+	margin-right: auto;
 	width: 80px;
 	height: 70px;
 	margin-left: 50px;
-	
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 	color: #444444;
 	font-family: "Source Sans 3";
-	font-weight: 600;	
+	font-weight: 600;
 	font-size: 24px;
-	text-align: center;	
+	text-align: center;
 }
 
-header nav ul li{
-    display: inline;
-    margin-left: 100px;
+header nav ul li {
+	display: inline;
+	margin-left: 100px;
 	margin-right: 30px;
-	}
+}
 
-header div  ul li a:hover, footer nav ul li a:hover{
-	transition:all .1s ease ;
+header div ul li a:hover, footer nav ul li a:hover {
+	transition: all 0.1s ease;
 	border-top: 3px solid #b37dc8;
 	border-bottom: 3px solid #b37dc8;
 	cursor: pointer;
 }
 
-.float{
+.float {
 	margin-left: 550px;
 }
-.posicion{
+
+.posicion {
 	text-align: left;
 	margin-left: -100px;
 }
-.navbar-toggler{
+
+.navbar-toggler {
 	border: none;
 }
-.navbar-toggler:focus{
+
+.navbar-toggler:focus {
 	outline: none;
 	box-shadow: none;
 }
-/* Final estilos header */
 
-.features{
+	/* Final estilos header */
+.features {
 	margin-right: 50px;
 }
 
-
-/* Inicio estilos main */
-
-div button a{
+	/* Inicio estilos main */
+div button a {
 	color: #444444;
 	font-family: "Source Sans 3";
 	font-weight: 400;
 	font-weight: bold;
 }
 
-div a p{
+div a p {
 	color: #696969;
 	font-family: "Source Sans 3";
 	font-weight: 600;
 	margin-bottom: 210px;
 }
 
-
-h1{
+h1 {
 	color: #444444;
 	font-family: "Source Sans 3";
 	font-weight: bold;
 	font-size: 60px;
 	line-height: 1.28;
 	letter-spacing: -0.5px;
-    width: 698px;
+	width: 698px;
 	height: 241px;
-
 }
-.h1-index{
+
+.h1-index {
 	text-align: center;
-    margin: auto;
+	margin: auto;
 	margin-bottom: 20px;
 	font-size: 60px;
 	width: 698px;
@@ -118,7 +112,7 @@ h1{
 	width: 239px;
 	height: 720px;
 	padding: 0px 10px 0px 10px;
-	background: #00000000;
+	background: rgba(0, 0, 0, 0);
 	color: #232323;
 	border-color: #444444;
 	border-width: 2px;
@@ -128,24 +122,25 @@ h1{
 	font-weight: 600;
 	font-size: 20px;
 	text-align: center;
-	margin:50px 0px 0px 0px;
+	margin: 50px 0px 0px 0px;
 }
 
 .raw-7dd85797 {
 	width: 37px;
 	height: 37px;
-	background: #00000000;
-	
+	background: rgba(0, 0, 0, 0);
 }
-section div a{
+
+section div a {
 	text-decoration: none;
 }
-.chrome{
-    font-family: "source sans 3", sans-serif;
+
+.chrome {
+	font-family: "source sans 3", sans-serif;
 	color: #444444;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2rem;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2rem;
 	border-color: #444444;
 	border-width: 3px;
 	border-style: solid;
@@ -154,17 +149,18 @@ section div a{
 	font-weight: 600;
 	font-size: 25px;
 	text-align: center;
-	margin:auto;
+	margin: auto;
 	width: 250px;
 	height: 80px;
 	padding: 5px 15px 80px 50px;
-	
 }
-.moverr{
+
+.moverr {
 	display: inline-block;
 	text-align: left;
 }
-.posicion-chrome{
+
+.posicion-chrome {
 	position: absolute;
 	top: 483px;
 	left: 1080px;
@@ -172,14 +168,14 @@ section div a{
 	height: 45px;
 }
 
-.also{
-font-family: "source sans 3", sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size: 2rem;
-text-align: center;
-margin-bottom: 270px;
-margin-top: 20px;
+.also {
+	font-family: "source sans 3", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 270px;
+	margin-top: 20px;
 }
 
 .the-crypto-wallet {
@@ -192,7 +188,8 @@ margin-top: 20px;
 	margin-top: 200px;
 	margin-bottom: 10px;
 }
-.process-1{
+
+.process-1 {
 	width: 1056px;
 	height: 714px;
 	padding: 10px 10px 10px 10px;
@@ -203,17 +200,19 @@ margin-top: 20px;
 	margin: auto;
 	border-radius: 50px;
 }
-.an-authentic{
+
+.an-authentic {
 	color: #444444;
 	font-family: "Source Sans 3";
 	font-weight: bold;
 	font-size: 50px;
 	line-height: 1.28;
 	letter-spacing: -0.5px;
-    width: 698px;
-    margin: auto;
+	width: 698px;
+	margin: auto;
 }
-.discover-web3{
+
+.discover-web3 {
 	width: 645px;
 	height: 68px;
 	color: #606060;
@@ -223,10 +222,9 @@ margin-top: 20px;
 	line-height: 1.42;
 	margin: auto;
 	margin-top: 20px;
-	
-	}
+}
 
-.process-3{
+.process-3 {
 	width: 728px;
 	height: 450px;
 	padding: 10px 10px 10px 10px;
@@ -237,9 +235,9 @@ margin-top: 20px;
 	border-radius: 75px;
 	margin: auto;
 	text-align: center;
-	}
+}
 
-.paragraph-1-copy-1{
+.paragraph-1-copy-1 {
 	width: 379px;
 	height: 42px;
 	color: #444444;
@@ -252,7 +250,7 @@ margin-top: 20px;
 	margin-bottom: 15px;
 }
 
-.flexbox{
+.flexbox {
 	display: flex;
 	flex-direction: row;
 	font-family: "Source Sans 3";
@@ -263,45 +261,43 @@ margin-top: 20px;
 	color: #444444;
 	margin-top: 10px;
 	flex-wrap: wrap;
-	
 }
 
-.flex-item{
+.flex-item {
 	margin: 30px 30px 15px 30px;
 	text-align: center;
 	display: flex;
 }
 
-.foto{
+.foto {
 	display: block;
 	margin: auto;
 	margin-top: 200px;
 	max-width: 700px;
 	height: auto;
-	}
+}
 
-.carousel-control-prev,.carousel-control-next {
-top: 45%;
-} 
+.carousel-control-prev, .carousel-control-next {
+	top: 45%;
+}
+
 .carousel-control-prev {
-    left: 15%; 
+	left: 15%;
 }
 
 .carousel-control-next {
-    right: 15%; 
+	right: 15%;
 }
 
-
-.borde{
+.borde {
 	border-left: 2px solid;
 	border-color: #abaaaa;
 	padding-left: 10px;
 }
 
-/* Final estilos main */
+	/* Final estilos main */
 
-/* Inicio estilos footer */
-
+	/* Inicio estilos footer */
 .paragraph-1-copy-2 {
 	width: 920px;
 	height: 46px;
@@ -314,6 +310,7 @@ top: 45%;
 	margin: auto;
 	margin-top: 150px;
 }
+
 .for-inquiries {
 	width: 596px;
 	height: 50px;
@@ -325,7 +322,8 @@ top: 45%;
 	text-align: center;
 	margin: auto;
 }
-footer div form input{
+
+	footer div form input {
 	padding: 6px 8px 6px 8px;
 	background: #FFFFFF;
 	color: #C0C0C0;
@@ -340,21 +338,21 @@ footer div form input{
 	justify-content: center;
 	width: 250px;
 	margin: 5px;
-	
-}
-.contenedor{
-    display: flex;
+	}
+
+	.contenedor {
+	display: flex;
 	flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+	justify-content: center;
+	align-items: center;
 	text-align: left;
 	}
 
-a{
+	a {
 	color: inherit;
-}
+	}
 
-.button-1-copy-1 {
+	.button-1-copy-1 {
 	width: 122px;
 	height: 42px;
 	padding: 0px 10px 0px 10px;
@@ -369,8 +367,9 @@ a{
 	font-size: 18px;
 	text-align: center;
 	margin-left: 5px;
-}
-.link-bar-2 {
+	}
+
+	.link-bar-2 {
 	width: 645px;
 	height: 42px;
 	color: #444444;
@@ -386,8 +385,9 @@ a{
 	margin-top: 30px;
 	align-items: center;
 	margin-bottom: 40px;
-}
-.paragraph-2-copy-1 {
+	}
+
+	.paragraph-2-copy-1 {
 	width: 372px;
 	height: 67px;
 	color: #A118DC;
@@ -397,35 +397,29 @@ a{
 	line-height: 1.6;
 	text-align: center;
 	margin: auto;
-}
+	}
 
-/* Final estilos footer */
+	/* Final estilos footer */
+	a {
+	text-decoration: none;
+	}
 
-a{
-    text-decoration: none;
-	
-}
+	ul li {
+	list-style-type: none;
+	}
 
-ul li{
-    list-style-type: none;
-}
+	.subrayado {
+	text-decoration: underline;
+	}
 
-.subrayado{
-    text-decoration:underline
-	
-}
-
-.tamaño
-{
-    font-size: 1.5rem;
+	.tamaño {
+	font-size: 1.5rem;
 	margin-bottom: 210px;
-}
+	}
 
-/* DOWNLOAD */
-
-/* Inicio estilos main */
-
-.process-2 {
+	/* DOWNLOAD */
+	/* Inicio estilos main */
+	.process-2 {
 	width: 666px;
 	height: 330px;
 	padding: 10px 10px 10px 10px;
@@ -436,9 +430,10 @@ ul li{
 	border-radius: 50px;
 	margin-left: 200px;
 	margin-top: 200px;
-	margin-bottom: 525px
-}
-.download-for-desktop {
+	margin-bottom: 525px;
+	}
+
+	.download-for-desktop {
 	width: 408px;
 	height: 169px;
 	color: #444444;
@@ -449,17 +444,19 @@ ul li{
 	text-align: center;
 	margin: auto;
 	margin-top: 60px;
-}
-.zefur2{
+	}
+
+	.zefur2 {
 	position: absolute;
 	top: 340px;
 	left: 690px;
 	width: 90px;
 	height: 80px;
-}
-.chrome2 {
+	}
+
+	.chrome2 {
 	position: absolute;
-	top: 255px; 
+	top: 255px;
 	left: 1320px;
 	width: 160px;
 	height: 160px;
@@ -469,10 +466,11 @@ ul li{
 	border-radius: 50px 50px 50px 50px;
 	font-family: "Source Sans 3";
 	padding: 20px;
-}
-.opera {
+	}
+
+	.opera {
 	position: absolute;
-	top: 255px; 
+	top: 255px;
 	left: 1750px;
 	width: 160px;
 	height: 160px;
@@ -482,10 +480,11 @@ ul li{
 	border-radius: 50px 50px 50px 50px;
 	font-family: "Source Sans 3";
 	padding: 10px;
-}
-.brave {
+	}
+
+	.brave {
 	position: absolute;
-	top: 490px; 
+	top: 490px;
 	left: 1320px;
 	width: 160px;
 	height: 160px;
@@ -495,10 +494,11 @@ ul li{
 	border-radius: 50px 50px 50px 50px;
 	font-family: "Source Sans 3";
 	padding: 5px;
-}
-.edge {
+	}
+
+	.edge {
 	position: absolute;
-	top: 490px; 
+	top: 490px;
 	left: 1750px;
 	width: 160px;
 	height: 160px;
@@ -508,22 +508,20 @@ ul li{
 	border-radius: 50px 50px 50px 50px;
 	font-family: "Source Sans 3";
 	padding: 20px;
-}
+	}
 
-
-.container-1 {
+	.container-1 {
 	width: 178px;
 	height: 176px;
-	background: #FFFFFF00;
+	background: rgba(255, 255, 255, 0);
 	color: #000000;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.3;
 	text-align: center;
-	
-}
+	}
 
-.download-for-mobile {
+	.download-for-mobile {
 	width: 465px;
 	height: 171px;
 	color: #444444;
@@ -533,20 +531,21 @@ ul li{
 	line-height: 1.3;
 	text-align: center;
 	text-align: center;
-    margin: auto;
+	margin: auto;
 	margin-bottom: 700px;
-}
-.zefur3{
+	}
+
+	.zefur3 {
 	position: absolute;
 	top: 1128px;
 	left: 1350px;
 	width: 90px;
 	height: 80px;
-}
+	}
 
-.apple {
+	.apple {
 	position: absolute;
-	top: 1365px; 
+	top: 1365px;
 	left: 580px;
 	width: 200px;
 	height: 200px;
@@ -556,11 +555,11 @@ ul li{
 	border-radius: 50px 50px 50px 50px;
 	font-family: "Source Sans 3";
 	padding: 20px;
-}
+	}
 
-.play-store {
+	.play-store {
 	position: absolute;
-	top: 1625px; 
+	top: 1625px;
 	left: 580px;
 	width: 200px;
 	height: 200px;
@@ -570,23 +569,20 @@ ul li{
 	border-radius: 50px 50px 50px 50px;
 	font-family: "Source Sans 3";
 	padding: 30px;
-}
-.mano{
+	}
+
+	.mano {
 	position: absolute;
-	top: 1275px; 
+	top: 1275px;
 	left: 1300px;
 	width: 600px;
 	height: 600px;
-}
+	}
 
-/* Final estilos main */
-
-
-/* FEATURES */
-
-/* Inicio estilos main */
-
-.h1-features{
+	/* Final estilos main */
+	/* FEATURES */
+	/* Inicio estilos main */
+	.h1-features {
 	width: 469px;
 	height: 148px;
 	color: #444444;
@@ -597,10 +593,9 @@ ul li{
 	text-align: left;
 	margin-left: 200px;
 	margin-top: 200px;
-}
+	}
 
-.h2-features{
-
+	.h2-features {
 	width: 664px;
 	height: 67px;
 	color: #606060;
@@ -614,7 +609,7 @@ ul li{
 	margin-bottom: 30px;
 	}
 
-.boton-download {
+	.boton-download {
 	width: 180px;
 	height: 53px;
 	padding: 0px 10px 0px 10px;
@@ -631,23 +626,21 @@ ul li{
 	line-height: 50px;
 	text-align: center;
 	margin-bottom: 400px;
-}
+	}
 
-.img-features{
-	position:absolute;
+	.img-features {
+	position: absolute;
 	top: 150px;
 	left: 1100px;
 	width: 661px;
 	height: 445px;
-}
+	}
 
-.flex{
+	.flex {
 	text-align: center;
-	
-}
+	}
 
-
-.rectangulo-1 {
+	.rectangulo-1 {
 	width: 328px;
 	height: 576px;
 	padding: 10px 10px 10px 10px;
@@ -665,47 +658,49 @@ ul li{
 	display: inline-block;
 	margin-left: 50px;
 	overflow: hidden;
-}
-.rectangulo-2 {
-	width: 328px;
-	height: 576px;
-	padding: 10px 10px 10px 10px;
-	background: linear-gradient(180deg, rgb(137, 109, 242) 0%, rgb(243, 243, 243) 98%);
-	color: #444444;
-	border-color: #FFFFFF;
-	border-width: 2px;
-	border-style: solid;
-	border-radius: 60px;
-	font-family: "Source Sans 3";
-	font-weight: bold;
-	font-size: 30px;
-	line-height: 1.3;
-	text-align: center;
-	display: inline-block;
-	margin-left: 200px;
-	overflow: hidden;
-}
-.rectangulo-3 {
-	width: 328px;
-	height: 576px;
-	padding: 10px 10px 10px 10px;
-	background: linear-gradient(180deg, rgb(137, 109, 242) 0%, rgb(243, 243, 243) 98%);
-	color: #444444;
-	border-color: #FFFFFF;
-	border-width: 2px;
-	border-style: solid;
-	border-radius: 60px;
-	font-family: "Source Sans 3";
-	font-weight: bold;
-	font-size: 30px;
-	line-height: 1.3;
-	text-align: center;
-	display: inline-block;
-	margin-left: 200px;
-	overflow: hidden;
-}
-.h2-features2{
+	}
 
+	.rectangulo-2 {
+	width: 328px;
+	height: 576px;
+	padding: 10px 10px 10px 10px;
+	background: linear-gradient(180deg, rgb(137, 109, 242) 0%, rgb(243, 243, 243) 98%);
+	color: #444444;
+	border-color: #FFFFFF;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 60px;
+	font-family: "Source Sans 3";
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 1.3;
+	text-align: center;
+	display: inline-block;
+	margin-left: 200px;
+	overflow: hidden;
+	}
+
+	.rectangulo-3 {
+	width: 328px;
+	height: 576px;
+	padding: 10px 10px 10px 10px;
+	background: linear-gradient(180deg, rgb(137, 109, 242) 0%, rgb(243, 243, 243) 98%);
+	color: #444444;
+	border-color: #FFFFFF;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 60px;
+	font-family: "Source Sans 3";
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 1.3;
+	text-align: center;
+	display: inline-block;
+	margin-left: 200px;
+	overflow: hidden;
+	}
+
+	.h2-features2 {
 	width: 664px;
 	height: 67px;
 	color: #606060;
@@ -718,33 +713,32 @@ ul li{
 	margin-top: 30px;
 	}
 
-.gema{
+	.gema {
 	position: absolute;
 	top: 1350px;
 	left: 240px;
 	width: 344px;
 	height: 176px;
 	transform: rotate(-27deg);
-	
-	
-}
-.gas{
+	}
+
+	.gas {
 	position: absolute;
 	top: 1300px;
 	left: 810px;
 	width: 331px;
 	height: 328px;
-	
-}
-.laptop{
+	}
+
+	.laptop {
 	position: absolute;
 	top: 1300px;
 	left: 1340px;
 	width: 339px;
 	height: 304px;
-}
+	}
 
-.input {
+	.input {
 	width: 239px;
 	height: 42px;
 	padding: 6px 8px 6px 8px;
@@ -758,8 +752,9 @@ ul li{
 	font-weight: 400;
 	font-size: 18px;
 	text-align: left;
-}
-.rectangulo-4 {
+	}
+
+	.rectangulo-4 {
 	margin: auto;
 	margin-top: 400px;
 	width: 1243px;
@@ -776,16 +771,16 @@ ul li{
 	font-size: 30px;
 	line-height: 1.3;
 	text-align: left;
-}
-.h1-features3{
+	}
 
+	.h1-features3 {
 	color: #444444;
 	font-family: "Source Sans 3";
 	font-weight: bold;
 	font-size: 60px;
 	line-height: 1.28;
 	letter-spacing: -0.5px;
-    width: 698px;
+	width: 698px;
 	height: 200px;
 	margin: 0;
 	margin-left: 80px;
@@ -793,8 +788,7 @@ ul li{
 	text-align: left;
 	}
 
-.h2-features3{
-
+	.h2-features3 {
 	width: 664px;
 	height: 67px;
 	color: #606060;
@@ -808,13 +802,13 @@ ul li{
 	margin-top: 0px;
 	}
 
-.candado{
+	.candado {
 	position: absolute;
 	top: 2050px;
 	left: 1050px;
-}
+	}
 
-.rectangulo-5 {
+	.rectangulo-5 {
 	margin: auto;
 	margin-top: 200px;
 	width: 1243px;
@@ -833,8 +827,8 @@ ul li{
 	text-align: left;
 	margin-bottom: 300px;
 	}
-	
-.h1-features4{
+
+	.h1-features4 {
 	color: #444444;
 	font-family: "Source Sans 3";
 	font-weight: bold;
@@ -848,9 +842,8 @@ ul li{
 	margin-top: 30px;
 	text-align: left;
 	}
-	
-	.h2-features4{
-	
+
+	.h2-features4 {
 	width: 664px;
 	height: 67px;
 	color: #606060;
@@ -863,16 +856,16 @@ ul li{
 	margin-left: 540px;
 	margin-top: 50px;
 	}
-.carpeta{
+
+	.carpeta {
 	position: absolute;
 	top: 2690px;
 	left: 280px;
-}
+	}
 
-/* Final estilos main */
-
-/* FAQs */
-.frequently-asked-questions {
+	/* Final estilos main */
+	/* FAQs */
+	.frequently-asked-questions {
 	width: 900px;
 	height: 94px;
 	color: #444444;
@@ -883,9 +876,9 @@ ul li{
 	text-align: center;
 	margin: auto;
 	margin-top: 150px;
-}
+	}
 
-.getting-started {
+	.getting-started {
 	width: 511px;
 	height: 62px;
 	color: #444444;
@@ -897,208 +890,199 @@ ul li{
 	margin: auto;
 	margin-top: 50px;
 	margin-bottom: 100px;
-}
+	}
 
-.accordion-item {
-	width: 700px; 
-	max_height: 0; 
+	.accordion-item {
+	width: 700px;
+	max_height: 0;
 	margin: auto;
 	overflow: hidden;
-}
-.margen{
-	margin-top: 200px;
-}
+	}
 
-/* mobile */
-@media screen and  (max-width: 767px){
+	.margen {
+	margin-top: 200px;
+	}
+
+	/* mobile */
+	@media screen and (max-width: 767px) {
 	/* Index */
-.h1-index{
-	margin: auto;
-	font-size: 40px;
-	width: 300px;
-	height: 240px;
+	.h1-index {
+		margin: auto;
+		font-size: 40px;
+		width: 300px;
+		height: 240px;
 	}
-.posicion-chrome{
-	position: absolute;
-	top: 600px;
-	left: 50px;
-}
-.process-1{
-	width: 315px;
-	height: 1350px;
-}
-.process-3{
-	width: 290px;
-	height: 1100px;
-	
-}
-.flex-item{
-	margin: 30px 30px 15px 30px;
-	text-align: center;
-	display: flex;
-}
-.an-authentic{
-	font-size: 25px;
-	width: 300px;
-	text-align: center;
-}
-.discover-web3{
-	width: 300px;
-	height: 80px;
-	font-size: 16px;
+	.posicion-chrome {
+		position: absolute;
+		top: 600px;
+		left: 50px;
 	}
-.paragraph-1-copy-1{
-	width: 300px;
-	height: 42px;
-	font-size: 21px;
-	margin-left: -10px;
+	.process-1 {
+		width: 315px;
+		height: 1350px;
 	}
-.carousel-control-prev {
-	left: -2%; 
-	
-	}		
-.carousel-control-next {
-	right: -2%; 
+	.process-3 {
+		width: 290px;
+		height: 1100px;
 	}
-.paragraph-1-copy-2 {
-	margin-left: -300px;
-	margin-bottom: 10px;
+	.flex-item {
+		margin: 30px 30px 15px 30px;
+		text-align: center;
+		display: flex;
 	}
-.for-inquiries {
-	width: 300px;
-	height: 50px;
-	margin-bottom: 15px;
+	.an-authentic {
+		font-size: 25px;
+		width: 300px;
+		text-align: center;
+	}
+	.discover-web3 {
+		width: 300px;
+		height: 80px;
+		font-size: 16px;
+	}
+	.paragraph-1-copy-1 {
+		width: 300px;
+		height: 42px;
+		font-size: 21px;
+		margin-left: -10px;
+	}
+	.carousel-control-prev {
+		left: -2%;
+	}
+	.carousel-control-next {
+		right: -2%;
+	}
+	.paragraph-1-copy-2 {
+		margin-left: -300px;
+		margin-bottom: 10px;
+	}
+	.for-inquiries {
+		width: 300px;
+		height: 50px;
+		margin-bottom: 15px;
 	}
 	.link-bar-2 {
 		width: 310px;
 		height: 42px;
 	}
-.button-1-copy-1 {
-	margin-top: 10px;
+	.button-1-copy-1 {
+		margin-top: 10px;
 	}
-.paragraph-2-copy-1 {
-	margin-left: -40px;
+	.paragraph-2-copy-1 {
+		margin-left: -40px;
 	}
-	.float{
+	.float {
 		margin-left: 100px;
 	}
-	.borde{
+	.borde {
 		border-left: 2px solid;
 		border-color: #abaaaa;
 		padding-left: 4px;
 	}
-	.borde2{
+	.borde2 {
 		border-left: 2px solid;
 		border-color: #abaaaa;
 		padding-left: 20px;
 	}
-	
-	.borde-yt{
-	border-left: none;
+	.borde-yt {
+		border-left: none;
 	}
-
-	
-/* Download */
-.process-2 {
-display: none;
-}
-
-.download-for-desktop {
-	display: none;
-}
-.chrome2 {
-	display: none;
-}
-.opera {
-	display: none;
-}
-.brave {
-	display: none;
-}
-.edge {
-	display: none;
-}
-
-.download-for-mobile{
-	width: 314px;
-	height: 171px;
-	margin-top: 100px;
-}
-.zefur3{
-	display: none;
-}	
-
-.apple {
-	position: absolute;
-	top: 400px;
-	left: 5px;
-	width: 150px;
-	height: 150px;
-}
-
-.play-store {
-	position: absolute;
-	top: 400px; 
-	left: 165px;
-	width: 150px;
-	height: 150px;
-}
-.mano{
-	position: absolute;
-	top: 580px; 
-	left: -20px;
-	width: 400px;
-	height: 400px;
-}
-}
-/* taablet */
-@media screen and (min-width: 768px), and (max-width: 1023px){
+	/* Download */
+	.process-2 {
+		display: none;
+	}
+	.download-for-desktop {
+		display: none;
+	}
+	.chrome2 {
+		display: none;
+	}
+	.opera {
+		display: none;
+	}
+	.brave {
+		display: none;
+	}
+	.edge {
+		display: none;
+	}
+	.download-for-mobile {
+		width: 314px;
+		height: 171px;
+		margin-top: 100px;
+	}
+	.zefur3 {
+		display: none;
+	}
+	.apple {
+		position: absolute;
+		top: 400px;
+		left: 5px;
+		width: 150px;
+		height: 150px;
+	}
+	.play-store {
+		position: absolute;
+		top: 400px;
+		left: 165px;
+		width: 150px;
+		height: 150px;
+	}
+	.mano {
+		position: absolute;
+		top: 580px;
+		left: -20px;
+		width: 400px;
+		height: 400px;
+	}
+	}
+	/* taablet */
+	@media screen and (min-width: 768px) and (max-width: 1023px) {
 	/* Index */
-		.h1-index{
+	.h1-index {
 		margin: auto;
 		font-size: 60px;
 		width: 698px;
 		height: 241px;
-		}
-	.posicion-chrome{
+	}
+	.posicion-chrome {
 		position: absolute;
 		top: 570px;
 		left: 270px;
 	}
-	.process-1{
+	.process-1 {
 		width: 720px;
 		height: 714px;
 	}
-		.process-3{
+	.process-3 {
 		width: 690px;
 		height: 450px;
 	}
-	.flex-item{
+	.flex-item {
 		margin: 25px 25px 15px 25px;
 		text-align: center;
 		display: flex;
 	}
-	.an-authentic{
+	.an-authentic {
 		font-size: 50px;
 		width: 698px;
 	}
-	.discover-web3{
+	.discover-web3 {
 		width: 645px;
 		height: 68px;
 		font-size: 16px;
 	}
-	.paragraph-1-copy-1{
+	.paragraph-1-copy-1 {
 		width: 379px;
 		height: 42px;
 		font-size: 30px;
 		margin: auto;
 	}
 	.carousel-control-prev {
-	left: 2%; 
+		left: 2%;
 	}
-		
 	.carousel-control-next {
-		right: 2%; 
+		right: 2%;
 	}
 	.paragraph-1-copy-2 {
 		margin-left: -80px;
@@ -1107,36 +1091,35 @@ display: none;
 		width: 596px;
 		height: 50px;
 		margin-bottom: 0px;
-		}
+	}
 	.link-bar-2 {
 		width: 645px;
 		height: 42px;
 	}
 	.button-1-copy-1 {
 		margin-top: 0px;
-		}
-		.float{
-			margin-left: 550px;
-		}
+	}
+	.float {
+		margin-left: 550px;
+	}
 	.paragraph-2-copy-1 {
-			margin: auto;
-			}
-			.borde{
-				border-left: 2px solid;
-				border-color: #abaaaa;
-				padding-left: 10px;
-			}
-			.borde2{
-				border-left: 2px solid;
-				border-color: #abaaaa;
-				padding-left: 20px;
-			}
-			
-			.borde-yt{
-			border-left: 2px solid;
-			border-color: #abaaaa;
-			padding-left: 10px;
-			}
+		margin: auto;
+	}
+	.borde {
+		border-left: 2px solid;
+		border-color: #abaaaa;
+		padding-left: 10px;
+	}
+	.borde2 {
+		border-left: 2px solid;
+		border-color: #abaaaa;
+		padding-left: 20px;
+	}
+	.borde-yt {
+		border-left: 2px solid;
+		border-color: #abaaaa;
+		padding-left: 10px;
+	}
 	/* Download */
 	.process-2 {
 		width: 666px;
@@ -1150,7 +1133,7 @@ display: none;
 		font-size: 70px;
 		display: block;
 	}
-	.zefur2{
+	.zefur2 {
 		position: absolute;
 		left: 530px;
 	}
@@ -1168,27 +1151,26 @@ display: none;
 	}
 	.brave {
 		position: absolute;
-		top: 855px; 
+		top: 855px;
 		left: 130px;
 		display: block;
 	}
 	.edge {
-		position: absolute; 
+		position: absolute;
 		top: 855px;
 		left: 450px;
 		display: block;
 	}
-	.download-for-mobile{
+	.download-for-mobile {
 		width: 465px;
 		height: 171px;
 		margin-top: 0px;
 	}
-	.zefur3{
+	.zefur3 {
 		position: absolute;
 		left: 540px;
 		display: block;
-	}	
-	
+	}
 	.apple {
 		position: absolute;
 		top: 1365px;
@@ -1196,71 +1178,68 @@ display: none;
 		width: 200px;
 		height: 200px;
 	}
-	
 	.play-store {
 		position: absolute;
-		top: 1625px; 
+		top: 1625px;
 		left: 100px;
 		width: 200px;
 		height: 200px;
 	}
-	.mano{
+	.mano {
 		position: absolute;
-		top: 1275px; 
+		top: 1275px;
 		left: 330px;
 		width: 500px;
 		height: 500px;
 	}
-}
-
-/* desktop */
-@media screen and (min-width: 1321px), and (max-width: 1919px){
+	}
+	/* desktop */
+	@media screen and (min-width: 1321px) and (max-width: 1919px) {
 	/* Index */
-	.h1-index{
+	.h1-index {
 		margin: auto;
 		font-size: 60px;
 		width: 698px;
 		height: 241px;
-		}
-	.posicion-chrome{
+	}
+	.posicion-chrome {
 		position: absolute;
 		top: 590px;
 		left: 565px;
 	}
-	.process-1{
+	.process-1 {
 		width: 1056px;
 		height: 714px;
 	}
-	.process-3{
+	.process-3 {
 		width: 728px;
 		height: 450px;
-		}
-		.flex-item{
-			margin: 30px 30px 15px 30px;
-			text-align: center;
-			display: flex;
-		}
-	.an-authentic{
+	}
+	.flex-item {
+		margin: 30px 30px 15px 30px;
+		text-align: center;
+		display: flex;
+	}
+	.an-authentic {
 		font-size: 50px;
 		width: 698px;
-		}
-	.discover-web3{
+	}
+	.discover-web3 {
 		width: 645px;
 		height: 68px;
 		font-size: 16px;
-		}
-	.paragraph-1-copy-1{
+	}
+	.paragraph-1-copy-1 {
 		width: 379px;
 		height: 42px;
 		font-size: 30px;
 		margin: auto;
 	}
 	.carousel-control-prev {
-		left: 15%; 
+		left: 15%;
 	}
-	
 	.carousel-control-next {
-		right: 15%; 
+		right: 15%;
 	}
 	.paragraph-1-copy-2 {
 		margin: auto;
@@ -1269,35 +1248,35 @@ display: none;
 		width: 596px;
 		height: 50px;
 		margin-bottom: 0px;
-		}
-		.link-bar-2 {
-			width: 645px;
-			height: 42px;
-		}
-		.button-1-copy-1 {
-			margin-top: 0px;
-			}
-	.float{
+	}
+	.link-bar-2 {
+		width: 645px;
+		height: 42px;
+	}
+	.button-1-copy-1 {
+		margin-top: 0px;
+	}
+	.float {
 		margin-left: 550px;
-		}
+	}
 	.paragraph-2-copy-1 {
-			margin: auto;
-			}
-			.borde{
-				border-left: 2px solid;
-				border-color: #abaaaa;
-				padding-left: 10px;
-			}
-			.borde2{
-				border-left: 2px solid;
-				border-color: #abaaaa;
-				padding-left: 20px;
-			}
-			.borde-yt{
-			border-left: 2px solid;
-			border-color: #abaaaa;
-			padding-left: 10px;
-			}
+		margin: auto;
+	}
+	.borde {
+		border-left: 2px solid;
+		border-color: #abaaaa;
+		padding-left: 10px;
+	}
+	.borde2 {
+		border-left: 2px solid;
+		border-color: #abaaaa;
+		padding-left: 20px;
+	}
+	.borde-yt {
+		border-left: 2px solid;
+		border-color: #abaaaa;
+		padding-left: 10px;
+	}
 	/* Download */
 	.process-2 {
 		width: 666px;
@@ -1311,7 +1290,7 @@ display: none;
 		font-size: 70px;
 		display: block;
 	}
-	.zefur2{
+	.zefur2 {
 		position: absolute;
 		left: 540px;
 	}
@@ -1329,27 +1308,26 @@ display: none;
 	}
 	.brave {
 		position: absolute;
-		top: 490px; 
+		top: 490px;
 		left: 820px;
 		display: block;
 	}
 	.edge {
 		position: absolute;
-		top: 490px; 
+		top: 490px;
 		left: 1100px;
 		display: block;
-		}
-		.download-for-mobile{
-			width: 465px;
-			height: 171px;
-			margin-top: 0px;
-		}
-	.zefur3{
+	}
+	.download-for-mobile {
+		width: 465px;
+		height: 171px;
+		margin-top: 0px;
+	}
+	.zefur3 {
 		position: absolute;
 		left: 830px;
 		display: block;
 	}
-	
 	.apple {
 		position: absolute;
 		top: 1365px;
@@ -1357,38 +1335,32 @@ display: none;
 		width: 200px;
 		height: 200px;
 	}
-	
 	.play-store {
 		position: absolute;
-		top: 1625px; 
+		top: 1625px;
 		left: 200px;
 		width: 200px;
 		height: 200px;
 	}
-	.mano{
+	.mano {
 		position: absolute;
-		top: 1275px; 
+		top: 1275px;
 		left: 700px;
 		width: 600px;
 		height: 600px;
 	}
 	/* Features */
-	.h1-features{
+	.h1-features {
 		margin-left: 50px;
-	
 	}
-	
-	.h2-features{
+	.h2-features {
 		margin-left: 50px;
-		
-		}
-	
+	}
 	.boton-download {
 		margin-left: 50px;
 	}
-	
-	.img-features{
-		position:absolute;
+	.img-features {
+		position: absolute;
 		left: 650px;
 	}
 	.rectangulo-1 {
@@ -1400,77 +1372,74 @@ display: none;
 	.rectangulo-3 {
 		margin-left: 100px;
 	}
-	.gema{
+	.gema {
 		position: absolute;
 		left: 40px;
 	}
-	.gas{
+	.gas {
 		position: absolute;
 		left: 500px;
 	}
-	.laptop{
+	.laptop {
 		position: absolute;
 		left: 940px;
 	}
-	.candado{
+	.candado {
 		position: absolute;
 		left: 770px;
 	}
-	.carpeta{
+	.carpeta {
 		position: absolute;
 		left: 30px;
 	}
-}
-
-@media screen and (min-width: 1920px){
+	}
+	@media screen and (min-width: 1920px) {
 	/* Index */
-	.h1-index{
+	.h1-index {
 		margin: auto;
 		font-size: 60px;
 		width: 698px;
 		height: 241px;
-		}
-	.posicion-chrome{
+	}
+	.posicion-chrome {
 		position: absolute;
 		top: 570px;
 		left: 840px;
 	}
-	.process-1{
+	.process-1 {
 		width: 1056px;
 		height: 714px;
 	}
-	.process-3{
+	.process-3 {
 		width: 728px;
 		height: 450px;
-		}
-	.flex-item{
+	}
+	.flex-item {
 		margin: 30px 30px 15px 30px;
 		text-align: center;
 		display: flex;
-		}
-		.an-authentic{
-			font-size: 50px;
-			width: 698px;
-			}
-		.discover-web3{
-			width: 645px;
-			height: 68px;
-			font-size: 16px;
-			}
-	.paragraph-1-copy-1{
+	}
+	.an-authentic {
+		font-size: 50px;
+		width: 698px;
+	}
+	.discover-web3 {
+		width: 645px;
+		height: 68px;
+		font-size: 16px;
+	}
+	.paragraph-1-copy-1 {
 		width: 379px;
 		height: 42px;
 		font-size: 30px;
 		margin: auto;
-		}
+	}
 	.carousel-control-prev {
-		left: 15%; 
-		}
-		
+		left: 15%;
+	}
 	.carousel-control-next {
-		right: 15%; 
-		}
-		
+		right: 15%;
+	}
 	.paragraph-1-copy-2 {
 		margin: auto;
 	}
@@ -1478,156 +1447,148 @@ display: none;
 		width: 596px;
 		height: 50px;
 		margin-bottom: 0px;
-		}
-		.link-bar-2 {
-			width: 645px;
-			height: 42px;
-		}
-		.button-1-copy-1 {
-			margin-top: 0px;
-			}
-			.float{
-				margin-left: 550px;
-			}
-			.paragraph-2-copy-1 {
-				margin: auto;
-				}
-				.borde{
-					border-left: 2px solid;
-					border-color: #abaaaa;
-					padding-left: 10px;
-				}
-				.borde2{
-					border-left: 2px solid;
-					border-color: #abaaaa;
-					padding-left: 20px;
-				}
-				.borde-yt{
-				border-left: 2px solid;
-				border-color: #abaaaa;
-				padding-left: 10px;
-				}
-		/* Download */
-		.process-2 {
-			width: 666px;
-			height: 330px;
-			margin-left: 200px;
-			display: block;
-		}
-		.download-for-desktop {
-			width: 408px;
-			height: 169px;
-			font-size: 70px;
-			display: block;
-		}
-		.zefur2{
-			position: absolute;
-			left: 690px;
-		}
-		.chrome2 {
-			position: absolute;
-			top: 255px; 
-			left: 1100px;
-			display: block;
-		}
-		.opera {
-			position: absolute;
-			top: 255px; 
-			left: 1500px;
-			display: block;
-		}
-		.brave {
-			position: absolute;
-			top: 490px; 
-			left: 1100px;
-			display: block;
-		}
-		.edge {
-			position: absolute; 
-			top: 490px;
-			left: 1500px;
-			display: block;
-		}
-		.download-for-mobile{
-			width: 465px;
-			height: 171px;
-			margin-top: 0px;
-		}
-		.zefur3{
-			position: absolute;
-			left: 1110px;
-			display: block;
-		}	
-		
-		.apple {
-			position: absolute;
-			top: 1365px;
-			left: 380px;
-			width: 200px;
-			height: 200px;
-		}
-		
-		.play-store {
-			position: absolute;
-			top: 1625px; 
-			left: 380px;
-			width: 200px;
-			height: 200px;
-		}
-		.mano{
-			position: absolute;
-			top: 1275px; 
-			left: 1000px;
-			width: 600px;
-			height: 600px;
-		}
-		/* Features */
-		.h1-features{
-			margin-left: 200px;
-		}
-		
-		.h2-features{
-			margin-left: 200px;
-			}
-		
-		.boton-download {
-			margin-left: 200px;
-		}
-		
-		.img-features{
-			position:absolute;
-			left: 1100px;
-		}
-		.rectangulo-1 {
-			margin-left: 50px;
-		}
-		.rectangulo-2 {
-			margin-left: 200px;
-		}
-		.rectangulo-3 {
-			margin-left: 200px;
-		}
-		.gema{
-			position: absolute;
-			left: 240px;
-		}
-		.gas{
-			position: absolute;
-			left: 810px;
-			
-		}
-		.laptop{
-			position: absolute;
-			left: 1340px;
-		}
-		.candado{
-			position: absolute;
-			left: 1050px;
-		}
-		.carpeta{
-			position: absolute;
-			left: 300px;
-		}
 	}
-
-
+	.link-bar-2 {
+		width: 645px;
+		height: 42px;
+	}
+	.button-1-copy-1 {
+		margin-top: 0px;
+	}
+	.float {
+		margin-left: 550px;
+	}
+	.paragraph-2-copy-1 {
+		margin: auto;
+	}
+	.borde {
+		border-left: 2px solid;
+		border-color: #abaaaa;
+		padding-left: 10px;
+	}
+	.borde2 {
+		border-left: 2px solid;
+		border-color: #abaaaa;
+		padding-left: 20px;
+	}
+	.borde-yt {
+		border-left: 2px solid;
+		border-color: #abaaaa;
+		padding-left: 10px;
+	}
+	/* Download */
+	.process-2 {
+		width: 666px;
+		height: 330px;
+		margin-left: 200px;
+		display: block;
+	}
+	.download-for-desktop {
+		width: 408px;
+		height: 169px;
+		font-size: 70px;
+		display: block;
+	}
+	.zefur2 {
+		position: absolute;
+		left: 690px;
+	}
+	.chrome2 {
+		position: absolute;
+		top: 255px;
+		left: 1100px;
+		display: block;
+	}
+	.opera {
+		position: absolute;
+		top: 255px;
+		left: 1500px;
+		display: block;
+	}
+	.brave {
+		position: absolute;
+		top: 490px;
+		left: 1100px;
+		display: block;
+	}
+	.edge {
+		position: absolute;
+		top: 490px;
+		left: 1500px;
+		display: block;
+	}
+	.download-for-mobile {
+		width: 465px;
+		height: 171px;
+		margin-top: 0px;
+	}
+	.zefur3 {
+		position: absolute;
+		left: 1110px;
+		display: block;
+	}
+	.apple {
+		position: absolute;
+		top: 1365px;
+		left: 380px;
+		width: 200px;
+		height: 200px;
+	}
+	.play-store {
+		position: absolute;
+		top: 1625px;
+		left: 380px;
+		width: 200px;
+		height: 200px;
+	}
+	.mano {
+		position: absolute;
+		top: 1275px;
+		left: 1000px;
+		width: 600px;
+		height: 600px;
+	}
+	/* Features */
+	.h1-features {
+		margin-left: 200px;
+	}
+	.h2-features {
+		margin-left: 200px;
+	}
+	.boton-download {
+		margin-left: 200px;
+	}
+	.img-features {
+		position: absolute;
+		left: 1100px;
+	}
+	.rectangulo-1 {
+		margin-left: 50px;
+	}
+	.rectangulo-2 {
+		margin-left: 200px;
+	}
+	.rectangulo-3 {
+		margin-left: 200px;
+	}
+	.gema {
+		position: absolute;
+		left: 240px;
+	}
+	.gas {
+		position: absolute;
+		left: 810px;
+	}
+	.laptop {
+		position: absolute;
+		left: 1340px;
+	}
+	.candado {
+		position: absolute;
+		left: 1050px;
+	}
+	.carpeta {
+		position: absolute;
+		left: 300px;
+	}
+	}/*# sourceMappingURL=styles.css.map */
