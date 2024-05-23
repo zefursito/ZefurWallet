@@ -902,1049 +902,722 @@ ul li {
 
 /* Final estilos main */
 /* mobile */
-@media screen and (max-width: 767px) {
-  /* Index */
-  .h1-index {
-    margin: auto;
-    font-size: 40px;
-    width: 300px;
-    height: 240px;
-  }
-  .posicion-chrome {
-    position: absolute;
-    top: 600px;
-    left: 50px;
-  }
-  .process-1 {
-    width: 315px;
-    height: 1350px;
-  }
-  .process-3 {
-    width: 290px;
-    height: 1100px;
-  }
-  .flex-item {
-    margin: 30px 30px 15px 30px;
-    text-align: center;
-    display: flex;
-  }
-  .an-authentic {
-    font-size: 25px;
-    width: 300px;
-    text-align: center;
-  }
-  .discover-web3 {
-    width: 300px;
-    height: 80px;
-    font-size: 16px;
-  }
-  .paragraph-1-copy-1 {
-    width: 300px;
-    height: 42px;
-    font-size: 21px;
-    margin-left: -10px;
-  }
-  .carousel-control-prev {
-    left: -2%;
-  }
-  .carousel-control-next {
-    right: -2%;
-  }
-  .paragraph-1-copy-2 {
-    margin-left: -300px;
-    margin-bottom: 10px;
-  }
-  .for-inquiries {
-    width: 300px;
-    height: 50px;
-    margin-bottom: 15px;
-  }
-  .link-bar-2 {
-    width: 310px;
-    height: 42px;
-  }
-  .button-1-copy-1 {
-    margin-top: 10px;
-  }
-  .paragraph-2-copy-1 {
-    margin-left: -40px;
-  }
-  .float {
-    margin-left: 100px;
-  }
-  .borde {
-    border-left: 2px solid;
-    border-color: #abaaaa;
-    padding-left: 4px;
-  }
-  .borde2 {
-    border-left: 2px solid;
-    border-color: #abaaaa;
-    padding-left: 20px;
-  }
-  .borde-yt {
-    border-left: none;
-  }
-  /* Download */
-  .process-2 {
-    display: none;
-  }
-  .download-for-desktop {
-    display: none;
-  }
-  .chrome2 {
-    display: none;
-  }
-  .opera {
-    display: none;
-  }
-  .brave {
-    display: none;
-  }
-  .edge {
-    display: none;
-  }
-  .download-for-mobile {
-    width: 314px;
-    height: 171px;
-    margin-top: 100px;
-  }
-  .zefur3 {
-    display: none;
-  }
-  .apple {
-    position: absolute;
-    top: 400px;
-    left: 5px;
-    width: 150px;
-    height: 150px;
-  }
-  .play-store {
-    position: absolute;
-    top: 400px;
-    left: 165px;
-    width: 150px;
-    height: 150px;
-  }
-  .mano {
-    position: absolute;
-    top: 580px;
-    left: -20px;
-    width: 400px;
-    height: 400px;
-  }
+@media screen and  (max-width: 767px){
+	/* Index */
+.h1-index{
+	margin: auto;
+	font-size: 40px;
+	width: 300px;
+	height: 240px;
+	}
+.posicion-chrome{
+	position: absolute;
+	top: 600px;
+	left: 50px;
 }
-/* tablet */
-@media screen and (min-width: 768px) {
-  /* Index */
-  .h1-index {
-    margin: auto;
-    font-size: 60px;
-    width: 698px;
-    height: 241px;
-  }
-  .posicion-chrome {
-    position: absolute;
-    top: 570px;
-    left: 270px;
-  }
-  .process-1 {
-    width: 720px;
-    height: 714px;
-  }
-  .process-3 {
-    width: 690px;
-    height: 450px;
-  }
-  .flex-item {
-    margin: 25px 25px 15px 25px;
-    text-align: center;
-    display: flex;
-  }
-  .an-authentic {
-    font-size: 50px;
-    width: 698px;
-  }
-  .discover-web3 {
-    width: 645px;
-    height: 68px;
-    font-size: 16px;
-  }
-  .paragraph-1-copy-1 {
-    width: 379px;
-    height: 42px;
-    font-size: 30px;
-    margin: auto;
-  }
-  .carousel-control-prev {
-    left: 2%;
-  }
-  .carousel-control-next {
-    right: 2%;
-  }
-  .paragraph-1-copy-2 {
-    margin-left: -80px;
-  }
-  .for-inquiries {
-    width: 596px;
-    height: 50px;
-    margin-bottom: 0px;
-  }
-  .link-bar-2 {
-    width: 645px;
-    height: 42px;
-  }
-  .button-1-copy-1 {
-    margin-top: 0px;
-  }
-  .float {
-    margin-left: 550px;
-  }
-  .paragraph-2-copy-1 {
-    margin: auto;
-  }
-  .borde {
-    border-left: 2px solid;
-    border-color: #abaaaa;
-    padding-left: 10px;
-  }
-  .borde2 {
-    border-left: 2px solid;
-    border-color: #abaaaa;
-    padding-left: 20px;
-  }
-  .borde-yt {
-    border-left: 2px solid;
-    border-color: #abaaaa;
-    padding-left: 10px;
-  }
-  /* Download */
-  .process-2 {
-    width: 666px;
-    height: 330px;
-    margin-left: 50px;
-    display: block;
-  }
-  .download-for-desktop {
-    width: 408px;
-    height: 169px;
-    font-size: 70px;
-    display: block;
-  }
-  .zefur2 {
-    position: absolute;
-    left: 530px;
-  }
-  .chrome2 {
-    position: absolute;
-    top: 655px;
-    left: 130px;
-    display: block;
-  }
-  .opera {
-    position: absolute;
-    top: 655px;
-    left: 450px;
-    display: block;
-  }
-  .brave {
-    position: absolute;
-    top: 855px;
-    left: 130px;
-    display: block;
-  }
-  .edge {
-    position: absolute;
-    top: 855px;
-    left: 450px;
-    display: block;
-  }
-  .download-for-mobile {
-    width: 465px;
-    height: 171px;
-    margin-top: 0px;
-  }
-  .zefur3 {
-    position: absolute;
-    left: 540px;
-    display: block;
-  }
-  .apple {
-    position: absolute;
-    top: 1365px;
-    left: 100px;
-    width: 200px;
-    height: 200px;
-  }
-  .play-store {
-    position: absolute;
-    top: 1625px;
-    left: 100px;
-    width: 200px;
-    height: 200px;
-  }
-  .mano {
-    position: absolute;
-    top: 1275px;
-    left: 330px;
-    width: 500px;
-    height: 500px;
-  }
+.process-1{
+	width: 315px;
+	height: 1350px;
 }
-/* tablet */
-@media screen and (max-width: 1023px) {
-  /* Index */
-  .h1-index {
-    margin: auto;
-    font-size: 60px;
-    width: 698px;
-    height: 241px;
-  }
-  .posicion-chrome {
-    position: absolute;
-    top: 570px;
-    left: 270px;
-  }
-  .process-1 {
-    width: 720px;
-    height: 714px;
-  }
-  .process-3 {
-    width: 690px;
-    height: 450px;
-  }
-  .flex-item {
-    margin: 25px 25px 15px 25px;
-    text-align: center;
-    display: flex;
-  }
-  .an-authentic {
-    font-size: 50px;
-    width: 698px;
-  }
-  .discover-web3 {
-    width: 645px;
-    height: 68px;
-    font-size: 16px;
-  }
-  .paragraph-1-copy-1 {
-    width: 379px;
-    height: 42px;
-    font-size: 30px;
-    margin: auto;
-  }
-  .carousel-control-prev {
-    left: 2%;
-  }
-  .carousel-control-next {
-    right: 2%;
-  }
-  .paragraph-1-copy-2 {
-    margin-left: -80px;
-  }
-  .for-inquiries {
-    width: 596px;
-    height: 50px;
-    margin-bottom: 0px;
-  }
-  .link-bar-2 {
-    width: 645px;
-    height: 42px;
-  }
-  .button-1-copy-1 {
-    margin-top: 0px;
-  }
-  .float {
-    margin-left: 550px;
-  }
-  .paragraph-2-copy-1 {
-    margin: auto;
-  }
-  .borde {
-    border-left: 2px solid;
-    border-color: #abaaaa;
-    padding-left: 10px;
-  }
-  .borde2 {
-    border-left: 2px solid;
-    border-color: #abaaaa;
-    padding-left: 20px;
-  }
-  .borde-yt {
-    border-left: 2px solid;
-    border-color: #abaaaa;
-    padding-left: 10px;
-  }
-  /* Download */
-  .process-2 {
-    width: 666px;
-    height: 330px;
-    margin-left: 50px;
-    display: block;
-  }
-  .download-for-desktop {
-    width: 408px;
-    height: 169px;
-    font-size: 70px;
-    display: block;
-  }
-  .zefur2 {
-    position: absolute;
-    left: 530px;
-  }
-  .chrome2 {
-    position: absolute;
-    top: 655px;
-    left: 130px;
-    display: block;
-  }
-  .opera {
-    position: absolute;
-    top: 655px;
-    left: 450px;
-    display: block;
-  }
-  .brave {
-    position: absolute;
-    top: 855px;
-    left: 130px;
-    display: block;
-  }
-  .edge {
-    position: absolute;
-    top: 855px;
-    left: 450px;
-    display: block;
-  }
-  .download-for-mobile {
-    width: 465px;
-    height: 171px;
-    margin-top: 0px;
-  }
-  .zefur3 {
-    position: absolute;
-    left: 540px;
-    display: block;
-  }
-  .apple {
-    position: absolute;
-    top: 1365px;
-    left: 100px;
-    width: 200px;
-    height: 200px;
-  }
-  .play-store {
-    position: absolute;
-    top: 1625px;
-    left: 100px;
-    width: 200px;
-    height: 200px;
-  }
-  .mano {
-    position: absolute;
-    top: 1275px;
-    left: 330px;
-    width: 500px;
-    height: 500px;
-  }
+.process-3{
+	width: 290px;
+	height: 1100px;
+	
 }
+.flex-item{
+	margin: 30px 30px 15px 30px;
+	text-align: center;
+	display: flex;
+}
+.an-authentic{
+	font-size: 25px;
+	width: 300px;
+	text-align: center;
+}
+.discover-web3{
+	width: 300px;
+	height: 80px;
+	font-size: 16px;
+	}
+.paragraph-1-copy-1{
+	width: 300px;
+	height: 42px;
+	font-size: 21px;
+	margin-left: -10px;
+	}
+.carousel-control-prev {
+	left: -2%; 
+	
+	}		
+.carousel-control-next {
+	right: -2%; 
+	}
+.paragraph-1-copy-2 {
+	margin-left: -300px;
+	margin-bottom: 10px;
+	}
+.for-inquiries {
+	width: 300px;
+	height: 50px;
+	margin-bottom: 15px;
+	}
+	.link-bar-2 {
+		width: 310px;
+		height: 42px;
+	}
+.button-1-copy-1 {
+	margin-top: 10px;
+	}
+.paragraph-2-copy-1 {
+	margin-left: -40px;
+	}
+	.float{
+		margin-left: 100px;
+	}
+	.borde{
+		border-left: 2px solid;
+		border-color: #abaaaa;
+		padding-left: 4px;
+	}
+	.borde2{
+		border-left: 2px solid;
+		border-color: #abaaaa;
+		padding-left: 20px;
+	}
+	
+	.borde-yt{
+	border-left: none;
+	}
+
+	
+/* Download */
+.process-2 {
+display: none;
+}
+
+.download-for-desktop {
+	display: none;
+}
+.chrome2 {
+	display: none;
+}
+.opera {
+	display: none;
+}
+.brave {
+	display: none;
+}
+.edge {
+	display: none;
+}
+
+.download-for-mobile{
+	width: 314px;
+	height: 171px;
+	margin-top: 100px;
+}
+.zefur3{
+	display: none;
+}	
+
+.apple {
+	position: absolute;
+	top: 400px;
+	left: 5px;
+	width: 150px;
+	height: 150px;
+}
+
+.play-store {
+	position: absolute;
+	top: 400px; 
+	left: 165px;
+	width: 150px;
+	height: 150px;
+}
+.mano{
+	position: absolute;
+	top: 580px; 
+	left: -20px;
+	width: 400px;
+	height: 400px;
+}
+}
+/* taablet */
+@media screen and (min-width: 768px), and (max-width: 1023px){
+	/* Index */
+		.h1-index{
+		margin: auto;
+		font-size: 60px;
+		width: 698px;
+		height: 241px;
+		}
+	.posicion-chrome{
+		position: absolute;
+		top: 570px;
+		left: 270px;
+	}
+	.process-1{
+		width: 720px;
+		height: 714px;
+	}
+		.process-3{
+		width: 690px;
+		height: 450px;
+	}
+	.flex-item{
+		margin: 25px 25px 15px 25px;
+		text-align: center;
+		display: flex;
+	}
+	.an-authentic{
+		font-size: 50px;
+		width: 698px;
+	}
+	.discover-web3{
+		width: 645px;
+		height: 68px;
+		font-size: 16px;
+	}
+	.paragraph-1-copy-1{
+		width: 379px;
+		height: 42px;
+		font-size: 30px;
+		margin: auto;
+	}
+	.carousel-control-prev {
+	left: 2%; 
+	}
+		
+	.carousel-control-next {
+		right: 2%; 
+	}
+	.paragraph-1-copy-2 {
+		margin-left: -80px;
+	}
+	.for-inquiries {
+		width: 596px;
+		height: 50px;
+		margin-bottom: 0px;
+		}
+	.link-bar-2 {
+		width: 645px;
+		height: 42px;
+	}
+	.button-1-copy-1 {
+		margin-top: 0px;
+		}
+		.float{
+			margin-left: 550px;
+		}
+	.paragraph-2-copy-1 {
+			margin: auto;
+			}
+			.borde{
+				border-left: 2px solid;
+				border-color: #abaaaa;
+				padding-left: 10px;
+			}
+			.borde2{
+				border-left: 2px solid;
+				border-color: #abaaaa;
+				padding-left: 20px;
+			}
+			
+			.borde-yt{
+			border-left: 2px solid;
+			border-color: #abaaaa;
+			padding-left: 10px;
+			}
+	/* Download */
+	.process-2 {
+		width: 666px;
+		height: 330px;
+		margin-left: 50px;
+		display: block;
+	}
+	.download-for-desktop {
+		width: 408px;
+		height: 169px;
+		font-size: 70px;
+		display: block;
+	}
+	.zefur2{
+		position: absolute;
+		left: 530px;
+	}
+	.chrome2 {
+		position: absolute;
+		top: 655px;
+		left: 130px;
+		display: block;
+	}
+	.opera {
+		position: absolute;
+		top: 655px;
+		left: 450px;
+		display: block;
+	}
+	.brave {
+		position: absolute;
+		top: 855px; 
+		left: 130px;
+		display: block;
+	}
+	.edge {
+		position: absolute; 
+		top: 855px;
+		left: 450px;
+		display: block;
+	}
+	.download-for-mobile{
+		width: 465px;
+		height: 171px;
+		margin-top: 0px;
+	}
+	.zefur3{
+		position: absolute;
+		left: 540px;
+		display: block;
+	}	
+	
+	.apple {
+		position: absolute;
+		top: 1365px;
+		left: 100px;
+		width: 200px;
+		height: 200px;
+	}
+	
+	.play-store {
+		position: absolute;
+		top: 1625px; 
+		left: 100px;
+		width: 200px;
+		height: 200px;
+	}
+	.mano{
+		position: absolute;
+		top: 1275px; 
+		left: 330px;
+		width: 500px;
+		height: 500px;
+	}
+}
+
 /* desktop */
-@media screen and (min-width: 1321px) {
-  /* Index */
-  .h1-index {
-    margin: auto;
-    font-size: 60px;
-    width: 698px;
-    height: 241px;
-  }
-  .posicion-chrome {
-    position: absolute;
-    top: 590px;
-    left: 565px;
-  }
-  .process-1 {
-    width: 1056px;
-    height: 714px;
-  }
-  .process-3 {
-    width: 728px;
-    height: 450px;
-  }
-  .flex-item {
-    margin: 30px 30px 15px 30px;
-    text-align: center;
-    display: flex;
-  }
-  .an-authentic {
-    font-size: 50px;
-    width: 698px;
-  }
-  .discover-web3 {
-    width: 645px;
-    height: 68px;
-    font-size: 16px;
-  }
-  .paragraph-1-copy-1 {
-    width: 379px;
-    height: 42px;
-    font-size: 30px;
-    margin: auto;
-  }
-  .carousel-control-prev {
-    left: 15%;
-  }
-  .carousel-control-next {
-    right: 15%;
-  }
-  .paragraph-1-copy-2 {
-    margin: auto;
-  }
-  .for-inquiries {
-    width: 596px;
-    height: 50px;
-    margin-bottom: 0px;
-  }
-  .link-bar-2 {
-    width: 645px;
-    height: 42px;
-  }
-  .button-1-copy-1 {
-    margin-top: 0px;
-  }
-  .float {
-    margin-left: 550px;
-  }
-  .paragraph-2-copy-1 {
-    margin: auto;
-  }
-  .borde {
-    border-left: 2px solid;
-    border-color: #abaaaa;
-    padding-left: 10px;
-  }
-  .borde2 {
-    border-left: 2px solid;
-    border-color: #abaaaa;
-    padding-left: 20px;
-  }
-  .borde-yt {
-    border-left: 2px solid;
-    border-color: #abaaaa;
-    padding-left: 10px;
-  }
-  /* Download */
-  .process-2 {
-    width: 666px;
-    height: 330px;
-    margin-left: 50px;
-    display: block;
-  }
-  .download-for-desktop {
-    width: 408px;
-    height: 169px;
-    font-size: 70px;
-    display: block;
-  }
-  .zefur2 {
-    position: absolute;
-    left: 540px;
-  }
-  .chrome2 {
-    position: absolute;
-    top: 255px;
-    left: 820px;
-    display: block;
-  }
-  .opera {
-    position: absolute;
-    top: 255px;
-    left: 1100px;
-    display: block;
-  }
-  .brave {
-    position: absolute;
-    top: 490px;
-    left: 820px;
-    display: block;
-  }
-  .edge {
-    position: absolute;
-    top: 490px;
-    left: 1100px;
-    display: block;
-  }
-  .download-for-mobile {
-    width: 465px;
-    height: 171px;
-    margin-top: 0px;
-  }
-  .zefur3 {
-    position: absolute;
-    left: 830px;
-    display: block;
-  }
-  .apple {
-    position: absolute;
-    top: 1365px;
-    left: 200px;
-    width: 200px;
-    height: 200px;
-  }
-  .play-store {
-    position: absolute;
-    top: 1625px;
-    left: 200px;
-    width: 200px;
-    height: 200px;
-  }
-  .mano {
-    position: absolute;
-    top: 1275px;
-    left: 700px;
-    width: 600px;
-    height: 600px;
-  }
-  /* Features */
-  .h1-features {
-    margin-left: 50px;
-  }
-  .h2-features {
-    margin-left: 50px;
-  }
-  .boton-download {
-    margin-left: 50px;
-  }
-  .img-features {
-    position: absolute;
-    left: 650px;
-  }
-  .rectangulo-1 {
-    margin-left: 0px;
-  }
-  .rectangulo-2 {
-    margin-left: 100px;
-  }
-  .rectangulo-3 {
-    margin-left: 100px;
-  }
-  .gema {
-    position: absolute;
-    left: 40px;
-  }
-  .gas {
-    position: absolute;
-    left: 500px;
-  }
-  .laptop {
-    position: absolute;
-    left: 940px;
-  }
-  .candado {
-    position: absolute;
-    left: 770px;
-  }
-  .carpeta {
-    position: absolute;
-    left: 30px;
-  }
+@media screen and (min-width: 1321px), and (max-width: 1919px){
+	/* Index */
+	.h1-index{
+		margin: auto;
+		font-size: 60px;
+		width: 698px;
+		height: 241px;
+		}
+	.posicion-chrome{
+		position: absolute;
+		top: 590px;
+		left: 565px;
+	}
+	.process-1{
+		width: 1056px;
+		height: 714px;
+	}
+	.process-3{
+		width: 728px;
+		height: 450px;
+		}
+		.flex-item{
+			margin: 30px 30px 15px 30px;
+			text-align: center;
+			display: flex;
+		}
+	.an-authentic{
+		font-size: 50px;
+		width: 698px;
+		}
+	.discover-web3{
+		width: 645px;
+		height: 68px;
+		font-size: 16px;
+		}
+	.paragraph-1-copy-1{
+		width: 379px;
+		height: 42px;
+		font-size: 30px;
+		margin: auto;
+	}
+	.carousel-control-prev {
+		left: 15%; 
+	}
+	
+	.carousel-control-next {
+		right: 15%; 
+	}
+	.paragraph-1-copy-2 {
+		margin: auto;
+	}
+	.for-inquiries {
+		width: 596px;
+		height: 50px;
+		margin-bottom: 0px;
+		}
+		.link-bar-2 {
+			width: 645px;
+			height: 42px;
+		}
+		.button-1-copy-1 {
+			margin-top: 0px;
+			}
+	.float{
+		margin-left: 550px;
+		}
+	.paragraph-2-copy-1 {
+			margin: auto;
+			}
+			.borde{
+				border-left: 2px solid;
+				border-color: #abaaaa;
+				padding-left: 10px;
+			}
+			.borde2{
+				border-left: 2px solid;
+				border-color: #abaaaa;
+				padding-left: 20px;
+			}
+			.borde-yt{
+			border-left: 2px solid;
+			border-color: #abaaaa;
+			padding-left: 10px;
+			}
+	/* Download */
+	.process-2 {
+		width: 666px;
+		height: 330px;
+		margin-left: 50px;
+		display: block;
+	}
+	.download-for-desktop {
+		width: 408px;
+		height: 169px;
+		font-size: 70px;
+		display: block;
+	}
+	.zefur2{
+		position: absolute;
+		left: 540px;
+	}
+	.chrome2 {
+		position: absolute;
+		top: 255px;
+		left: 820px;
+		display: block;
+	}
+	.opera {
+		position: absolute;
+		top: 255px;
+		left: 1100px;
+		display: block;
+	}
+	.brave {
+		position: absolute;
+		top: 490px; 
+		left: 820px;
+		display: block;
+	}
+	.edge {
+		position: absolute;
+		top: 490px; 
+		left: 1100px;
+		display: block;
+		}
+		.download-for-mobile{
+			width: 465px;
+			height: 171px;
+			margin-top: 0px;
+		}
+	.zefur3{
+		position: absolute;
+		left: 830px;
+		display: block;
+	}
+	
+	.apple {
+		position: absolute;
+		top: 1365px;
+		left: 200px;
+		width: 200px;
+		height: 200px;
+	}
+	
+	.play-store {
+		position: absolute;
+		top: 1625px; 
+		left: 200px;
+		width: 200px;
+		height: 200px;
+	}
+	.mano{
+		position: absolute;
+		top: 1275px; 
+		left: 700px;
+		width: 600px;
+		height: 600px;
+	}
+	/* Features */
+	.h1-features{
+		margin-left: 50px;
+	
+	}
+	
+	.h2-features{
+		margin-left: 50px;
+		
+		}
+	
+	.boton-download {
+		margin-left: 50px;
+	}
+	
+	.img-features{
+		position:absolute;
+		left: 650px;
+	}
+	.rectangulo-1 {
+		margin-left: 0px;
+	}
+	.rectangulo-2 {
+		margin-left: 100px;
+	}
+	.rectangulo-3 {
+		margin-left: 100px;
+	}
+	.gema{
+		position: absolute;
+		left: 40px;
+	}
+	.gas{
+		position: absolute;
+		left: 500px;
+	}
+	.laptop{
+		position: absolute;
+		left: 940px;
+	}
+	.candado{
+		position: absolute;
+		left: 770px;
+	}
+	.carpeta{
+		position: absolute;
+		left: 30px;
+	}
 }
-/* desktop */
-@media screen and (max-width: 1919px) {
-  /* Index */
-  .h1-index {
-    margin: auto;
-    font-size: 60px;
-    width: 698px;
-    height: 241px;
-  }
-  .posicion-chrome {
-    position: absolute;
-    top: 590px;
-    left: 565px;
-  }
-  .process-1 {
-    width: 1056px;
-    height: 714px;
-  }
-  .process-3 {
-    width: 728px;
-    height: 450px;
-  }
-  .flex-item {
-    margin: 30px 30px 15px 30px;
-    text-align: center;
-    display: flex;
-  }
-  .an-authentic {
-    font-size: 50px;
-    width: 698px;
-  }
-  .discover-web3 {
-    width: 645px;
-    height: 68px;
-    font-size: 16px;
-  }
-  .paragraph-1-copy-1 {
-    width: 379px;
-    height: 42px;
-    font-size: 30px;
-    margin: auto;
-  }
-  .carousel-control-prev {
-    left: 15%;
-  }
-  .carousel-control-next {
-    right: 15%;
-  }
-  .paragraph-1-copy-2 {
-    margin: auto;
-  }
-  .for-inquiries {
-    width: 596px;
-    height: 50px;
-    margin-bottom: 0px;
-  }
-  .link-bar-2 {
-    width: 645px;
-    height: 42px;
-  }
-  .button-1-copy-1 {
-    margin-top: 0px;
-  }
-  .float {
-    margin-left: 550px;
-  }
-  .paragraph-2-copy-1 {
-    margin: auto;
-  }
-  .borde {
-    border-left: 2px solid;
-    border-color: #abaaaa;
-    padding-left: 10px;
-  }
-  .borde2 {
-    border-left: 2px solid;
-    border-color: #abaaaa;
-    padding-left: 20px;
-  }
-  .borde-yt {
-    border-left: 2px solid;
-    border-color: #abaaaa;
-    padding-left: 10px;
-  }
-  /* Download */
-  .process-2 {
-    width: 666px;
-    height: 330px;
-    margin-left: 50px;
-    display: block;
-  }
-  .download-for-desktop {
-    width: 408px;
-    height: 169px;
-    font-size: 70px;
-    display: block;
-  }
-  .zefur2 {
-    position: absolute;
-    left: 540px;
-  }
-  .chrome2 {
-    position: absolute;
-    top: 255px;
-    left: 820px;
-    display: block;
-  }
-  .opera {
-    position: absolute;
-    top: 255px;
-    left: 1100px;
-    display: block;
-  }
-  .brave {
-    position: absolute;
-    top: 490px;
-    left: 820px;
-    display: block;
-  }
-  .edge {
-    position: absolute;
-    top: 490px;
-    left: 1100px;
-    display: block;
-  }
-  .download-for-mobile {
-    width: 465px;
-    height: 171px;
-    margin-top: 0px;
-  }
-  .zefur3 {
-    position: absolute;
-    left: 830px;
-    display: block;
-  }
-  .apple {
-    position: absolute;
-    top: 1365px;
-    left: 200px;
-    width: 200px;
-    height: 200px;
-  }
-  .play-store {
-    position: absolute;
-    top: 1625px;
-    left: 200px;
-    width: 200px;
-    height: 200px;
-  }
-  .mano {
-    position: absolute;
-    top: 1275px;
-    left: 700px;
-    width: 600px;
-    height: 600px;
-  }
-  /* Features */
-  .h1-features {
-    margin-left: 50px;
-  }
-  .h2-features {
-    margin-left: 50px;
-  }
-  .boton-download {
-    margin-left: 50px;
-  }
-  .img-features {
-    position: absolute;
-    left: 650px;
-  }
-  .rectangulo-1 {
-    margin-left: 0px;
-  }
-  .rectangulo-2 {
-    margin-left: 100px;
-  }
-  .rectangulo-3 {
-    margin-left: 100px;
-  }
-  .gema {
-    position: absolute;
-    left: 40px;
-  }
-  .gas {
-    position: absolute;
-    left: 500px;
-  }
-  .laptop {
-    position: absolute;
-    left: 940px;
-  }
-  .candado {
-    position: absolute;
-    left: 770px;
-  }
-  .carpeta {
-    position: absolute;
-    left: 30px;
-  }
-}
-/* desktop */
-@media screen and (min-width: 1920px) {
-  /* Index */
-  .h1-index {
-    margin: auto;
-    font-size: 60px;
-    width: 698px;
-    height: 241px;
-  }
-  .posicion-chrome {
-    position: absolute;
-    top: 570px;
-    left: 840px;
-  }
-  .process-1 {
-    width: 1056px;
-    height: 714px;
-  }
-  .process-3 {
-    width: 728px;
-    height: 450px;
-  }
-  .flex-item {
-    margin: 30px 30px 15px 30px;
-    text-align: center;
-    display: flex;
-  }
-  .an-authentic {
-    font-size: 50px;
-    width: 698px;
-  }
-  .discover-web3 {
-    width: 645px;
-    height: 68px;
-    font-size: 16px;
-  }
-  .paragraph-1-copy-1 {
-    width: 379px;
-    height: 42px;
-    font-size: 30px;
-    margin: auto;
-  }
-  .carousel-control-prev {
-    left: 15%;
-  }
-  .carousel-control-next {
-    right: 15%;
-  }
-  .paragraph-1-copy-2 {
-    margin: auto;
-  }
-  .for-inquiries {
-    width: 596px;
-    height: 50px;
-    margin-bottom: 0px;
-  }
-  .link-bar-2 {
-    width: 645px;
-    height: 42px;
-  }
-  .button-1-copy-1 {
-    margin-top: 0px;
-  }
-  .float {
-    margin-left: 550px;
-  }
-  .paragraph-2-copy-1 {
-    margin: auto;
-  }
-  .borde {
-    border-left: 2px solid;
-    border-color: #abaaaa;
-    padding-left: 10px;
-  }
-  .borde2 {
-    border-left: 2px solid;
-    border-color: #abaaaa;
-    padding-left: 20px;
-  }
-  .borde-yt {
-    border-left: 2px solid;
-    border-color: #abaaaa;
-    padding-left: 10px;
-  }
-  /* Download */
-  .process-2 {
-    width: 666px;
-    height: 330px;
-    margin-left: 200px;
-    display: block;
-  }
-  .download-for-desktop {
-    width: 408px;
-    height: 169px;
-    font-size: 70px;
-    display: block;
-  }
-  .zefur2 {
-    position: absolute;
-    left: 690px;
-  }
-  .chrome2 {
-    position: absolute;
-    top: 255px;
-    left: 1100px;
-    display: block;
-  }
-  .opera {
-    position: absolute;
-    top: 255px;
-    left: 1500px;
-    display: block;
-  }
-  .brave {
-    position: absolute;
-    top: 490px;
-    left: 1100px;
-    display: block;
-  }
-  .edge {
-    position: absolute;
-    top: 490px;
-    left: 1500px;
-    display: block;
-  }
-  .download-for-mobile {
-    width: 465px;
-    height: 171px;
-    margin-top: 0px;
-  }
-  .zefur3 {
-    position: absolute;
-    left: 1110px;
-    display: block;
-  }
-  .apple {
-    position: absolute;
-    top: 1365px;
-    left: 380px;
-    width: 200px;
-    height: 200px;
-  }
-  .play-store {
-    position: absolute;
-    top: 1625px;
-    left: 380px;
-    width: 200px;
-    height: 200px;
-  }
-  .mano {
-    position: absolute;
-    top: 1275px;
-    left: 1000px;
-    width: 600px;
-    height: 600px;
-  }
-  /* Features */
-  .h1-features {
-    margin-left: 200px;
-  }
-  .h2-features {
-    margin-left: 200px;
-  }
-  .boton-download {
-    margin-left: 200px;
-  }
-  .img-features {
-    position: absolute;
-    left: 1100px;
-  }
-  .rectangulo-1 {
-    margin-left: 50px;
-  }
-  .rectangulo-2 {
-    margin-left: 200px;
-  }
-  .rectangulo-3 {
-    margin-left: 200px;
-  }
-  .gema {
-    position: absolute;
-    left: 240px;
-  }
-  .gas {
-    position: absolute;
-    left: 810px;
-  }
-  .laptop {
-    position: absolute;
-    left: 1340px;
-  }
-  .candado {
-    position: absolute;
-    left: 1050px;
-  }
-  .carpeta {
-    position: absolute;
-    left: 300px;
-  }
-}/*# sourceMappingURL=styles.css.map */
+
+@media screen and (min-width: 1920px){
+	/* Index */
+	.h1-index{
+		margin: auto;
+		font-size: 60px;
+		width: 698px;
+		height: 241px;
+		}
+	.posicion-chrome{
+		position: absolute;
+		top: 570px;
+		left: 840px;
+	}
+	.process-1{
+		width: 1056px;
+		height: 714px;
+	}
+	.process-3{
+		width: 728px;
+		height: 450px;
+		}
+	.flex-item{
+		margin: 30px 30px 15px 30px;
+		text-align: center;
+		display: flex;
+		}
+		.an-authentic{
+			font-size: 50px;
+			width: 698px;
+			}
+		.discover-web3{
+			width: 645px;
+			height: 68px;
+			font-size: 16px;
+			}
+	.paragraph-1-copy-1{
+		width: 379px;
+		height: 42px;
+		font-size: 30px;
+		margin: auto;
+		}
+	.carousel-control-prev {
+		left: 15%; 
+		}
+		
+	.carousel-control-next {
+		right: 15%; 
+		}
+		
+	.paragraph-1-copy-2 {
+		margin: auto;
+	}
+	.for-inquiries {
+		width: 596px;
+		height: 50px;
+		margin-bottom: 0px;
+		}
+		.link-bar-2 {
+			width: 645px;
+			height: 42px;
+		}
+		.button-1-copy-1 {
+			margin-top: 0px;
+			}
+			.float{
+				margin-left: 550px;
+			}
+			.paragraph-2-copy-1 {
+				margin: auto;
+				}
+				.borde{
+					border-left: 2px solid;
+					border-color: #abaaaa;
+					padding-left: 10px;
+				}
+				.borde2{
+					border-left: 2px solid;
+					border-color: #abaaaa;
+					padding-left: 20px;
+				}
+				.borde-yt{
+				border-left: 2px solid;
+				border-color: #abaaaa;
+				padding-left: 10px;
+				}
+		/* Download */
+		.process-2 {
+			width: 666px;
+			height: 330px;
+			margin-left: 200px;
+			display: block;
+		}
+		.download-for-desktop {
+			width: 408px;
+			height: 169px;
+			font-size: 70px;
+			display: block;
+		}
+		.zefur2{
+			position: absolute;
+			left: 690px;
+		}
+		.chrome2 {
+			position: absolute;
+			top: 255px; 
+			left: 1100px;
+			display: block;
+		}
+		.opera {
+			position: absolute;
+			top: 255px; 
+			left: 1500px;
+			display: block;
+		}
+		.brave {
+			position: absolute;
+			top: 490px; 
+			left: 1100px;
+			display: block;
+		}
+		.edge {
+			position: absolute; 
+			top: 490px;
+			left: 1500px;
+			display: block;
+		}
+		.download-for-mobile{
+			width: 465px;
+			height: 171px;
+			margin-top: 0px;
+		}
+		.zefur3{
+			position: absolute;
+			left: 1110px;
+			display: block;
+		}	
+		
+		.apple {
+			position: absolute;
+			top: 1365px;
+			left: 380px;
+			width: 200px;
+			height: 200px;
+		}
+		
+		.play-store {
+			position: absolute;
+			top: 1625px; 
+			left: 380px;
+			width: 200px;
+			height: 200px;
+		}
+		.mano{
+			position: absolute;
+			top: 1275px; 
+			left: 1000px;
+			width: 600px;
+			height: 600px;
+		}
+		/* Features */
+		.h1-features{
+			margin-left: 200px;
+		}
+		
+		.h2-features{
+			margin-left: 200px;
+			}
+		
+		.boton-download {
+			margin-left: 200px;
+		}
+		
+		.img-features{
+			position:absolute;
+			left: 1100px;
+		}
+		.rectangulo-1 {
+			margin-left: 50px;
+		}
+		.rectangulo-2 {
+			margin-left: 200px;
+		}
+		.rectangulo-3 {
+			margin-left: 200px;
+		}
+		.gema{
+			position: absolute;
+			left: 240px;
+		}
+		.gas{
+			position: absolute;
+			left: 810px;
+			
+		}
+		.laptop{
+			position: absolute;
+			left: 1340px;
+		}
+		.candado{
+			position: absolute;
+			left: 1050px;
+		}
+		.carpeta{
+			position: absolute;
+			left: 300px;
+		}
+	}
