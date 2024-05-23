@@ -1,7 +1,7 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap";
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +17,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+header nav ul li {
+  display: inline;
+  margin-left: 100px;
+  margin-right: 30px;
+}
+header div ul li a:hover {
+  transition: all 0.1s ease;
+  border-top: 3px solid #b37dc8;
+  border-bottom: 3px solid #b37dc8;
+  cursor: pointer;
 }
 
 .logo {
@@ -37,17 +48,27 @@ nav ul {
   text-align: center;
 }
 
-header nav ul li {
-  display: inline;
-  margin-left: 100px;
-  margin-right: 30px;
-}
-
-header div ul li a:hover, footer nav ul li a:hover {
+footer nav ul li a:hover {
   transition: all 0.1s ease;
   border-top: 3px solid #b37dc8;
   border-bottom: 3px solid #b37dc8;
   cursor: pointer;
+}
+footer div form input {
+  padding: 6px 8px 6px 8px;
+  background: #FFFFFF;
+  color: #C0C0C0;
+  border-color: #D6D6D6;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  justify-content: center;
+  width: 250px;
+  margin: 5px;
 }
 
 .float {
@@ -62,7 +83,6 @@ header div ul li a:hover, footer nav ul li a:hover {
 .navbar-toggler {
   border: none;
 }
-
 .navbar-toggler:focus {
   outline: none;
   box-shadow: none;
@@ -80,7 +100,6 @@ div button a {
   font-weight: 400;
   font-weight: bold;
 }
-
 div a p {
   color: #696969;
   font-family: "Source Sans 3";
@@ -277,15 +296,13 @@ section div a {
   height: auto;
 }
 
-.carousel-control-prev, .carousel-control-next {
-  top: 45%;
-}
-
 .carousel-control-prev {
+  top: 45%;
   left: 15%;
 }
 
 .carousel-control-next {
+  top: 45%;
   right: 15%;
 }
 
@@ -322,23 +339,6 @@ section div a {
   margin: auto;
 }
 
-footer div form input {
-  padding: 6px 8px 6px 8px;
-  background: #FFFFFF;
-  color: #C0C0C0;
-  border-color: #D6D6D6;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 10px;
-  font-family: "Source Sans 3";
-  font-weight: 400;
-  font-size: 18px;
-  text-align: left;
-  justify-content: center;
-  width: 250px;
-  margin: 5px;
-}
-
 .contenedor {
   display: flex;
   flex-wrap: wrap;
@@ -347,8 +347,10 @@ footer div form input {
   text-align: left;
 }
 
+/* Final estilos footer */
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 .button-1-copy-1 {
@@ -396,11 +398,6 @@ a {
   line-height: 1.6;
   text-align: center;
   margin: auto;
-}
-
-/* Final estilos footer */
-a {
-  text-decoration: none;
 }
 
 ul li {
@@ -864,6 +861,7 @@ ul li {
 
 /* Final estilos main */
 /* FAQs */
+/* Inicio estilos main */
 .frequently-asked-questions {
   width: 900px;
   height: 94px;
@@ -902,6 +900,7 @@ ul li {
   margin-top: 200px;
 }
 
+/* Final estilos main */
 /* mobile */
 @media screen and (max-width: 767px) {
   /* Index */
@@ -1035,8 +1034,165 @@ ul li {
     height: 400px;
   }
 }
-/* taablet */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+/* tablet */
+@media screen and (min-width: 768px) {
+  /* Index */
+  .h1-index {
+    margin: auto;
+    font-size: 60px;
+    width: 698px;
+    height: 241px;
+  }
+  .posicion-chrome {
+    position: absolute;
+    top: 570px;
+    left: 270px;
+  }
+  .process-1 {
+    width: 720px;
+    height: 714px;
+  }
+  .process-3 {
+    width: 690px;
+    height: 450px;
+  }
+  .flex-item {
+    margin: 25px 25px 15px 25px;
+    text-align: center;
+    display: flex;
+  }
+  .an-authentic {
+    font-size: 50px;
+    width: 698px;
+  }
+  .discover-web3 {
+    width: 645px;
+    height: 68px;
+    font-size: 16px;
+  }
+  .paragraph-1-copy-1 {
+    width: 379px;
+    height: 42px;
+    font-size: 30px;
+    margin: auto;
+  }
+  .carousel-control-prev {
+    left: 2%;
+  }
+  .carousel-control-next {
+    right: 2%;
+  }
+  .paragraph-1-copy-2 {
+    margin-left: -80px;
+  }
+  .for-inquiries {
+    width: 596px;
+    height: 50px;
+    margin-bottom: 0px;
+  }
+  .link-bar-2 {
+    width: 645px;
+    height: 42px;
+  }
+  .button-1-copy-1 {
+    margin-top: 0px;
+  }
+  .float {
+    margin-left: 550px;
+  }
+  .paragraph-2-copy-1 {
+    margin: auto;
+  }
+  .borde {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 10px;
+  }
+  .borde2 {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 20px;
+  }
+  .borde-yt {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 10px;
+  }
+  /* Download */
+  .process-2 {
+    width: 666px;
+    height: 330px;
+    margin-left: 50px;
+    display: block;
+  }
+  .download-for-desktop {
+    width: 408px;
+    height: 169px;
+    font-size: 70px;
+    display: block;
+  }
+  .zefur2 {
+    position: absolute;
+    left: 530px;
+  }
+  .chrome2 {
+    position: absolute;
+    top: 655px;
+    left: 130px;
+    display: block;
+  }
+  .opera {
+    position: absolute;
+    top: 655px;
+    left: 450px;
+    display: block;
+  }
+  .brave {
+    position: absolute;
+    top: 855px;
+    left: 130px;
+    display: block;
+  }
+  .edge {
+    position: absolute;
+    top: 855px;
+    left: 450px;
+    display: block;
+  }
+  .download-for-mobile {
+    width: 465px;
+    height: 171px;
+    margin-top: 0px;
+  }
+  .zefur3 {
+    position: absolute;
+    left: 540px;
+    display: block;
+  }
+  .apple {
+    position: absolute;
+    top: 1365px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+  }
+  .play-store {
+    position: absolute;
+    top: 1625px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+  }
+  .mano {
+    position: absolute;
+    top: 1275px;
+    left: 330px;
+    width: 500px;
+    height: 500px;
+  }
+}
+/* tablet */
+@media screen and (max-width: 1023px) {
   /* Index */
   .h1-index {
     margin: auto;
@@ -1193,7 +1349,7 @@ ul li {
   }
 }
 /* desktop */
-@media screen and (min-width: 1321px) and (max-width: 1919px) {
+@media screen and (min-width: 1321px) {
   /* Index */
   .h1-index {
     margin: auto;
@@ -1392,6 +1548,207 @@ ul li {
     left: 30px;
   }
 }
+/* desktop */
+@media screen and (max-width: 1919px) {
+  /* Index */
+  .h1-index {
+    margin: auto;
+    font-size: 60px;
+    width: 698px;
+    height: 241px;
+  }
+  .posicion-chrome {
+    position: absolute;
+    top: 590px;
+    left: 565px;
+  }
+  .process-1 {
+    width: 1056px;
+    height: 714px;
+  }
+  .process-3 {
+    width: 728px;
+    height: 450px;
+  }
+  .flex-item {
+    margin: 30px 30px 15px 30px;
+    text-align: center;
+    display: flex;
+  }
+  .an-authentic {
+    font-size: 50px;
+    width: 698px;
+  }
+  .discover-web3 {
+    width: 645px;
+    height: 68px;
+    font-size: 16px;
+  }
+  .paragraph-1-copy-1 {
+    width: 379px;
+    height: 42px;
+    font-size: 30px;
+    margin: auto;
+  }
+  .carousel-control-prev {
+    left: 15%;
+  }
+  .carousel-control-next {
+    right: 15%;
+  }
+  .paragraph-1-copy-2 {
+    margin: auto;
+  }
+  .for-inquiries {
+    width: 596px;
+    height: 50px;
+    margin-bottom: 0px;
+  }
+  .link-bar-2 {
+    width: 645px;
+    height: 42px;
+  }
+  .button-1-copy-1 {
+    margin-top: 0px;
+  }
+  .float {
+    margin-left: 550px;
+  }
+  .paragraph-2-copy-1 {
+    margin: auto;
+  }
+  .borde {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 10px;
+  }
+  .borde2 {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 20px;
+  }
+  .borde-yt {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 10px;
+  }
+  /* Download */
+  .process-2 {
+    width: 666px;
+    height: 330px;
+    margin-left: 50px;
+    display: block;
+  }
+  .download-for-desktop {
+    width: 408px;
+    height: 169px;
+    font-size: 70px;
+    display: block;
+  }
+  .zefur2 {
+    position: absolute;
+    left: 540px;
+  }
+  .chrome2 {
+    position: absolute;
+    top: 255px;
+    left: 820px;
+    display: block;
+  }
+  .opera {
+    position: absolute;
+    top: 255px;
+    left: 1100px;
+    display: block;
+  }
+  .brave {
+    position: absolute;
+    top: 490px;
+    left: 820px;
+    display: block;
+  }
+  .edge {
+    position: absolute;
+    top: 490px;
+    left: 1100px;
+    display: block;
+  }
+  .download-for-mobile {
+    width: 465px;
+    height: 171px;
+    margin-top: 0px;
+  }
+  .zefur3 {
+    position: absolute;
+    left: 830px;
+    display: block;
+  }
+  .apple {
+    position: absolute;
+    top: 1365px;
+    left: 200px;
+    width: 200px;
+    height: 200px;
+  }
+  .play-store {
+    position: absolute;
+    top: 1625px;
+    left: 200px;
+    width: 200px;
+    height: 200px;
+  }
+  .mano {
+    position: absolute;
+    top: 1275px;
+    left: 700px;
+    width: 600px;
+    height: 600px;
+  }
+  /* Features */
+  .h1-features {
+    margin-left: 50px;
+  }
+  .h2-features {
+    margin-left: 50px;
+  }
+  .boton-download {
+    margin-left: 50px;
+  }
+  .img-features {
+    position: absolute;
+    left: 650px;
+  }
+  .rectangulo-1 {
+    margin-left: 0px;
+  }
+  .rectangulo-2 {
+    margin-left: 100px;
+  }
+  .rectangulo-3 {
+    margin-left: 100px;
+  }
+  .gema {
+    position: absolute;
+    left: 40px;
+  }
+  .gas {
+    position: absolute;
+    left: 500px;
+  }
+  .laptop {
+    position: absolute;
+    left: 940px;
+  }
+  .candado {
+    position: absolute;
+    left: 770px;
+  }
+  .carpeta {
+    position: absolute;
+    left: 30px;
+  }
+}
+/* desktop */
 @media screen and (min-width: 1920px) {
   /* Index */
   .h1-index {
