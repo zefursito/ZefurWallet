@@ -901,723 +901,1334 @@ ul li {
 }
 
 /* Final estilos main */
+/* About */
+.our-goal {
+  width: 845px;
+  height: 161px;
+  color: #444444;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.3;
+  text-align: center;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.a-user-friendly {
+  width: 577px;
+  height: 67px;
+  color: #444444;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.3;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.our-purpose {
+  width: 1086px;
+  height: 410px;
+  padding: 10px 10px 10px 10px;
+  background: linear-gradient(180deg, rgb(137, 109, 242) 0%, rgb(243, 243, 243) 98%);
+  border-color: #FFFFFF;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 70px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.h3-our {
+  font-size: 30px;
+  color: #444444;
+  font-family: "Source Sans 3";
+  font-weight: bold;
+  line-height: 1.3;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.h1-our-adentro {
+  font-size: 50px;
+  color: #444444;
+  font-family: "Source Sans 3";
+  font-weight: bold;
+  line-height: 1.3;
+  text-align: center;
+  margin: auto;
+  height: 70px;
+}
+
+.p-our {
+  width: 564px;
+  height: 67px;
+  color: #444444;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.3;
+  text-align: left;
+  margin-top: 70px;
+  margin-left: 80px;
+}
+
+.celu-our {
+  position: absolute;
+  top: 650px;
+  left: 1150px;
+}
+
+.p-our2 {
+  width: 564px;
+  height: 67px;
+  color: #444444;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.3;
+  text-align: left;
+  margin-top: 120px;
+  margin-left: 80px;
+}
+
+.compu-our {
+  position: absolute;
+  top: 1180px;
+  left: 1080px;
+  width: 400px;
+  height: 350px;
+}
+
+.join-our {
+  width: 1209px;
+  height: 1226px;
+  padding: 10px 10px 10px 10px;
+  background: linear-gradient(180deg, rgb(137, 109, 242) 0%, rgb(243, 243, 243) 98%);
+  border-color: #FFFFFF;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 100px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.h1-join-our {
+  font-family: "Source Sans 3";
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.3;
+  color: #444444;
+  width: 578px;
+  height: 157px;
+  font-size: 45px;
+  margin: auto;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.h3-join-our {
+  width: 578px;
+  height: 54px;
+  color: #696969;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.3;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.h4-join-our {
+  width: 564px;
+  height: 99px;
+  color: #444444;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.3;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.escudo-join-our {
+  position: absolute;
+  top: 1850px;
+  left: 1100px;
+  width: 300px;
+  height: 300px;
+}
+
+.h3-join-our2 {
+  width: 578px;
+  height: 54px;
+  color: #696969;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.3;
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 600px;
+}
+
+.h4-join-our2 {
+  width: 564px;
+  height: 99px;
+  color: #444444;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.3;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 600px;
+}
+
+.mundo-join-our {
+  position: absolute;
+  top: 2120px;
+  left: 470px;
+  width: 300px;
+  height: 300px;
+}
+
+.h3-join-our3 {
+  width: 578px;
+  height: 54px;
+  color: #696969;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.3;
+  text-align: left;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.h4-join-our3 {
+  width: 564px;
+  height: 99px;
+  color: #444444;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.3;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.telescopio-join-our {
+  position: absolute;
+  top: 2450px;
+  left: 1100px;
+  width: 300px;
+  height: 300px;
+}
+
+.h1-our-values {
+  height: 70px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.flexbox-about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-item-about {
+  display: flex;
+}
+
+.cuadrado-our {
+  width: 520px;
+  height: 248px;
+  padding: 10px 10px 10px 10px;
+  background: linear-gradient(180deg, rgb(137, 109, 242) 0%, rgb(243, 243, 243) 98%);
+  border-color: #FFFFFF;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 70px;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+.h3-our-values {
+  width: 700px;
+  height: 70px;
+  font-family: "Source Sans 3";
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.3;
+  text-align: left;
+  color: #444444;
+  margin-left: 40px;
+}
+
+.h4-our-values {
+  width: 434px;
+  height: 119px;
+  color: #444444;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.3;
+  text-align: left;
+  margin-top: 60px;
+  margin-left: -700px;
+}
+
 /* mobile */
-@media screen and  (max-width: 767px){
-	/* Index */
-.h1-index{
-	margin: auto;
-	font-size: 40px;
-	width: 300px;
-	height: 240px;
-	}
-.posicion-chrome{
-	position: absolute;
-	top: 600px;
-	left: 50px;
+@media screen and (max-width: 767px) {
+  /* Index */
+  .h1-index {
+    margin: auto;
+    font-size: 40px;
+    width: 300px;
+    height: 240px;
+  }
+  .posicion-chrome {
+    position: absolute;
+    top: 600px;
+    left: 50px;
+  }
+  .process-1 {
+    width: 315px;
+    height: 1350px;
+  }
+  .process-3 {
+    width: 290px;
+    height: 1100px;
+  }
+  .flex-item {
+    margin: 30px 30px 15px 30px;
+    text-align: center;
+    display: flex;
+  }
+  .an-authentic {
+    font-size: 25px;
+    width: 300px;
+    text-align: center;
+  }
+  .discover-web3 {
+    width: 300px;
+    height: 80px;
+    font-size: 16px;
+  }
+  .paragraph-1-copy-1 {
+    width: 300px;
+    height: 42px;
+    font-size: 21px;
+    margin-left: -10px;
+  }
+  .carousel-control-prev {
+    left: -2%;
+  }
+  .carousel-control-next {
+    right: -2%;
+  }
+  .paragraph-1-copy-2 {
+    margin-left: -300px;
+    margin-bottom: 10px;
+  }
+  .for-inquiries {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  .link-bar-2 {
+    width: 310px;
+    height: 42px;
+  }
+  .button-1-copy-1 {
+    margin-top: 10px;
+  }
+  .paragraph-2-copy-1 {
+    margin-left: -40px;
+  }
+  .float {
+    margin-left: 100px;
+  }
+  .borde {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 4px;
+  }
+  .borde2 {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 20px;
+  }
+  .borde-yt {
+    border-left: none;
+  }
+  /* Download */
+  .process-2 {
+    display: none;
+  }
+  .download-for-desktop {
+    display: none;
+  }
+  .chrome2 {
+    display: none;
+  }
+  .opera {
+    display: none;
+  }
+  .brave {
+    display: none;
+  }
+  .edge {
+    display: none;
+  }
+  .download-for-mobile {
+    width: 314px;
+    height: 171px;
+    margin-top: 100px;
+  }
+  .zefur3 {
+    display: none;
+  }
+  .apple {
+    position: absolute;
+    top: 400px;
+    left: 5px;
+    width: 150px;
+    height: 150px;
+  }
+  .play-store {
+    position: absolute;
+    top: 400px;
+    left: 165px;
+    width: 150px;
+    height: 150px;
+  }
+  .mano {
+    position: absolute;
+    top: 580px;
+    left: -20px;
+    width: 400px;
+    height: 400px;
+  }
 }
-.process-1{
-	width: 315px;
-	height: 1350px;
+/* tablet */
+@media screen and (min-width: 768px) {
+  /* Index */
+  .h1-index {
+    margin: auto;
+    font-size: 60px;
+    width: 698px;
+    height: 241px;
+  }
+  .posicion-chrome {
+    position: absolute;
+    top: 570px;
+    left: 270px;
+  }
+  .process-1 {
+    width: 720px;
+    height: 714px;
+  }
+  .process-3 {
+    width: 690px;
+    height: 450px;
+  }
+  .flex-item {
+    margin: 25px 25px 15px 25px;
+    text-align: center;
+    display: flex;
+  }
+  .an-authentic {
+    font-size: 50px;
+    width: 698px;
+  }
+  .discover-web3 {
+    width: 645px;
+    height: 68px;
+    font-size: 16px;
+  }
+  .paragraph-1-copy-1 {
+    width: 379px;
+    height: 42px;
+    font-size: 30px;
+    margin: auto;
+  }
+  .carousel-control-prev {
+    left: 2%;
+  }
+  .carousel-control-next {
+    right: 2%;
+  }
+  .paragraph-1-copy-2 {
+    margin-left: -80px;
+  }
+  .for-inquiries {
+    width: 596px;
+    height: 50px;
+    margin-bottom: 0px;
+  }
+  .link-bar-2 {
+    width: 645px;
+    height: 42px;
+  }
+  .button-1-copy-1 {
+    margin-top: 0px;
+  }
+  .float {
+    margin-left: 550px;
+  }
+  .paragraph-2-copy-1 {
+    margin: auto;
+  }
+  .borde {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 10px;
+  }
+  .borde2 {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 20px;
+  }
+  .borde-yt {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 10px;
+  }
+  /* Download */
+  .process-2 {
+    width: 666px;
+    height: 330px;
+    margin-left: 50px;
+    display: block;
+  }
+  .download-for-desktop {
+    width: 408px;
+    height: 169px;
+    font-size: 70px;
+    display: block;
+  }
+  .zefur2 {
+    position: absolute;
+    left: 530px;
+  }
+  .chrome2 {
+    position: absolute;
+    top: 655px;
+    left: 130px;
+    display: block;
+  }
+  .opera {
+    position: absolute;
+    top: 655px;
+    left: 450px;
+    display: block;
+  }
+  .brave {
+    position: absolute;
+    top: 855px;
+    left: 130px;
+    display: block;
+  }
+  .edge {
+    position: absolute;
+    top: 855px;
+    left: 450px;
+    display: block;
+  }
+  .download-for-mobile {
+    width: 465px;
+    height: 171px;
+    margin-top: 0px;
+  }
+  .zefur3 {
+    position: absolute;
+    left: 540px;
+    display: block;
+  }
+  .apple {
+    position: absolute;
+    top: 1365px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+  }
+  .play-store {
+    position: absolute;
+    top: 1625px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+  }
+  .mano {
+    position: absolute;
+    top: 1275px;
+    left: 330px;
+    width: 500px;
+    height: 500px;
+  }
 }
-.process-3{
-	width: 290px;
-	height: 1100px;
-	
+/* tablet */
+@media screen and (max-width: 1023px) {
+  /* Index */
+  .h1-index {
+    margin: auto;
+    font-size: 60px;
+    width: 698px;
+    height: 241px;
+  }
+  .posicion-chrome {
+    position: absolute;
+    top: 570px;
+    left: 270px;
+  }
+  .process-1 {
+    width: 720px;
+    height: 714px;
+  }
+  .process-3 {
+    width: 690px;
+    height: 450px;
+  }
+  .flex-item {
+    margin: 25px 25px 15px 25px;
+    text-align: center;
+    display: flex;
+  }
+  .an-authentic {
+    font-size: 50px;
+    width: 698px;
+  }
+  .discover-web3 {
+    width: 645px;
+    height: 68px;
+    font-size: 16px;
+  }
+  .paragraph-1-copy-1 {
+    width: 379px;
+    height: 42px;
+    font-size: 30px;
+    margin: auto;
+  }
+  .carousel-control-prev {
+    left: 2%;
+  }
+  .carousel-control-next {
+    right: 2%;
+  }
+  .paragraph-1-copy-2 {
+    margin-left: -80px;
+  }
+  .for-inquiries {
+    width: 596px;
+    height: 50px;
+    margin-bottom: 0px;
+  }
+  .link-bar-2 {
+    width: 645px;
+    height: 42px;
+  }
+  .button-1-copy-1 {
+    margin-top: 0px;
+  }
+  .float {
+    margin-left: 550px;
+  }
+  .paragraph-2-copy-1 {
+    margin: auto;
+  }
+  .borde {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 10px;
+  }
+  .borde2 {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 20px;
+  }
+  .borde-yt {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 10px;
+  }
+  /* Download */
+  .process-2 {
+    width: 666px;
+    height: 330px;
+    margin-left: 50px;
+    display: block;
+  }
+  .download-for-desktop {
+    width: 408px;
+    height: 169px;
+    font-size: 70px;
+    display: block;
+  }
+  .zefur2 {
+    position: absolute;
+    left: 530px;
+  }
+  .chrome2 {
+    position: absolute;
+    top: 655px;
+    left: 130px;
+    display: block;
+  }
+  .opera {
+    position: absolute;
+    top: 655px;
+    left: 450px;
+    display: block;
+  }
+  .brave {
+    position: absolute;
+    top: 855px;
+    left: 130px;
+    display: block;
+  }
+  .edge {
+    position: absolute;
+    top: 855px;
+    left: 450px;
+    display: block;
+  }
+  .download-for-mobile {
+    width: 465px;
+    height: 171px;
+    margin-top: 0px;
+  }
+  .zefur3 {
+    position: absolute;
+    left: 540px;
+    display: block;
+  }
+  .apple {
+    position: absolute;
+    top: 1365px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+  }
+  .play-store {
+    position: absolute;
+    top: 1625px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+  }
+  .mano {
+    position: absolute;
+    top: 1275px;
+    left: 330px;
+    width: 500px;
+    height: 500px;
+  }
 }
-.flex-item{
-	margin: 30px 30px 15px 30px;
-	text-align: center;
-	display: flex;
-}
-.an-authentic{
-	font-size: 25px;
-	width: 300px;
-	text-align: center;
-}
-.discover-web3{
-	width: 300px;
-	height: 80px;
-	font-size: 16px;
-	}
-.paragraph-1-copy-1{
-	width: 300px;
-	height: 42px;
-	font-size: 21px;
-	margin-left: -10px;
-	}
-.carousel-control-prev {
-	left: -2%; 
-	
-	}		
-.carousel-control-next {
-	right: -2%; 
-	}
-.paragraph-1-copy-2 {
-	margin-left: -300px;
-	margin-bottom: 10px;
-	}
-.for-inquiries {
-	width: 300px;
-	height: 50px;
-	margin-bottom: 15px;
-	}
-	.link-bar-2 {
-		width: 310px;
-		height: 42px;
-	}
-.button-1-copy-1 {
-	margin-top: 10px;
-	}
-.paragraph-2-copy-1 {
-	margin-left: -40px;
-	}
-	.float{
-		margin-left: 100px;
-	}
-	.borde{
-		border-left: 2px solid;
-		border-color: #abaaaa;
-		padding-left: 4px;
-	}
-	.borde2{
-		border-left: 2px solid;
-		border-color: #abaaaa;
-		padding-left: 20px;
-	}
-	
-	.borde-yt{
-	border-left: none;
-	}
-
-	
-/* Download */
-.process-2 {
-display: none;
-}
-
-.download-for-desktop {
-	display: none;
-}
-.chrome2 {
-	display: none;
-}
-.opera {
-	display: none;
-}
-.brave {
-	display: none;
-}
-.edge {
-	display: none;
-}
-
-.download-for-mobile{
-	width: 314px;
-	height: 171px;
-	margin-top: 100px;
-}
-.zefur3{
-	display: none;
-}	
-
-.apple {
-	position: absolute;
-	top: 400px;
-	left: 5px;
-	width: 150px;
-	height: 150px;
-}
-
-.play-store {
-	position: absolute;
-	top: 400px; 
-	left: 165px;
-	width: 150px;
-	height: 150px;
-}
-.mano{
-	position: absolute;
-	top: 580px; 
-	left: -20px;
-	width: 400px;
-	height: 400px;
-}
-}
-/* taablet */
-@media screen and (min-width: 768px), and (max-width: 1023px){
-	/* Index */
-		.h1-index{
-		margin: auto;
-		font-size: 60px;
-		width: 698px;
-		height: 241px;
-		}
-	.posicion-chrome{
-		position: absolute;
-		top: 570px;
-		left: 270px;
-	}
-	.process-1{
-		width: 720px;
-		height: 714px;
-	}
-		.process-3{
-		width: 690px;
-		height: 450px;
-	}
-	.flex-item{
-		margin: 25px 25px 15px 25px;
-		text-align: center;
-		display: flex;
-	}
-	.an-authentic{
-		font-size: 50px;
-		width: 698px;
-	}
-	.discover-web3{
-		width: 645px;
-		height: 68px;
-		font-size: 16px;
-	}
-	.paragraph-1-copy-1{
-		width: 379px;
-		height: 42px;
-		font-size: 30px;
-		margin: auto;
-	}
-	.carousel-control-prev {
-	left: 2%; 
-	}
-		
-	.carousel-control-next {
-		right: 2%; 
-	}
-	.paragraph-1-copy-2 {
-		margin-left: -80px;
-	}
-	.for-inquiries {
-		width: 596px;
-		height: 50px;
-		margin-bottom: 0px;
-		}
-	.link-bar-2 {
-		width: 645px;
-		height: 42px;
-	}
-	.button-1-copy-1 {
-		margin-top: 0px;
-		}
-		.float{
-			margin-left: 550px;
-		}
-	.paragraph-2-copy-1 {
-			margin: auto;
-			}
-			.borde{
-				border-left: 2px solid;
-				border-color: #abaaaa;
-				padding-left: 10px;
-			}
-			.borde2{
-				border-left: 2px solid;
-				border-color: #abaaaa;
-				padding-left: 20px;
-			}
-			
-			.borde-yt{
-			border-left: 2px solid;
-			border-color: #abaaaa;
-			padding-left: 10px;
-			}
-	/* Download */
-	.process-2 {
-		width: 666px;
-		height: 330px;
-		margin-left: 50px;
-		display: block;
-	}
-	.download-for-desktop {
-		width: 408px;
-		height: 169px;
-		font-size: 70px;
-		display: block;
-	}
-	.zefur2{
-		position: absolute;
-		left: 530px;
-	}
-	.chrome2 {
-		position: absolute;
-		top: 655px;
-		left: 130px;
-		display: block;
-	}
-	.opera {
-		position: absolute;
-		top: 655px;
-		left: 450px;
-		display: block;
-	}
-	.brave {
-		position: absolute;
-		top: 855px; 
-		left: 130px;
-		display: block;
-	}
-	.edge {
-		position: absolute; 
-		top: 855px;
-		left: 450px;
-		display: block;
-	}
-	.download-for-mobile{
-		width: 465px;
-		height: 171px;
-		margin-top: 0px;
-	}
-	.zefur3{
-		position: absolute;
-		left: 540px;
-		display: block;
-	}	
-	
-	.apple {
-		position: absolute;
-		top: 1365px;
-		left: 100px;
-		width: 200px;
-		height: 200px;
-	}
-	
-	.play-store {
-		position: absolute;
-		top: 1625px; 
-		left: 100px;
-		width: 200px;
-		height: 200px;
-	}
-	.mano{
-		position: absolute;
-		top: 1275px; 
-		left: 330px;
-		width: 500px;
-		height: 500px;
-	}
-}
-
 /* desktop */
-@media screen and (min-width: 1321px), and (max-width: 1919px){
-	/* Index */
-	.h1-index{
-		margin: auto;
-		font-size: 60px;
-		width: 698px;
-		height: 241px;
-		}
-	.posicion-chrome{
-		position: absolute;
-		top: 590px;
-		left: 565px;
-	}
-	.process-1{
-		width: 1056px;
-		height: 714px;
-	}
-	.process-3{
-		width: 728px;
-		height: 450px;
-		}
-		.flex-item{
-			margin: 30px 30px 15px 30px;
-			text-align: center;
-			display: flex;
-		}
-	.an-authentic{
-		font-size: 50px;
-		width: 698px;
-		}
-	.discover-web3{
-		width: 645px;
-		height: 68px;
-		font-size: 16px;
-		}
-	.paragraph-1-copy-1{
-		width: 379px;
-		height: 42px;
-		font-size: 30px;
-		margin: auto;
-	}
-	.carousel-control-prev {
-		left: 15%; 
-	}
-	
-	.carousel-control-next {
-		right: 15%; 
-	}
-	.paragraph-1-copy-2 {
-		margin: auto;
-	}
-	.for-inquiries {
-		width: 596px;
-		height: 50px;
-		margin-bottom: 0px;
-		}
-		.link-bar-2 {
-			width: 645px;
-			height: 42px;
-		}
-		.button-1-copy-1 {
-			margin-top: 0px;
-			}
-	.float{
-		margin-left: 550px;
-		}
-	.paragraph-2-copy-1 {
-			margin: auto;
-			}
-			.borde{
-				border-left: 2px solid;
-				border-color: #abaaaa;
-				padding-left: 10px;
-			}
-			.borde2{
-				border-left: 2px solid;
-				border-color: #abaaaa;
-				padding-left: 20px;
-			}
-			.borde-yt{
-			border-left: 2px solid;
-			border-color: #abaaaa;
-			padding-left: 10px;
-			}
-	/* Download */
-	.process-2 {
-		width: 666px;
-		height: 330px;
-		margin-left: 50px;
-		display: block;
-	}
-	.download-for-desktop {
-		width: 408px;
-		height: 169px;
-		font-size: 70px;
-		display: block;
-	}
-	.zefur2{
-		position: absolute;
-		left: 540px;
-	}
-	.chrome2 {
-		position: absolute;
-		top: 255px;
-		left: 820px;
-		display: block;
-	}
-	.opera {
-		position: absolute;
-		top: 255px;
-		left: 1100px;
-		display: block;
-	}
-	.brave {
-		position: absolute;
-		top: 490px; 
-		left: 820px;
-		display: block;
-	}
-	.edge {
-		position: absolute;
-		top: 490px; 
-		left: 1100px;
-		display: block;
-		}
-		.download-for-mobile{
-			width: 465px;
-			height: 171px;
-			margin-top: 0px;
-		}
-	.zefur3{
-		position: absolute;
-		left: 830px;
-		display: block;
-	}
-	
-	.apple {
-		position: absolute;
-		top: 1365px;
-		left: 200px;
-		width: 200px;
-		height: 200px;
-	}
-	
-	.play-store {
-		position: absolute;
-		top: 1625px; 
-		left: 200px;
-		width: 200px;
-		height: 200px;
-	}
-	.mano{
-		position: absolute;
-		top: 1275px; 
-		left: 700px;
-		width: 600px;
-		height: 600px;
-	}
-	/* Features */
-	.h1-features{
-		margin-left: 50px;
-	
-	}
-	
-	.h2-features{
-		margin-left: 50px;
-		
-		}
-	
-	.boton-download {
-		margin-left: 50px;
-	}
-	
-	.img-features{
-		position:absolute;
-		left: 650px;
-	}
-	.rectangulo-1 {
-		margin-left: 0px;
-	}
-	.rectangulo-2 {
-		margin-left: 100px;
-	}
-	.rectangulo-3 {
-		margin-left: 100px;
-	}
-	.gema{
-		position: absolute;
-		left: 40px;
-	}
-	.gas{
-		position: absolute;
-		left: 500px;
-	}
-	.laptop{
-		position: absolute;
-		left: 940px;
-	}
-	.candado{
-		position: absolute;
-		left: 770px;
-	}
-	.carpeta{
-		position: absolute;
-		left: 30px;
-	}
+@media screen and (min-width: 1321px) {
+  /* Index */
+  .h1-index {
+    margin: auto;
+    font-size: 60px;
+    width: 698px;
+    height: 241px;
+  }
+  .posicion-chrome {
+    position: absolute;
+    top: 590px;
+    left: 565px;
+  }
+  .process-1 {
+    width: 1056px;
+    height: 714px;
+  }
+  .process-3 {
+    width: 728px;
+    height: 450px;
+  }
+  .flex-item {
+    margin: 30px 30px 15px 30px;
+    text-align: center;
+    display: flex;
+  }
+  .an-authentic {
+    font-size: 50px;
+    width: 698px;
+  }
+  .discover-web3 {
+    width: 645px;
+    height: 68px;
+    font-size: 16px;
+  }
+  .paragraph-1-copy-1 {
+    width: 379px;
+    height: 42px;
+    font-size: 30px;
+    margin: auto;
+  }
+  .carousel-control-prev {
+    left: 15%;
+  }
+  .carousel-control-next {
+    right: 15%;
+  }
+  .paragraph-1-copy-2 {
+    margin: auto;
+  }
+  .for-inquiries {
+    width: 596px;
+    height: 50px;
+    margin-bottom: 0px;
+  }
+  .link-bar-2 {
+    width: 645px;
+    height: 42px;
+  }
+  .button-1-copy-1 {
+    margin-top: 0px;
+  }
+  .float {
+    margin-left: 550px;
+  }
+  .paragraph-2-copy-1 {
+    margin: auto;
+  }
+  .borde {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 10px;
+  }
+  .borde2 {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 20px;
+  }
+  .borde-yt {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 10px;
+  }
+  /* Download */
+  .process-2 {
+    width: 666px;
+    height: 330px;
+    margin-left: 50px;
+    display: block;
+  }
+  .download-for-desktop {
+    width: 408px;
+    height: 169px;
+    font-size: 70px;
+    display: block;
+  }
+  .zefur2 {
+    position: absolute;
+    left: 540px;
+  }
+  .chrome2 {
+    position: absolute;
+    top: 255px;
+    left: 820px;
+    display: block;
+  }
+  .opera {
+    position: absolute;
+    top: 255px;
+    left: 1100px;
+    display: block;
+  }
+  .brave {
+    position: absolute;
+    top: 490px;
+    left: 820px;
+    display: block;
+  }
+  .edge {
+    position: absolute;
+    top: 490px;
+    left: 1100px;
+    display: block;
+  }
+  .download-for-mobile {
+    width: 465px;
+    height: 171px;
+    margin-top: 0px;
+  }
+  .zefur3 {
+    position: absolute;
+    left: 830px;
+    display: block;
+  }
+  .apple {
+    position: absolute;
+    top: 1365px;
+    left: 200px;
+    width: 200px;
+    height: 200px;
+  }
+  .play-store {
+    position: absolute;
+    top: 1625px;
+    left: 200px;
+    width: 200px;
+    height: 200px;
+  }
+  .mano {
+    position: absolute;
+    top: 1275px;
+    left: 700px;
+    width: 600px;
+    height: 600px;
+  }
+  /* Features */
+  .h1-features {
+    margin-left: 50px;
+  }
+  .h2-features {
+    margin-left: 50px;
+  }
+  .boton-download {
+    margin-left: 50px;
+  }
+  .img-features {
+    position: absolute;
+    left: 650px;
+  }
+  .rectangulo-1 {
+    margin-left: 0px;
+  }
+  .rectangulo-2 {
+    margin-left: 100px;
+  }
+  .rectangulo-3 {
+    margin-left: 100px;
+  }
+  .gema {
+    position: absolute;
+    left: 40px;
+  }
+  .gas {
+    position: absolute;
+    left: 500px;
+  }
+  .laptop {
+    position: absolute;
+    left: 940px;
+  }
+  .candado {
+    position: absolute;
+    left: 770px;
+  }
+  .carpeta {
+    position: absolute;
+    left: 30px;
+  }
 }
-
-@media screen and (min-width: 1920px){
-	/* Index */
-	.h1-index{
-		margin: auto;
-		font-size: 60px;
-		width: 698px;
-		height: 241px;
-		}
-	.posicion-chrome{
-		position: absolute;
-		top: 570px;
-		left: 840px;
-	}
-	.process-1{
-		width: 1056px;
-		height: 714px;
-	}
-	.process-3{
-		width: 728px;
-		height: 450px;
-		}
-	.flex-item{
-		margin: 30px 30px 15px 30px;
-		text-align: center;
-		display: flex;
-		}
-		.an-authentic{
-			font-size: 50px;
-			width: 698px;
-			}
-		.discover-web3{
-			width: 645px;
-			height: 68px;
-			font-size: 16px;
-			}
-	.paragraph-1-copy-1{
-		width: 379px;
-		height: 42px;
-		font-size: 30px;
-		margin: auto;
-		}
-	.carousel-control-prev {
-		left: 15%; 
-		}
-		
-	.carousel-control-next {
-		right: 15%; 
-		}
-		
-	.paragraph-1-copy-2 {
-		margin: auto;
-	}
-	.for-inquiries {
-		width: 596px;
-		height: 50px;
-		margin-bottom: 0px;
-		}
-		.link-bar-2 {
-			width: 645px;
-			height: 42px;
-		}
-		.button-1-copy-1 {
-			margin-top: 0px;
-			}
-			.float{
-				margin-left: 550px;
-			}
-			.paragraph-2-copy-1 {
-				margin: auto;
-				}
-				.borde{
-					border-left: 2px solid;
-					border-color: #abaaaa;
-					padding-left: 10px;
-				}
-				.borde2{
-					border-left: 2px solid;
-					border-color: #abaaaa;
-					padding-left: 20px;
-				}
-				.borde-yt{
-				border-left: 2px solid;
-				border-color: #abaaaa;
-				padding-left: 10px;
-				}
-		/* Download */
-		.process-2 {
-			width: 666px;
-			height: 330px;
-			margin-left: 200px;
-			display: block;
-		}
-		.download-for-desktop {
-			width: 408px;
-			height: 169px;
-			font-size: 70px;
-			display: block;
-		}
-		.zefur2{
-			position: absolute;
-			left: 690px;
-		}
-		.chrome2 {
-			position: absolute;
-			top: 255px; 
-			left: 1100px;
-			display: block;
-		}
-		.opera {
-			position: absolute;
-			top: 255px; 
-			left: 1500px;
-			display: block;
-		}
-		.brave {
-			position: absolute;
-			top: 490px; 
-			left: 1100px;
-			display: block;
-		}
-		.edge {
-			position: absolute; 
-			top: 490px;
-			left: 1500px;
-			display: block;
-		}
-		.download-for-mobile{
-			width: 465px;
-			height: 171px;
-			margin-top: 0px;
-		}
-		.zefur3{
-			position: absolute;
-			left: 1110px;
-			display: block;
-		}	
-		
-		.apple {
-			position: absolute;
-			top: 1365px;
-			left: 380px;
-			width: 200px;
-			height: 200px;
-		}
-		
-		.play-store {
-			position: absolute;
-			top: 1625px; 
-			left: 380px;
-			width: 200px;
-			height: 200px;
-		}
-		.mano{
-			position: absolute;
-			top: 1275px; 
-			left: 1000px;
-			width: 600px;
-			height: 600px;
-		}
-		/* Features */
-		.h1-features{
-			margin-left: 200px;
-		}
-		
-		.h2-features{
-			margin-left: 200px;
-			}
-		
-		.boton-download {
-			margin-left: 200px;
-		}
-		
-		.img-features{
-			position:absolute;
-			left: 1100px;
-		}
-		.rectangulo-1 {
-			margin-left: 50px;
-		}
-		.rectangulo-2 {
-			margin-left: 200px;
-		}
-		.rectangulo-3 {
-			margin-left: 200px;
-		}
-		.gema{
-			position: absolute;
-			left: 240px;
-		}
-		.gas{
-			position: absolute;
-			left: 810px;
-			
-		}
-		.laptop{
-			position: absolute;
-			left: 1340px;
-		}
-		.candado{
-			position: absolute;
-			left: 1050px;
-		}
-		.carpeta{
-			position: absolute;
-			left: 300px;
-		}
-	}
+/* desktop */
+@media screen and (max-width: 1919px) {
+  /* Index */
+  .h1-index {
+    margin: auto;
+    font-size: 60px;
+    width: 698px;
+    height: 241px;
+  }
+  .posicion-chrome {
+    position: absolute;
+    top: 590px;
+    left: 565px;
+  }
+  .process-1 {
+    width: 1056px;
+    height: 714px;
+  }
+  .process-3 {
+    width: 728px;
+    height: 450px;
+  }
+  .flex-item {
+    margin: 30px 30px 15px 30px;
+    text-align: center;
+    display: flex;
+  }
+  .an-authentic {
+    font-size: 50px;
+    width: 698px;
+  }
+  .discover-web3 {
+    width: 645px;
+    height: 68px;
+    font-size: 16px;
+  }
+  .paragraph-1-copy-1 {
+    width: 379px;
+    height: 42px;
+    font-size: 30px;
+    margin: auto;
+  }
+  .carousel-control-prev {
+    left: 15%;
+  }
+  .carousel-control-next {
+    right: 15%;
+  }
+  .paragraph-1-copy-2 {
+    margin: auto;
+  }
+  .for-inquiries {
+    width: 596px;
+    height: 50px;
+    margin-bottom: 0px;
+  }
+  .link-bar-2 {
+    width: 645px;
+    height: 42px;
+  }
+  .button-1-copy-1 {
+    margin-top: 0px;
+  }
+  .float {
+    margin-left: 550px;
+  }
+  .paragraph-2-copy-1 {
+    margin: auto;
+  }
+  .borde {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 10px;
+  }
+  .borde2 {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 20px;
+  }
+  .borde-yt {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 10px;
+  }
+  /* Download */
+  .process-2 {
+    width: 666px;
+    height: 330px;
+    margin-left: 50px;
+    display: block;
+  }
+  .download-for-desktop {
+    width: 408px;
+    height: 169px;
+    font-size: 70px;
+    display: block;
+  }
+  .zefur2 {
+    position: absolute;
+    left: 540px;
+  }
+  .chrome2 {
+    position: absolute;
+    top: 255px;
+    left: 820px;
+    display: block;
+  }
+  .opera {
+    position: absolute;
+    top: 255px;
+    left: 1100px;
+    display: block;
+  }
+  .brave {
+    position: absolute;
+    top: 490px;
+    left: 820px;
+    display: block;
+  }
+  .edge {
+    position: absolute;
+    top: 490px;
+    left: 1100px;
+    display: block;
+  }
+  .download-for-mobile {
+    width: 465px;
+    height: 171px;
+    margin-top: 0px;
+  }
+  .zefur3 {
+    position: absolute;
+    left: 830px;
+    display: block;
+  }
+  .apple {
+    position: absolute;
+    top: 1365px;
+    left: 200px;
+    width: 200px;
+    height: 200px;
+  }
+  .play-store {
+    position: absolute;
+    top: 1625px;
+    left: 200px;
+    width: 200px;
+    height: 200px;
+  }
+  .mano {
+    position: absolute;
+    top: 1275px;
+    left: 700px;
+    width: 600px;
+    height: 600px;
+  }
+  /* Features */
+  .h1-features {
+    margin-left: 50px;
+  }
+  .h2-features {
+    margin-left: 50px;
+  }
+  .boton-download {
+    margin-left: 50px;
+  }
+  .img-features {
+    position: absolute;
+    left: 650px;
+  }
+  .rectangulo-1 {
+    margin-left: 0px;
+  }
+  .rectangulo-2 {
+    margin-left: 100px;
+  }
+  .rectangulo-3 {
+    margin-left: 100px;
+  }
+  .gema {
+    position: absolute;
+    left: 40px;
+  }
+  .gas {
+    position: absolute;
+    left: 500px;
+  }
+  .laptop {
+    position: absolute;
+    left: 940px;
+  }
+  .candado {
+    position: absolute;
+    left: 770px;
+  }
+  .carpeta {
+    position: absolute;
+    left: 30px;
+  }
+}
+/* desktop */
+@media screen and (min-width: 1920px) {
+  /* Index */
+  .h1-index {
+    margin: auto;
+    font-size: 60px;
+    width: 698px;
+    height: 241px;
+  }
+  .posicion-chrome {
+    position: absolute;
+    top: 570px;
+    left: 840px;
+  }
+  .process-1 {
+    width: 1056px;
+    height: 714px;
+  }
+  .process-3 {
+    width: 728px;
+    height: 450px;
+  }
+  .flex-item {
+    margin: 30px 30px 15px 30px;
+    text-align: center;
+    display: flex;
+  }
+  .an-authentic {
+    font-size: 50px;
+    width: 698px;
+  }
+  .discover-web3 {
+    width: 645px;
+    height: 68px;
+    font-size: 16px;
+  }
+  .paragraph-1-copy-1 {
+    width: 379px;
+    height: 42px;
+    font-size: 30px;
+    margin: auto;
+  }
+  .carousel-control-prev {
+    left: 15%;
+  }
+  .carousel-control-next {
+    right: 15%;
+  }
+  .paragraph-1-copy-2 {
+    margin: auto;
+  }
+  .for-inquiries {
+    width: 596px;
+    height: 50px;
+    margin-bottom: 0px;
+  }
+  .link-bar-2 {
+    width: 645px;
+    height: 42px;
+  }
+  .button-1-copy-1 {
+    margin-top: 0px;
+  }
+  .float {
+    margin-left: 550px;
+  }
+  .paragraph-2-copy-1 {
+    margin: auto;
+  }
+  .borde {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 10px;
+  }
+  .borde2 {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 20px;
+  }
+  .borde-yt {
+    border-left: 2px solid;
+    border-color: #abaaaa;
+    padding-left: 10px;
+  }
+  /* Download */
+  .process-2 {
+    width: 666px;
+    height: 330px;
+    margin-left: 200px;
+    display: block;
+  }
+  .download-for-desktop {
+    width: 408px;
+    height: 169px;
+    font-size: 70px;
+    display: block;
+  }
+  .zefur2 {
+    position: absolute;
+    left: 690px;
+  }
+  .chrome2 {
+    position: absolute;
+    top: 255px;
+    left: 1100px;
+    display: block;
+  }
+  .opera {
+    position: absolute;
+    top: 255px;
+    left: 1500px;
+    display: block;
+  }
+  .brave {
+    position: absolute;
+    top: 490px;
+    left: 1100px;
+    display: block;
+  }
+  .edge {
+    position: absolute;
+    top: 490px;
+    left: 1500px;
+    display: block;
+  }
+  .download-for-mobile {
+    width: 465px;
+    height: 171px;
+    margin-top: 0px;
+  }
+  .zefur3 {
+    position: absolute;
+    left: 1110px;
+    display: block;
+  }
+  .apple {
+    position: absolute;
+    top: 1365px;
+    left: 380px;
+    width: 200px;
+    height: 200px;
+  }
+  .play-store {
+    position: absolute;
+    top: 1625px;
+    left: 380px;
+    width: 200px;
+    height: 200px;
+  }
+  .mano {
+    position: absolute;
+    top: 1275px;
+    left: 1000px;
+    width: 600px;
+    height: 600px;
+  }
+  /* Features */
+  .h1-features {
+    margin-left: 200px;
+  }
+  .h2-features {
+    margin-left: 200px;
+  }
+  .boton-download {
+    margin-left: 200px;
+  }
+  .img-features {
+    position: absolute;
+    left: 1100px;
+  }
+  .rectangulo-1 {
+    margin-left: 50px;
+  }
+  .rectangulo-2 {
+    margin-left: 200px;
+  }
+  .rectangulo-3 {
+    margin-left: 200px;
+  }
+  .gema {
+    position: absolute;
+    left: 240px;
+  }
+  .gas {
+    position: absolute;
+    left: 810px;
+  }
+  .laptop {
+    position: absolute;
+    left: 1340px;
+  }
+  .candado {
+    position: absolute;
+    left: 1050px;
+  }
+  .carpeta {
+    position: absolute;
+    left: 300px;
+  }
+}/*# sourceMappingURL=styles.css.map */
