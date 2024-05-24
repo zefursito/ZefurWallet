@@ -891,7 +891,7 @@ ul li {
 
 .accordion-item {
   width: 700px;
-  max_height: 0;
+  max_height: 0px;
   margin: auto;
   overflow: hidden;
 }
@@ -901,9 +901,7 @@ ul li {
 }
 
 /* Final estilos main */
-
 /* About */
-
 .our-goal {
   width: 845px;
   height: 161px;
