@@ -891,7 +891,7 @@ ul li {
 
 .accordion-item {
   width: 700px;
-  max_height: 0px;
+  max-height: 0px;
   margin: auto;
   overflow: hidden;
 }
