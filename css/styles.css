@@ -1382,7 +1382,7 @@ display: none;
 }
 }
 /* taablet */
-@media screen and (min-width: 768px), and (max-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
 	/* Index */
 		.h1-index{
 		margin: auto;
@@ -1544,7 +1544,7 @@ display: none;
 }
 
 /* desktop */
-@media screen and (min-width: 1321px), and (max-width: 1919px){
+@media screen and (min-width: 1321px) and (max-width: 1919px){
 	/* Index */
 	.h1-index{
 		margin: auto;
