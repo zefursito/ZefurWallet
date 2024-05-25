@@ -800,7 +800,7 @@ ul li {
 
 .candado {
   position: absolute;
-  top: 2050px;
+  top: 2020px;
   left: 1050px;
 }
 
@@ -855,7 +855,7 @@ ul li {
 
 .carpeta {
   position: absolute;
-  top: 2690px;
+  top: 2620px;
   left: 280px;
 }
 
@@ -891,11 +891,16 @@ ul li {
 
 .accordion-item {
   width: 700px;
-  max-height: 0px;
   margin: auto;
   overflow: hidden;
 }
-
+.accordion{
+  --bs-accordion-btn-bg: #a27fe4;
+  --bs-accordion-active-bg: #9766f1;
+  --bs-accordion-active-color: #000000;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-bg: #9766f1;
+}
 .margen {
   margin-top: 200px;
 }
@@ -997,9 +1002,9 @@ ul li {
 .compu-our {
   position: absolute;
   top: 1180px;
-  left: 1080px;
-  width: 400px;
-  height: 350px;
+  left: 1130px;
+  width: 350px;
+  height: 250px;
 }
 
 .join-our {
@@ -1032,7 +1037,7 @@ ul li {
 .h3-join-our {
   width: 578px;
   height: 54px;
-  color: #696969;
+  color: #603477;
   font-family: "Source Sans 3";
   font-weight: 700;
   font-size: 45px;
@@ -1057,7 +1062,7 @@ ul li {
 
 .escudo-join-our {
   position: absolute;
-  top: 1850px;
+  top: 1770px;
   left: 1100px;
   width: 300px;
   height: 300px;
@@ -1066,7 +1071,7 @@ ul li {
 .h3-join-our2 {
   width: 578px;
   height: 54px;
-  color: #696969;
+  color: #603477;
   font-family: "Source Sans 3";
   font-weight: 700;
   font-size: 45px;
@@ -1091,7 +1096,7 @@ ul li {
 
 .mundo-join-our {
   position: absolute;
-  top: 2120px;
+  top: 2080px;
   left: 470px;
   width: 300px;
   height: 300px;
@@ -1100,7 +1105,7 @@ ul li {
 .h3-join-our3 {
   width: 578px;
   height: 54px;
-  color: #696969;
+  color: #603477;
   font-family: "Source Sans 3";
   font-weight: 700;
   font-size: 45px;
@@ -2213,7 +2218,7 @@ ul li {
   }
   .gema {
     position: absolute;
-    left: 240px;
+    left: 260px;
   }
   .gas {
     position: absolute;
@@ -2221,7 +2226,7 @@ ul li {
   }
   .laptop {
     position: absolute;
-    left: 1340px;
+    left: 1320px;
   }
   .candado {
     position: absolute;
