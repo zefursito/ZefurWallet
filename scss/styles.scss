@@ -17,25 +17,28 @@ $border-color_3: #abaaaa;
 $border-color_4: #D6D6D6;
 $border-color_5: #606060;
 $border-color_6: #625F5F;
-
-
+$border-color_6: #603477;
 
 @import "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap";
 
+$color_1: #444444;
+$color_2: #C0C0C0;
+$font-family_1: "Source Sans 3";
+$background-color_1: #603477;
+$border-color_1: #FFFFFF;
+$border-color_2: #D6D6D6;
+
+/* Inicio estilos header */
 * {
 	margin: 0;
 	padding: 0;
 }
-
 body {
 	background: radial-gradient(circle at 50% 50%, rgb(127, 90, 237) 0%, rgb(241, 247, 252) 100%);
 	border-color: $border-color_1;
 }
-
-/* Inicio estilos header */
-
 header {
 	display: flex;
 	justify-content: space-between;
@@ -49,28 +52,33 @@ header {
 			}
 		}
 	}
+}
+nav {
 	div {
 		ul {
 			li {
 				a {
+					position: relative;
+					text-decoration: none;
+					&:before {
+						content: "";
+						position: absolute;
+						bottom: 5px;
+						height: 4px;
+						width: 0;
+						background: #b37dc8;
+						border-radius: 50px;
+						transition: width 0.3s ease;
+					}
 					&:hover {
-						transition: all .1s ease;
-						border-top: 3px solid #b37dc8;
-						border-bottom: 3px solid #b37dc8;
-						cursor: pointer;
+						&:before {
+							width: 100%;
+						}
 					}
 				}
 			}
 		}
 	}
-}
-.logo {
-	margin-right: auto;
-	width: 80px;
-	height: 70px;
-	margin-left: 50px;
-}
-nav {
 	ul {
 		list-style-type: none;
 		margin: 0;
@@ -82,13 +90,19 @@ nav {
 		text-align: center;
 	}
 }
+.logo {
+	margin-right: auto;
+	width: 80px;
+	height: 70px;
+	margin-left: 50px;
+}
 footer {
 	nav {
 		ul {
 			li {
 				a {
 					&:hover {
-						transition: all .1s ease;
+						transition: all 0.1s ease;
 						border-top: 3px solid #b37dc8;
 						border-bottom: 3px solid #b37dc8;
 						cursor: pointer;
@@ -130,6 +144,55 @@ footer {
 	&:focus {
 		outline: none;
 		box-shadow: none;
+	}
+}
+.btn-close {
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}
+}
+.nav-item {
+	text-align: left;
+}
+.navbar {
+	.navbar-toggler {
+		border: none;
+		outline: none;
+		box-shadow: none;
+	}
+	.toggle-btn {
+		cursor: pointer;
+		position: relative;
+		top: 5px;
+		z-index: 1100;
+		.bar {
+			width: 25px;
+			height: 3px;
+			margin: 7px 0 7px auto;
+			transition: all .2s ease-in-out;
+			background-color: $background-color_7;
+			&:nth-child(2) {
+				width: 35px;
+			}
+		}
+	}
+	#toggle-menu {
+		display: none;
+		&:checked+label.toggle-btn {
+			.bar {
+				&:nth-child(2) {
+					transform: translateX(50px);
+					opacity: 0;
+				}
+				&:nth-child(1) {
+					transform: translateY(12px) rotate(45deg);
+				}
+				&:nth-child(3) {
+					transform: translateY(-8px) rotate(-45deg);
+				}
+			}
+		}
 	}
 }
 
@@ -900,10 +963,17 @@ ul {
 }
 .accordion-item {
 	width: 700px;
-	max-height: 0px;
 	margin: auto;
 	overflow: hidden;
 }
+.accordion{
+	--bs-accordion-btn-bg: #a27fe4;
+	--bs-accordion-active-bg: #9766f1;
+	--bs-accordion-active-color: #000000;
+	--bs-accordion-btn-focus-box-shadow: none;
+	--bs-accordion-bg: #9766f1;
+}
+
 .margen {
 	margin-top: 200px;
 }
@@ -1172,1278 +1242,1260 @@ ul {
 
 
 
-
-/* Features */
-/*FAQs */
-/* About */
-/* taablet */
-/* Index */
-/* Download */
-/* Features */
-/*FAQs */
-/* About */
-/* desktop */
-/* Index */
-/* Download */
-/* Features */
-/* Index */
-/* Download */
-/* Features */
-
 /* mobile */
 @media screen and (max-width: 767px) {
 	/* Index */
 	.h1-index {
-		margin: auto;
-		font-size: 40px;
-		width: 300px;
-		height: 240px;
+	  margin: auto;
+	  font-size: 40px;
+	  width: 300px;
+	  height: 240px;
 	}
 	.posicion-chrome {
-		position: absolute;
-		top: 615px;
-		left: 50px;
+	  position: absolute;
+	  top: 615px;
+	  left: 50px;
 	}
 	.process-1 {
-		width: 315px;
-		height: 1350px;
+	  width: 315px;
+	  height: 1350px;
 	}
 	.process-3 {
-		width: 290px;
-		height: 1100px;
+	  width: 290px;
+	  height: 1100px;
 	}
 	.flex-item {
-		margin: 30px 30px 15px 30px;
-		text-align: center;
-		display: flex;
+	  margin: 30px 30px 15px 30px;
+	  text-align: center;
+	  display: flex;
 	}
 	.an-authentic {
-		font-size: 25px;
-		width: 300px;
-		text-align: center;
+	  font-size: 25px;
+	  width: 300px;
+	  text-align: center;
 	}
 	.discover-web3 {
-		width: 300px;
-		height: 80px;
-		font-size: 16px;
+	  width: 300px;
+	  height: 80px;
+	  font-size: 16px;
 	}
 	.paragraph-1-copy-1 {
-		width: 300px;
-		height: 42px;
-		font-size: 21px;
-		margin-left: -10px;
+	  width: 300px;
+	  height: 42px;
+	  font-size: 21px;
+	  margin-left: -10px;
 	}
 	.carousel-control-prev {
-		left: -2%;
+	  left: -2%;
 	}
 	.carousel-control-next {
-		right: -2%;
+	  right: -2%;
 	}
 	.paragraph-1-copy-2 {
-		margin-left: -300px;
-		margin-bottom: 10px;
+	  margin-left: -300px;
+	  margin-bottom: 10px;
 	}
 	.for-inquiries {
-		width: 300px;
-		height: 50px;
-		margin-bottom: 15px;
+	  width: 300px;
+	  height: 50px;
+	  margin-bottom: 15px;
 	}
 	.link-bar-2 {
-		width: 310px;
-		height: 42px;
+	  width: 310px;
+	  height: 42px;
 	}
 	.button-1-copy-1 {
-		margin-top: 10px;
+	  margin-top: 10px;
 	}
 	.paragraph-2-copy-1 {
-		margin-left: -40px;
+	  margin-left: -40px;
 	}
 	.float {
-		margin-left: 100px;
+	  margin-left: 100px;
 	}
 	.borde {
-		border-left: 2px solid;
-		border-color: $border-color_3;
-		padding-left: 4px;
+	  border-left: 2px solid;
+	  border-color: #abaaaa;
+	  padding-left: 4px;
 	}
 	.borde2 {
-		border-left: 2px solid;
-		border-color: $border-color_3;
-		padding-left: 20px;
+	  border-left: 2px solid;
+	  border-color: #abaaaa;
+	  padding-left: 20px;
 	}
 	.borde-yt {
-		border-left: none;
+	  border-left: none;
 	}
 	/* Download */
 	.process-2 {
-		display: none;
+	  display: none;
 	}
 	.download-for-desktop {
-		display: none;
+	  display: none;
 	}
 	.chrome2 {
-		display: none;
+	  display: none;
 	}
 	.opera {
-		display: none;
+	  display: none;
 	}
 	.brave {
-		display: none;
+	  display: none;
 	}
 	.edge {
-		display: none;
+	  display: none;
 	}
 	.download-for-mobile {
-		width: 314px;
-		height: 171px;
-		margin-top: 100px;
+	  width: 314px;
+	  height: 171px;
+	  margin-top: 100px;
 	}
 	.zefur3 {
-		display: none;
+	  display: none;
 	}
 	.apple {
-		position: absolute;
-		top: 400px;
-		left: 5px;
-		width: 150px;
-		height: 150px;
+	  position: absolute;
+	  top: 400px;
+	  left: 5px;
+	  width: 150px;
+	  height: 150px;
 	}
 	.play-store {
-		position: absolute;
-		top: 400px;
-		left: 165px;
-		width: 150px;
-		height: 150px;
+	  position: absolute;
+	  top: 400px;
+	  left: 165px;
+	  width: 150px;
+	  height: 150px;
 	}
 	.mano {
-		position: absolute;
-		top: 580px;
-		left: -20px;
-		width: 400px;
-		height: 400px;
+	  position: absolute;
+	  top: 580px;
+	  left: -20px;
+	  width: 400px;
+	  height: 400px;
 	}
 	/* Features */
 	.h1-features {
-		text-align: center;
-		margin-left: -75px;
-		font-size: 40px;
-		height: 100px;
+	  text-align: center;
+	  margin-left: -75px;
+	  font-size: 40px;
+	  height: 100px;
 	}
 	.h2-features {
-		text-align: center;
-		margin-left: 0px;
-		width: 310px;
-		font-size: 20px;
-		margin-top: 0px;
+	  text-align: center;
+	  margin-left: 0px;
+	  width: 310px;
+	  font-size: 20px;
+	  margin-top: 0px;
 	}
 	.img-features {
-		position: absolute;
-		top: 530px;
-		left: 0px;
-		width: 300px;
-		height: 200px;
+	  position: absolute;
+	  top: 530px;
+	  left: 0px;
+	  width: 300px;
+	  height: 200px;
 	}
 	.boton-download {
-		margin-left: 70px;
-		line-height: 50px;
-		text-align: center;
-		margin-bottom: 100px;
-		margin-top: 350px;
+	  margin-left: 70px;
+	  line-height: 50px;
+	  text-align: center;
+	  margin-bottom: 100px;
+	  margin-top: 350px;
 	}
 	.rectangulo-1 {
-		margin-left: 0px;
-		width: 300px;
-		height: 500px;
+	  margin-left: 0px;
+	  width: 300px;
+	  height: 500px;
 	}
 	.rectangulo-2 {
-		margin-top: 50px;
-		margin-left: 0px;
-		width: 300px;
-		height: 500px;
+	  margin-top: 50px;
+	  margin-left: 0px;
+	  width: 300px;
+	  height: 500px;
 	}
 	.rectangulo-3 {
-		margin-top: 50px;
-		margin-left: 0px;
-		width: 300px;
-		height: 500px;
+	  margin-top: 50px;
+	  margin-left: 0px;
+	  width: 300px;
+	  height: 500px;
 	}
 	.h2-features2 {
-		width: 280px;
-		font-size: 23px;
-		margin-left: 10px;
+	  width: 280px;
+	  font-size: 23px;
+	  margin-left: 10px;
 	}
 	.gema {
-		position: absolute;
-		top: 1200px;
-		left: 0px;
-		width: 300px;
-		height: 132px;
-		transform: rotate(-27deg);
+	  position: absolute;
+	  top: 1200px;
+	  left: 0px;
+	  width: 300px;
+	  height: 132px;
+	  transform: rotate(-27deg);
 	}
 	.gas {
-		position: absolute;
-		top: 1700px;
-		left: 0px;
-		width: 331px;
-		height: 328px;
+	  position: absolute;
+	  top: 1700px;
+	  left: 0px;
+	  width: 331px;
+	  height: 328px;
 	}
 	.laptop {
-		position: absolute;
-		top: 2300px;
-		left: 0px;
-		width: 280px;
-		height: 245px;
+	  position: absolute;
+	  top: 2300px;
+	  left: 0px;
+	  width: 280px;
+	  height: 245px;
 	}
 	.rectangulo-4 {
-		margin-top: 150px;
-		width: 310px;
-		height: 406px;
+	  margin-top: 150px;
+	  width: 310px;
+	  height: 406px;
 	}
 	.h1-features3 {
-		width: 290px;
-		height: 100px;
-		margin-left: 0px;
-		margin-top: 10px;
-		font-size: 25px;
+	  width: 290px;
+	  height: 100px;
+	  margin-left: 0px;
+	  margin-top: 10px;
+	  font-size: 25px;
 	}
 	.h2-features3 {
-		width: 140px;
-		height: 180px;
-		margin-left: 0px;
-		margin-top: 5px;
-		font-size: 16px;
+	  width: 140px;
+	  height: 180px;
+	  margin-left: 0px;
+	  margin-top: 5px;
+	  font-size: 16px;
 	}
 	.candado {
-		position: absolute;
-		top: 2850px;
-		left: 100px;
-		width: 250px;
-		height: 180px;
+	  position: absolute;
+	  top: 2850px;
+	  left: 100px;
+	  width: 250px;
+	  height: 180px;
 	}
 	.rectangulo-5 {
-		width: 310px;
-		height: 406px;
-		margin-bottom: 100px;
+	  width: 310px;
+	  height: 406px;
+	  margin-bottom: 100px;
 	}
 	.h1-features4 {
-		width: 290px;
-		height: 100px;
-		margin-left: 0px;
-		margin-top: 10px;
-		font-size: 25px;
+	  width: 290px;
+	  height: 100px;
+	  margin-left: 0px;
+	  margin-top: 10px;
+	  font-size: 25px;
 	}
 	.h2-features4 {
-		width: 140px;
-		height: 180px;
-		margin-left: 150px;
-		margin-top: 5px;
-		font-size: 16px;
+	  width: 140px;
+	  height: 180px;
+	  margin-left: 150px;
+	  margin-top: 5px;
+	  font-size: 16px;
 	}
 	.carpeta {
-		position: absolute;
-		top: 3500px;
-		left: 0px;
-		width: 170px;
-		height: 110px;
+	  position: absolute;
+	  top: 3500px;
+	  left: 0px;
+	  width: 170px;
+	  height: 110px;
 	}
 	/* FAQs */
 	.frequently-asked-questions {
-		width: 250px;
-		height: 50px;
-		font-size: 30px;
-		margin-left: 30px;
+	  width: 250px;
+	  height: 50px;
+	  font-size: 30px;
+	  margin-left: 30px;
 	}
 	.getting-started {
-		width: 200px;
-		height: 62px;
-		font-size: 24px;
-		margin-left: 60px;
-		margin-bottom: 80px;
+	  width: 200px;
+	  height: 62px;
+	  font-size: 24px;
+	  margin-left: 60px;
+	  margin-bottom: 80px;
 	}
 	.accordion-item {
-		width: 310px;
-		margin: auto;
-		overflow: hidden;
+	  width: 310px;
+	  margin: auto;
+	  overflow: hidden;
 	}
 	/* About */
 	.our-goal {
-		width: 290px;
-		height: 130px;
-		font-size: 30px;
+	  width: 290px;
+	  height: 130px;
+	  font-size: 30px;
 	}
 	.a-user-friendly {
-		width: 270px;
-		height: 67px;
-		font-size: 20px;
+	  width: 270px;
+	  height: 67px;
+	  font-size: 20px;
 	}
 	.our-purpose {
-		width: 300px;
-		height: 410px;
-		border-radius: 70px;
-		margin: auto;
-		margin-top: 100px;
+	  width: 300px;
+	  height: 410px;
+	  border-radius: 70px;
+	  margin: auto;
+	  margin-top: 100px;
 	}
 	.h3-our {
-		font-size: 16px;
-		margin-left: 20px;
+	  font-size: 16px;
+	  margin-left: 20px;
 	}
 	.h1-our-adentro {
-		font-size: 25px;
-		width: 200px;
-		height: 20px;
-		margin-left: 40px;
+	  font-size: 25px;
+	  width: 200px;
+	  height: 20px;
+	  margin-left: 40px;
 	}
 	.p-our {
-		width: 100px;
-		height: 67px;
-		font-size: 18px;
-		margin-top: 40px;
-		margin-left: 30px;
+	  width: 100px;
+	  height: 67px;
+	  font-size: 18px;
+	  margin-top: 40px;
+	  margin-left: 30px;
 	}
 	.celu-our {
-		position: absolute;
-		top: 660px;
-		left: 140px;
-		width: 180px;
-		height: 180px;
+	  position: absolute;
+	  top: 660px;
+	  left: 140px;
+	  width: 180px;
+	  height: 180px;
 	}
 	.p-our2 {
-		width: 120px;
-		height: 100px;
-		font-size: 16px;
-		margin-top: 100px;
-		margin-left: 20px;
+	  width: 120px;
+	  height: 100px;
+	  font-size: 16px;
+	  margin-top: 100px;
+	  margin-left: 20px;
 	}
 	.compu-our {
-		position: absolute;
-		top: 1220px;
-		left: 140px;
-		width: 180px;
-		height: 150px;
+	  position: absolute;
+	  top: 1220px;
+	  left: 140px;
+	  width: 180px;
+	  height: 150px;
 	}
 	.join-our {
-		width: 300px;
-		height: 1100px;
-		border-radius: 50px;
+	  width: 300px;
+	  height: 1100px;
+	  border-radius: 50px;
 	}
 	.h1-join-our {
-		font-size: 30px;
-		width: 280px;
-		height: 157px;
-		margin-top: 50px;
+	  font-size: 30px;
+	  width: 280px;
+	  height: 157px;
+	  margin-top: 50px;
 	}
 	.h3-join-our {
-		width: 250px;
-		height: 30px;
-		margin-left: 0px;
-		font-size: 26px;
+	  width: 250px;
+	  height: 30px;
+	  margin-left: 0px;
+	  font-size: 26px;
 	}
 	.h4-join-our {
-		width: 160px;
-		margin-left: 0px;
-		font-size: 16px;
+	  width: 160px;
+	  margin-left: 0px;
+	  font-size: 16px;
 	}
 	.escudo-join-our {
-		position: absolute;
-		top: 1880px;
-		left: 150px;
-		width: 150px;
-		height: 150px;
+	  position: absolute;
+	  top: 1880px;
+	  left: 150px;
+	  width: 150px;
+	  height: 150px;
 	}
 	.h3-join-our2 {
-		margin-top: 40px;
-		width: 200px;
-		height: 70px;
-		font-size: 26px;
-		margin-left: 150px;
+	  margin-top: 40px;
+	  width: 200px;
+	  height: 70px;
+	  font-size: 26px;
+	  margin-left: 150px;
 	}
 	.h4-join-our2 {
-		width: 130px;
-		height: 99px;
-		margin-left: 150px;
-		font-size: 16px;
+	  width: 130px;
+	  height: 99px;
+	  margin-left: 150px;
+	  font-size: 16px;
 	}
 	.mundo-join-our {
-		position: absolute;
-		top: 2080px;
-		left: 10px;
-		width: 150px;
-		height: 150px;
+	  position: absolute;
+	  top: 2080px;
+	  left: 10px;
+	  width: 150px;
+	  height: 150px;
 	}
 	.h3-join-our3 {
-		width: 200px;
-		height: 120px;
-		margin-top: 150px;
-		margin-left: 0px;
-		font-size: 26px;
+	  width: 200px;
+	  height: 120px;
+	  margin-top: 150px;
+	  margin-left: 0px;
+	  font-size: 26px;
 	}
 	.h4-join-our3 {
-		width: 140px;
-		height: 99px;
-		margin-left: 0px;
-		font-size: 16px;
+	  width: 140px;
+	  height: 99px;
+	  margin-left: 0px;
+	  font-size: 16px;
 	}
 	.telescopio-join-our {
-		position: absolute;
-		top: 2470px;
-		left: 150px;
-		width: 150px;
-		height: 150px;
+	  position: absolute;
+	  top: 2470px;
+	  left: 150px;
+	  width: 150px;
+	  height: 150px;
 	}
 	.h1-our-values {
-		height: 70px;
-		width: 250px;
-		font-size: 45px;
-		margin-top: 100px;
-		margin-left: 50px;
+	  height: 70px;
+	  width: 250px;
+	  font-size: 45px;
+	  margin-top: 100px;
+	  margin-left: 50px;
 	}
 	.flexbox-about {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
+	  display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
 	}
 	.flex-item-about {
-		display: flex;
+	  display: flex;
 	}
 	.cuadrado-our {
-		width: 300px;
-		height: 248px;
-		padding: 10px 10px 10px 10px;
-		background: linear-gradient(180deg, rgb(137, 109, 242) 0%, rgb(243, 243, 243) 98%);
-		border-color: $border-color_1;
-		border-width: 2px;
-		border-style: solid;
-		border-radius: 70px;
-		margin-left: 10px;
-		margin-top: 100px;
+	  width: 300px;
+	  height: 248px;
+	  padding: 10px 10px 10px 10px;
+	  background: linear-gradient(180deg, rgb(137, 109, 242) 0%, rgb(243, 243, 243) 98%);
+	  border-color: #FFFFFF;
+	  border-width: 2px;
+	  border-style: solid;
+	  border-radius: 70px;
+	  margin-left: 10px;
+	  margin-top: 100px;
 	}
 	.h3-our-values {
-		width: 290px;
-		height: 120px;
-		font-family: $font-family_1;
-		font-weight: bold;
-		font-size: 25px;
-		line-height: 1.3;
-		text-align: left;
-		color: $color_1;
-		margin-left: 40px;
+	  width: 290px;
+	  height: 120px;
+	  font-family: "Source Sans 3";
+	  font-weight: bold;
+	  font-size: 25px;
+	  line-height: 1.3;
+	  text-align: left;
+	  color: #444444;
+	  margin-left: 40px;
 	}
 	.h4-our-values {
-		width: 290px;
-		height: 119px;
-		color: $color_1;
-		font-family: $font-family_1;
-		font-weight: 400;
-		font-size: 20px;
-		line-height: 1.3;
-		text-align: left;
-		margin-top: 70px;
-		margin-left: -300px;
+	  width: 290px;
+	  height: 119px;
+	  color: #444444;
+	  font-family: "Source Sans 3";
+	  font-weight: 400;
+	  font-size: 20px;
+	  line-height: 1.3;
+	  text-align: left;
+	  margin-top: 70px;
+	  margin-left: -300px;
 	}
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
 	/* Index */
 	.h1-index {
-		margin: auto;
-		font-size: 60px;
-		width: 698px;
-		height: 241px;
+	  margin: auto;
+	  font-size: 60px;
+	  width: 698px;
+	  height: 241px;
 	}
 	.posicion-chrome {
-		position: absolute;
-		top: 585px;
-		left: 270px;
+	  position: absolute;
+	  top: 585px;
+	  left: 270px;
 	}
 	.process-1 {
-		width: 720px;
-		height: 714px;
+	  width: 720px;
+	  height: 714px;
 	}
 	.process-3 {
-		width: 690px;
-		height: 450px;
+	  width: 690px;
+	  height: 450px;
 	}
 	.flex-item {
-		margin: 25px 25px 15px 25px;
-		text-align: center;
-		display: flex;
+	  margin: 25px 25px 15px 25px;
+	  text-align: center;
+	  display: flex;
 	}
 	.an-authentic {
-		font-size: 50px;
-		width: 698px;
+	  font-size: 50px;
+	  width: 698px;
 	}
 	.discover-web3 {
-		width: 645px;
-		height: 68px;
-		font-size: 16px;
+	  width: 645px;
+	  height: 68px;
+	  font-size: 16px;
 	}
 	.paragraph-1-copy-1 {
-		width: 379px;
-		height: 42px;
-		font-size: 30px;
-		margin: auto;
+	  width: 379px;
+	  height: 42px;
+	  font-size: 30px;
+	  margin: auto;
 	}
 	.carousel-control-prev {
-		left: 2%;
+	  left: 2%;
 	}
 	.carousel-control-next {
-		right: 2%;
+	  right: 2%;
 	}
 	.paragraph-1-copy-2 {
-		margin-left: -80px;
+	  margin-left: -80px;
 	}
 	.for-inquiries {
-		width: 596px;
-		height: 50px;
-		margin-bottom: 0px;
+	  width: 596px;
+	  height: 50px;
+	  margin-bottom: 0px;
 	}
 	.link-bar-2 {
-		width: 645px;
-		height: 42px;
+	  width: 645px;
+	  height: 42px;
 	}
 	.button-1-copy-1 {
-		margin-top: 0px;
+	  margin-top: 0px;
 	}
 	.float {
-		margin-left: 550px;
+	  margin-left: 550px;
 	}
 	.paragraph-2-copy-1 {
-		margin: auto;
+	  margin: auto;
 	}
 	.borde {
-		border-left: 2px solid;
-		border-color: $border-color_3;
-		padding-left: 10px;
+	  border-left: 2px solid;
+	  border-color: #abaaaa;
+	  padding-left: 10px;
 	}
 	.borde2 {
-		border-left: 2px solid;
-		border-color: $border-color_3;
-		padding-left: 20px;
+	  border-left: 2px solid;
+	  border-color: #abaaaa;
+	  padding-left: 20px;
 	}
 	.borde-yt {
-		border-left: 2px solid;
-		border-color: $border-color_3;
-		padding-left: 10px;
+	  border-left: 2px solid;
+	  border-color: #abaaaa;
+	  padding-left: 10px;
 	}
 	/* Download */
 	.process-2 {
-		width: 666px;
-		height: 330px;
-		margin-left: 50px;
-		display: block;
+	  width: 666px;
+	  height: 330px;
+	  margin-left: 50px;
+	  display: block;
 	}
 	.download-for-desktop {
-		width: 408px;
-		height: 169px;
-		font-size: 70px;
-		display: block;
+	  width: 408px;
+	  height: 169px;
+	  font-size: 70px;
+	  display: block;
 	}
 	.zefur2 {
-		position: absolute;
-		left: 530px;
+	  position: absolute;
+	  left: 530px;
 	}
 	.chrome2 {
-		position: absolute;
-		top: 655px;
-		left: 130px;
-		display: block;
+	  position: absolute;
+	  top: 655px;
+	  left: 130px;
+	  display: block;
 	}
 	.opera {
-		position: absolute;
-		top: 655px;
-		left: 450px;
-		display: block;
+	  position: absolute;
+	  top: 655px;
+	  left: 450px;
+	  display: block;
 	}
 	.brave {
-		position: absolute;
-		top: 855px;
-		left: 130px;
-		display: block;
+	  position: absolute;
+	  top: 855px;
+	  left: 130px;
+	  display: block;
 	}
 	.edge {
-		position: absolute;
-		top: 855px;
-		left: 450px;
-		display: block;
+	  position: absolute;
+	  top: 855px;
+	  left: 450px;
+	  display: block;
 	}
 	.download-for-mobile {
-		width: 465px;
-		height: 171px;
-		margin-top: 0px;
+	  width: 465px;
+	  height: 171px;
+	  margin-top: 0px;
 	}
 	.zefur3 {
-		position: absolute;
-		left: 540px;
-		display: block;
+	  position: absolute;
+	  left: 540px;
+	  display: block;
 	}
 	.apple {
-		position: absolute;
-		top: 1365px;
-		left: 100px;
-		width: 200px;
-		height: 200px;
+	  position: absolute;
+	  top: 1365px;
+	  left: 100px;
+	  width: 200px;
+	  height: 200px;
 	}
 	.play-store {
-		position: absolute;
-		top: 1625px;
-		left: 100px;
-		width: 200px;
-		height: 200px;
+	  position: absolute;
+	  top: 1625px;
+	  left: 100px;
+	  width: 200px;
+	  height: 200px;
 	}
 	.mano {
-		position: absolute;
-		top: 1275px;
-		left: 330px;
-		width: 500px;
-		height: 500px;
+	  position: absolute;
+	  top: 1275px;
+	  left: 330px;
+	  width: 500px;
+	  height: 500px;
 	}
 	/* Features */
 	.h1-features {
-		text-align: center;
-		margin-left: 170px;
+	  text-align: center;
+	  margin-left: 170px;
 	}
 	.h2-features {
-		text-align: center;
-		margin-left: 80px;
+	  text-align: center;
+	  margin-left: 80px;
 	}
 	.img-features {
-		position: absolute;
-		top: 530px;
-		left: 50px;
-		width: 661px;
-		height: 445px;
+	  position: absolute;
+	  top: 530px;
+	  left: 50px;
+	  width: 661px;
+	  height: 445px;
 	}
 	.boton-download {
-		margin-left: 300px;
-		line-height: 50px;
-		text-align: center;
-		margin-bottom: 100px;
-		margin-top: 400px;
+	  margin-left: 300px;
+	  line-height: 50px;
+	  text-align: center;
+	  margin-bottom: 100px;
+	  margin-top: 400px;
 	}
 	.rectangulo-1 {
-		margin-left: 50px;
+	  margin-left: 50px;
 	}
 	.rectangulo-2 {
-		margin-top: 50px;
-		margin-left: 60px;
+	  margin-top: 50px;
+	  margin-left: 60px;
 	}
 	.rectangulo-3 {
-		margin-top: 50px;
-		margin-left: 60px;
+	  margin-top: 50px;
+	  margin-left: 60px;
 	}
 	.gema {
-		position: absolute;
-		top: 1400px;
-		left: 230px;
-		width: 344px;
-		height: 176px;
-		transform: rotate(-27deg);
+	  position: absolute;
+	  top: 1400px;
+	  left: 230px;
+	  width: 344px;
+	  height: 176px;
+	  transform: rotate(-27deg);
 	}
 	.gas {
-		position: absolute;
-		top: 2000px;
-		left: 250px;
-		width: 331px;
-		height: 328px;
+	  position: absolute;
+	  top: 2000px;
+	  left: 250px;
+	  width: 331px;
+	  height: 328px;
 	}
 	.laptop {
-		position: absolute;
-		top: 2650px;
-		left: 230px;
-		width: 339px;
-		height: 304px;
+	  position: absolute;
+	  top: 2650px;
+	  left: 230px;
+	  width: 339px;
+	  height: 304px;
 	}
 	.rectangulo-4 {
-		margin-top: 150px;
-		width: 740px;
-		height: 406px;
+	  margin-top: 150px;
+	  width: 740px;
+	  height: 406px;
 	}
 	.h1-features3 {
-		width: 450px;
-		height: 100px;
-		margin-left: 80px;
-		margin-top: 50px;
-		font-size: 40px;
+	  width: 450px;
+	  height: 100px;
+	  margin-left: 80px;
+	  margin-top: 50px;
+	  font-size: 40px;
 	}
 	.h2-features3 {
-		width: 400px;
-		height: 67px;
-		margin-top: 20px;
+	  width: 400px;
+	  height: 67px;
+	  margin-top: 20px;
 	}
 	.candado {
-		position: absolute;
-		top: 3220px;
-		left: 420px;
-		width: 400px;
-		height: 300px;
+	  position: absolute;
+	  top: 3220px;
+	  left: 420px;
+	  width: 400px;
+	  height: 300px;
 	}
 	.rectangulo-5 {
-		width: 730px;
-		height: 406px;
-		margin-bottom: 100px;
+	  width: 730px;
+	  height: 406px;
+	  margin-bottom: 100px;
 	}
 	.h1-features4 {
-		font-size: 40px;
-		width: 480px;
-		height: 120px;
-		margin-left: 250px;
+	  font-size: 40px;
+	  width: 480px;
+	  height: 120px;
+	  margin-left: 250px;
 	}
 	.h2-features4 {
-		width: 450px;
-		height: 67px;
-		font-size: 23px;
-		margin-left: 250px;
+	  width: 450px;
+	  height: 67px;
+	  font-size: 23px;
+	  margin-left: 250px;
 	}
 	.carpeta {
-		position: absolute;
-		top: 3880px;
-		left: 0px;
-		height: 200px;
-		width: 290px;
+	  position: absolute;
+	  top: 3880px;
+	  left: 0px;
+	  height: 200px;
+	  width: 290px;
 	}
 	/* FAQs */
 	.frequently-asked-questions {
-		width: 900px;
-		height: 34px;
-		font-size: 55px;
-		margin-left: -50px;
+	  width: 900px;
+	  height: 34px;
+	  font-size: 55px;
+	  margin-left: -50px;
 	}
 	.getting-started {
-		width: 511px;
-		height: 62px;
-		font-size: 50px;
-		margin-bottom: 100px;
+	  width: 511px;
+	  height: 62px;
+	  font-size: 50px;
+	  margin-bottom: 100px;
 	}
 	.accordion-item {
-		width: 700px;
-		margin: auto;
-		overflow: hidden;
+	  width: 700px;
+	  margin: auto;
+	  overflow: hidden;
 	}
 	/* About */
 	.our-goal {
-		width: 720px;
-		height: 130px;
-		font-size: 50px;
+	  width: 720px;
+	  height: 130px;
+	  font-size: 50px;
 	}
 	.a-user-friendly {
-		width: 577px;
-		height: 67px;
-		font-size: 25px;
+	  width: 577px;
+	  height: 67px;
+	  font-size: 25px;
 	}
 	.our-purpose {
-		width: 720px;
-		height: 410px;
-		border-radius: 70px;
-		margin: auto;
-		margin-top: 100px;
+	  width: 720px;
+	  height: 410px;
+	  border-radius: 70px;
+	  margin: auto;
+	  margin-top: 100px;
 	}
 	.h3-our {
-		font-size: 25px;
-		margin-left: 20px;
+	  font-size: 25px;
+	  margin-left: 20px;
 	}
 	.h1-our-adentro {
-		font-size: 40px;
-		height: 70px;
+	  font-size: 40px;
+	  height: 70px;
 	}
 	.p-our {
-		width: 350px;
-		height: 67px;
-		font-size: 25px;
-		margin-top: 40px;
-		margin-left: 80px;
+	  width: 350px;
+	  height: 67px;
+	  font-size: 25px;
+	  margin-top: 40px;
+	  margin-left: 80px;
 	}
 	.celu-our {
-		position: absolute;
-		top: 660px;
-		left: 480px;
+	  position: absolute;
+	  top: 660px;
+	  left: 480px;
 	}
 	.p-our2 {
-		width: 350px;
-		height: 67px;
-		font-size: 25px;
-		margin-top: 55px;
-		margin-left: 80px;
+	  width: 350px;
+	  height: 67px;
+	  font-size: 25px;
+	  margin-top: 55px;
+	  margin-left: 80px;
 	}
 	.compu-our {
-		position: absolute;
-		top: 1180px;
-		left: 400px;
-		width: 350px;
-		height: 250px;
+	  position: absolute;
+	  top: 1180px;
+	  left: 400px;
+	  width: 350px;
+	  height: 250px;
 	}
 	.join-our {
-		width: 740px;
+	  width: 740px;
 	}
 	.h1-join-our {
-		font-size: 30px;
-		width: 578px;
-		height: 157px;
-		font-size: 45px;
-		margin-top: 50px;
+	  font-size: 30px;
+	  width: 578px;
+	  height: 157px;
+	  font-size: 45px;
+	  margin-top: 50px;
 	}
 	.h3-join-our {
-		width: 578px;
-		margin-left: 50px;
+	  width: 578px;
+	  margin-left: 50px;
 	}
 	.h4-join-our {
-		width: 400px;
-		margin-left: 50px;
+	  width: 400px;
+	  margin-left: 50px;
 	}
 	.escudo-join-our {
-		position: absolute;
-		top: 1770px;
-		left: 450px;
-		width: 300px;
-		height: 300px;
+	  position: absolute;
+	  top: 1770px;
+	  left: 450px;
+	  width: 300px;
+	  height: 300px;
 	}
 	.h3-join-our2 {
-		width: 578px;
-		height: 54px;
-		margin-left: 350px;
+	  width: 578px;
+	  height: 54px;
+	  margin-left: 350px;
 	}
 	.h4-join-our2 {
-		width: 400px;
-		height: 99px;
-		margin-left: 350px;
+	  width: 400px;
+	  height: 99px;
+	  margin-left: 350px;
 	}
 	.mundo-join-our {
-		position: absolute;
-		top: 2080px;
-		left: 60px;
-		width: 300px;
-		height: 300px;
+	  position: absolute;
+	  top: 2080px;
+	  left: 60px;
+	  width: 300px;
+	  height: 300px;
 	}
 	.h3-join-our3 {
-		width: 400px;
-		height: 120px;
-		margin-top: 150px;
-		margin-left: 50px;
+	  width: 400px;
+	  height: 120px;
+	  margin-top: 150px;
+	  margin-left: 50px;
 	}
 	.h4-join-our3 {
-		width: 400px;
-		height: 99px;
-		margin-left: 50px;
+	  width: 400px;
+	  height: 99px;
+	  margin-left: 50px;
 	}
 	.telescopio-join-our {
-		position: absolute;
-		top: 2400px;
-		left: 450px;
-		width: 300px;
-		height: 300px;
+	  position: absolute;
+	  top: 2400px;
+	  left: 450px;
+	  width: 300px;
+	  height: 300px;
 	}
 	.h1-our-values {
-		height: 70px;
-		margin-top: 100px;
-		margin-left: 100px;
+	  height: 70px;
+	  margin-top: 100px;
+	  margin-left: 100px;
 	}
 	.flexbox-about {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
+	  display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
 	}
 	.flex-item-about {
-		display: flex;
+	  display: flex;
 	}
 	.cuadrado-our {
-		margin-left: 150px;
+	  margin-left: 150px;
 	}
-}
-@media screen and (min-width: 1321px) and (max-width: 1919px) {
+  }
+  @media screen and (min-width: 1321px) and (max-width: 1919px) {
 	/* Index */
 	.h1-index {
-		margin: auto;
-		font-size: 60px;
-		width: 698px;
-		height: 241px;
+	  margin: auto;
+	  font-size: 60px;
+	  width: 698px;
+	  height: 241px;
 	}
 	.posicion-chrome {
-		position: absolute;
-		top: 585px;
-		left: 565px;
+	  position: absolute;
+	  top: 585px;
+	  left: 565px;
 	}
 	.process-1 {
-		width: 1056px;
-		height: 714px;
+	  width: 1056px;
+	  height: 714px;
 	}
 	.process-3 {
-		width: 728px;
-		height: 450px;
+	  width: 728px;
+	  height: 450px;
 	}
 	.flex-item {
-		margin: 30px 30px 15px 30px;
-		text-align: center;
-		display: flex;
+	  margin: 30px 30px 15px 30px;
+	  text-align: center;
+	  display: flex;
 	}
 	.an-authentic {
-		font-size: 50px;
-		width: 698px;
+	  font-size: 50px;
+	  width: 698px;
 	}
 	.discover-web3 {
-		width: 645px;
-		height: 68px;
-		font-size: 16px;
+	  width: 645px;
+	  height: 68px;
+	  font-size: 16px;
 	}
 	.paragraph-1-copy-1 {
-		width: 379px;
-		height: 42px;
-		font-size: 30px;
-		margin: auto;
+	  width: 379px;
+	  height: 42px;
+	  font-size: 30px;
+	  margin: auto;
 	}
 	.carousel-control-prev {
-		left: 15%;
+	  left: 15%;
 	}
 	.carousel-control-next {
-		right: 15%;
+	  right: 15%;
 	}
 	.paragraph-1-copy-2 {
-		margin: auto;
+	  margin: auto;
 	}
 	.for-inquiries {
-		width: 596px;
-		height: 50px;
-		margin-bottom: 0px;
+	  width: 596px;
+	  height: 50px;
+	  margin-bottom: 0px;
 	}
 	.link-bar-2 {
-		width: 645px;
-		height: 42px;
+	  width: 645px;
+	  height: 42px;
 	}
 	.button-1-copy-1 {
-		margin-top: 0px;
+	  margin-top: 0px;
 	}
 	.float {
-		margin-left: 550px;
+	  margin-left: 550px;
 	}
 	.paragraph-2-copy-1 {
-		margin: auto;
+	  margin: auto;
 	}
 	.borde {
-		border-left: 2px solid;
-		border-color: $border-color_3;
-		padding-left: 10px;
+	  border-left: 2px solid;
+	  border-color: #abaaaa;
+	  padding-left: 10px;
 	}
 	.borde2 {
-		border-left: 2px solid;
-		border-color: $border-color_3;
-		padding-left: 20px;
+	  border-left: 2px solid;
+	  border-color: #abaaaa;
+	  padding-left: 20px;
 	}
 	.borde-yt {
-		border-left: 2px solid;
-		border-color: $border-color_3;
-		padding-left: 10px;
+	  border-left: 2px solid;
+	  border-color: #abaaaa;
+	  padding-left: 10px;
 	}
 	/* Download */
 	.process-2 {
-		width: 666px;
-		height: 330px;
-		margin-left: 50px;
-		display: block;
+	  width: 666px;
+	  height: 330px;
+	  margin-left: 50px;
+	  display: block;
 	}
 	.download-for-desktop {
-		width: 408px;
-		height: 169px;
-		font-size: 70px;
-		display: block;
+	  width: 408px;
+	  height: 169px;
+	  font-size: 70px;
+	  display: block;
 	}
 	.zefur2 {
-		position: absolute;
-		left: 540px;
+	  position: absolute;
+	  left: 540px;
 	}
 	.chrome2 {
-		position: absolute;
-		top: 255px;
-		left: 820px;
-		display: block;
+	  position: absolute;
+	  top: 255px;
+	  left: 820px;
+	  display: block;
 	}
 	.opera {
-		position: absolute;
-		top: 255px;
-		left: 1100px;
-		display: block;
+	  position: absolute;
+	  top: 255px;
+	  left: 1100px;
+	  display: block;
 	}
 	.brave {
-		position: absolute;
-		top: 490px;
-		left: 820px;
-		display: block;
+	  position: absolute;
+	  top: 490px;
+	  left: 820px;
+	  display: block;
 	}
 	.edge {
-		position: absolute;
-		top: 490px;
-		left: 1100px;
-		display: block;
+	  position: absolute;
+	  top: 490px;
+	  left: 1100px;
+	  display: block;
 	}
 	.download-for-mobile {
-		width: 465px;
-		height: 171px;
-		margin-top: 0px;
+	  width: 465px;
+	  height: 171px;
+	  margin-top: 0px;
 	}
 	.zefur3 {
-		position: absolute;
-		left: 830px;
-		display: block;
+	  position: absolute;
+	  left: 830px;
+	  display: block;
 	}
 	.apple {
-		position: absolute;
-		top: 1365px;
-		left: 200px;
-		width: 200px;
-		height: 200px;
+	  position: absolute;
+	  top: 1365px;
+	  left: 200px;
+	  width: 200px;
+	  height: 200px;
 	}
 	.play-store {
-		position: absolute;
-		top: 1625px;
-		left: 200px;
-		width: 200px;
-		height: 200px;
+	  position: absolute;
+	  top: 1625px;
+	  left: 200px;
+	  width: 200px;
+	  height: 200px;
 	}
 	.mano {
-		position: absolute;
-		top: 1275px;
-		left: 700px;
-		width: 600px;
-		height: 600px;
+	  position: absolute;
+	  top: 1275px;
+	  left: 700px;
+	  width: 600px;
+	  height: 600px;
 	}
 	/* Features */
 	.h1-features {
-		margin-left: 50px;
-		text-align: left;
+	  margin-left: 50px;
+	  text-align: left;
 	}
 	.h2-features {
-		margin-left: 50px;
+	  margin-left: 50px;
 	}
 	.boton-download {
-		margin-left: 50px;
+	  margin-left: 50px;
 	}
 	.img-features {
-		position: absolute;
-		left: 650px;
+	  position: absolute;
+	  left: 650px;
 	}
 	.rectangulo-1 {
-		margin-left: 0px;
+	  margin-left: 0px;
 	}
 	.rectangulo-2 {
-		margin-left: 100px;
+	  margin-left: 100px;
 	}
 	.rectangulo-3 {
-		margin-left: 100px;
+	  margin-left: 100px;
 	}
 	.gema {
-		position: absolute;
-		left: 40px;
+	  position: absolute;
+	  left: 40px;
 	}
 	.gas {
-		position: absolute;
-		left: 500px;
+	  position: absolute;
+	  left: 500px;
 	}
 	.laptop {
-		position: absolute;
-		left: 940px;
+	  position: absolute;
+	  left: 940px;
 	}
 	.candado {
-		position: absolute;
-		left: 770px;
+	  position: absolute;
+	  left: 770px;
 	}
 	.carpeta {
-		position: absolute;
-		left: 30px;
+	  position: absolute;
+	  left: 30px;
 	}
-}
-@media screen and (min-width: 1920px){
+  }
+  @media screen and (min-width: 1920px) {
 	/* Index */
 	.h1-index {
-		margin: auto;
-		font-size: 60px;
-		width: 698px;
-		height: 241px;
-		text-align: center;
+	  margin: auto;
+	  font-size: 60px;
+	  width: 698px;
+	  height: 241px;
+	  text-align: center;
 	}
 	.posicion-chrome {
-		position: absolute;
-		top: 585px;
-		left: 840px;
+	  position: absolute;
+	  top: 585px;
+	  left: 840px;
 	}
 	.process-1 {
-		width: 1056px;
-		height: 714px;
+	  width: 1056px;
+	  height: 714px;
 	}
 	.process-3 {
-		width: 728px;
-		height: 450px;
+	  width: 728px;
+	  height: 450px;
 	}
 	.flex-item {
-		margin: 30px 30px 15px 30px;
-		text-align: center;
-		display: flex;
+	  margin: 30px 30px 15px 30px;
+	  text-align: center;
+	  display: flex;
 	}
 	.an-authentic {
-		font-size: 50px;
-		width: 698px;
+	  font-size: 50px;
+	  width: 698px;
 	}
 	.discover-web3 {
-		width: 645px;
-		height: 68px;
-		font-size: 16px;
+	  width: 645px;
+	  height: 68px;
+	  font-size: 16px;
 	}
 	.paragraph-1-copy-1 {
-		width: 379px;
-		height: 42px;
-		font-size: 30px;
-		margin: auto;
+	  width: 379px;
+	  height: 42px;
+	  font-size: 30px;
+	  margin: auto;
 	}
 	.carousel-control-prev {
-		left: 15%;
+	  left: 15%;
 	}
 	.carousel-control-next {
-		right: 15%;
+	  right: 15%;
 	}
 	.paragraph-1-copy-2 {
-		margin: auto;
+	  margin: auto;
 	}
 	.for-inquiries {
-		width: 596px;
-		height: 50px;
-		margin-bottom: 0px;
+	  width: 596px;
+	  height: 50px;
+	  margin-bottom: 0px;
 	}
 	.link-bar-2 {
-		width: 645px;
-		height: 42px;
+	  width: 645px;
+	  height: 42px;
 	}
 	.button-1-copy-1 {
-		margin-top: 0px;
+	  margin-top: 0px;
 	}
 	.float {
-		margin-left: 550px;
+	  margin-left: 550px;
 	}
 	.paragraph-2-copy-1 {
-		margin: auto;
+	  margin: auto;
 	}
 	.borde {
-		border-left: 2px solid;
-		border-color: $border-color_3;
-		padding-left: 10px;
+	  border-left: 2px solid;
+	  border-color: #abaaaa;
+	  padding-left: 10px;
 	}
 	.borde2 {
-		border-left: 2px solid;
-		border-color: $border-color_3;
-		padding-left: 20px;
+	  border-left: 2px solid;
+	  border-color: #abaaaa;
+	  padding-left: 20px;
 	}
 	.borde-yt {
-		border-left: 2px solid;
-		border-color: $border-color_3;
-		padding-left: 10px;
+	  border-left: 2px solid;
+	  border-color: #abaaaa;
+	  padding-left: 10px;
 	}
 	/* Download */
 	.process-2 {
-		width: 666px;
-		height: 330px;
-		margin-left: 200px;
-		display: block;
+	  width: 666px;
+	  height: 330px;
+	  margin-left: 200px;
+	  display: block;
 	}
 	.download-for-desktop {
-		width: 408px;
-		height: 169px;
-		font-size: 70px;
-		display: block;
+	  width: 408px;
+	  height: 169px;
+	  font-size: 70px;
+	  display: block;
 	}
 	.zefur2 {
-		position: absolute;
-		left: 690px;
+	  position: absolute;
+	  left: 690px;
 	}
 	.chrome2 {
-		position: absolute;
-		top: 255px;
-		left: 1100px;
-		display: block;
+	  position: absolute;
+	  top: 255px;
+	  left: 1100px;
+	  display: block;
 	}
 	.opera {
-		position: absolute;
-		top: 255px;
-		left: 1500px;
-		display: block;
+	  position: absolute;
+	  top: 255px;
+	  left: 1500px;
+	  display: block;
 	}
 	.brave {
-		position: absolute;
-		top: 490px;
-		left: 1100px;
-		display: block;
+	  position: absolute;
+	  top: 490px;
+	  left: 1100px;
+	  display: block;
 	}
 	.edge {
-		position: absolute;
-		top: 490px;
-		left: 1500px;
-		display: block;
+	  position: absolute;
+	  top: 490px;
+	  left: 1500px;
+	  display: block;
 	}
 	.download-for-mobile {
-		width: 465px;
-		height: 171px;
-		margin-top: 0px;
+	  width: 465px;
+	  height: 171px;
+	  margin-top: 0px;
 	}
 	.zefur3 {
-		position: absolute;
-		left: 1110px;
-		display: block;
+	  position: absolute;
+	  left: 1110px;
+	  display: block;
 	}
 	.apple {
-		position: absolute;
-		top: 1365px;
-		left: 380px;
-		width: 200px;
-		height: 200px;
+	  position: absolute;
+	  top: 1365px;
+	  left: 380px;
+	  width: 200px;
+	  height: 200px;
 	}
 	.play-store {
-		position: absolute;
-		top: 1625px;
-		left: 380px;
-		width: 200px;
-		height: 200px;
+	  position: absolute;
+	  top: 1625px;
+	  left: 380px;
+	  width: 200px;
+	  height: 200px;
 	}
 	.mano {
-		position: absolute;
-		top: 1275px;
-		left: 1000px;
-		width: 600px;
-		height: 600px;
+	  position: absolute;
+	  top: 1275px;
+	  left: 1000px;
+	  width: 600px;
+	  height: 600px;
 	}
 	/* Features */
 	.h1-features {
-		margin-left: 200px;
+	  margin-left: 200px;
 	}
 	.h2-features {
-		margin-left: 200px;
+	  margin-left: 200px;
 	}
 	.boton-download {
-		margin-left: 200px;
+	  margin-left: 200px;
 	}
 	.img-features {
-		position: absolute;
-		left: 1100px;
+	  position: absolute;
+	  left: 1100px;
 	}
 	.rectangulo-1 {
-		margin-left: 50px;
+	  margin-left: 50px;
 	}
 	.rectangulo-2 {
-		margin-left: 200px;
+	  margin-left: 200px;
 	}
 	.rectangulo-3 {
-		margin-left: 200px;
+	  margin-left: 200px;
 	}
 	.gema {
-		position: absolute;
-		left: 260px;
+	  position: absolute;
+	  left: 260px;
 	}
 	.gas {
-		position: absolute;
-		left: 810px;
+	  position: absolute;
+	  left: 810px;
 	}
 	.laptop {
-		position: absolute;
-		left: 1320px;
+	  position: absolute;
+	  left: 1320px;
 	}
 	.candado {
-		position: absolute;
-		left: 1050px;
+	  position: absolute;
+	  left: 1050px;
 	}
 	.carpeta {
-		position: absolute;
-		left: 300px;
+	  position: absolute;
+	  left: 300px;
 	}
-}
+  }

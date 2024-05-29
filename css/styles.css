@@ -18,6 +18,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
 header nav ul li {
   display: inline;
   margin-left: 100px;
@@ -28,19 +29,22 @@ nav div ul li a {
   position: relative;
   text-decoration: none;
 }
+
 nav div ul li a:before {
-content: "";
-position: absolute;
-bottom: 5px;
-height: 4px;
-width: 0;
-background: #b37dc8;
-border-radius: 50px;
-transition: width 0.3s ease;
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  height: 4px;
+  width: 0;
+  background: #b37dc8;
+  border-radius: 50px;
+  transition: width 0.3s ease;
 }
-nav div ul li a:hover:before{
+
+nav div ul li a:hover:before {
   width: 100%;
 }
+
 .logo {
   margin-right: auto;
   width: 80px;
@@ -65,6 +69,7 @@ footer nav ul li a:hover {
   border-bottom: 3px solid #b37dc8;
   cursor: pointer;
 }
+
 footer div form input {
   padding: 6px 8px 6px 8px;
   background: #FFFFFF;
@@ -94,49 +99,58 @@ footer div form input {
 .navbar-toggler {
   border: none;
 }
+
 .navbar-toggler:focus, .btn-close:focus {
   outline: none;
   box-shadow: none;
 }
-.nav-item{
+
+.nav-item {
   text-align: left;
 }
 
-.navbar .navbar-toggler{
+.navbar .navbar-toggler {
   border: none;
   outline: none;
   box-shadow: none;
 }
-.navbar .toggle-btn{
+
+.navbar .toggle-btn {
   cursor: pointer;
   position: relative;
   top: 5px;
   z-index: 1100;
 }
-.navbar .toggle-btn .bar{
+
+.navbar .toggle-btn .bar {
   width: 25px;
   height: 3px;
   margin: 7px 0 7px auto;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   background-color: #603477;
 }
-.navbar .toggle-btn .bar:nth-child(2){
-   width: 35px;
+
+.navbar .toggle-btn .bar:nth-child(2) {
+  width: 35px;
 }
-.navbar #toggle-menu{
+
+.navbar #toggle-menu {
   display: none;
 }
-.navbar #toggle-menu:checked+label.toggle-btn .bar:nth-child(2){
+
+.navbar #toggle-menu:checked + label.toggle-btn .bar:nth-child(2) {
   transform: translateX(50px);
   opacity: 0;
 }
 
-.navbar #toggle-menu:checked+label.toggle-btn .bar:nth-child(1){
+.navbar #toggle-menu:checked + label.toggle-btn .bar:nth-child(1) {
   transform: translateY(12px) rotate(45deg);
 }
-.navbar #toggle-menu:checked+label.toggle-btn .bar:nth-child(3){
+
+.navbar #toggle-menu:checked + label.toggle-btn .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
+
 /* Final estilos header */
 .features {
   margin-right: 50px;
@@ -945,7 +959,7 @@ ul li {
   overflow: hidden;
 }
 
-.accordion{
+.accordion {
   --bs-accordion-btn-bg: #a27fe4;
   --bs-accordion-active-bg: #9766f1;
   --bs-accordion-active-color: #000000;
@@ -1241,7 +1255,6 @@ ul li {
   margin-top: 60px;
   margin-left: -700px;
 }
-
 
 /* mobile */
 @media screen and (max-width: 767px) {
